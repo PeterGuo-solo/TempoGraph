@@ -1,0 +1,538 @@
+{
+  "graph_scope": "full_song",
+  "node_spans": [
+    [
+      0,
+      99
+    ],
+    [
+      99,
+      198
+    ],
+    [
+      198,
+      291
+    ],
+    [
+      291,
+      384
+    ],
+    [
+      384,
+      483
+    ],
+    [
+      483,
+      583
+    ],
+    [
+      583,
+      683
+    ],
+    [
+      683,
+      784
+    ],
+    [
+      784,
+      881
+    ],
+    [
+      881,
+      981
+    ],
+    [
+      981,
+      1024
+    ]
+  ],
+  "roles": [
+    0,
+    0,
+    2,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "semantics": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "dense_edge_types": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "motif_sources": [
+    null,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "seam_frames": [
+    225,
+    435,
+    645,
+    855
+  ],
+  "boundary_plans": [
+    {
+      "seam_frame": 225,
+      "length_class": 2,
+      "edge_type": 0,
+      "contact_endpoints": [
+        [
+          0.6687890291213989,
+          0.6562851667404175,
+          0.6108162999153137,
+          0.5969756245613098
+        ],
+        [
+          0.587929368019104,
+          0.7256234884262085,
+          0.5666788220405579,
+          0.5829774141311646
+        ]
+      ],
+      "root_residual": [
+        -0.08736420422792435,
+        -0.0013206340372562408,
+        -0.0571182481944561,
+        -0.026160575449466705,
+        0.07689359784126282,
+        0.03206425532698631
+      ],
+      "energy_parameters": [
+        0.2395208477973938,
+        0.1711718887090683,
+        0.21904374659061432,
+        0.5414491295814514
+      ]
+    },
+    {
+      "seam_frame": 435,
+      "length_class": 1,
+      "edge_type": 0,
+      "contact_endpoints": [
+        [
+          0.6057271957397461,
+          0.5455349087715149,
+          0.5618778467178345,
+          0.5722253322601318
+        ],
+        [
+          0.5350721478462219,
+          0.6167636513710022,
+          0.47783344984054565,
+          0.551013171672821
+        ]
+      ],
+      "root_residual": [
+        -0.015148136764764786,
+        -0.008811992593109608,
+        0.006682921200990677,
+        -0.019547363743185997,
+        -0.06073564663529396,
+        -0.024198953062295914
+      ],
+      "energy_parameters": [
+        0.3483024537563324,
+        0.18804484605789185,
+        0.32948431372642517,
+        0.600554883480072
+      ]
+    },
+    {
+      "seam_frame": 645,
+      "length_class": 1,
+      "edge_type": 0,
+      "contact_endpoints": [
+        [
+          0.6197975277900696,
+          0.5620861649513245,
+          0.5811769366264343,
+          0.6096314787864685
+        ],
+        [
+          0.588759183883667,
+          0.6066896319389343,
+          0.5183063745498657,
+          0.5764486789703369
+        ]
+      ],
+      "root_residual": [
+        0.053435396403074265,
+        -0.0512155257165432,
+        -0.0594102144241333,
+        0.01277318224310875,
+        -0.05196020379662514,
+        -0.008842773735523224
+      ],
+      "energy_parameters": [
+        0.3708820939064026,
+        0.13582688570022583,
+        0.2984951436519623,
+        0.6200429201126099
+      ]
+    },
+    {
+      "seam_frame": 855,
+      "length_class": 1,
+      "edge_type": 0,
+      "contact_endpoints": [
+        [
+          0.5874582529067993,
+          0.56810462474823,
+          0.5240749716758728,
+          0.5519319176673889
+        ],
+        [
+          0.5016943216323853,
+          0.6276081204414368,
+          0.47616109251976013,
+          0.5625666379928589
+        ]
+      ],
+      "root_residual": [
+        -0.03591106832027435,
+        -0.004412863403558731,
+        0.0034800954163074493,
+        0.023604856804013252,
+        -0.004262443631887436,
+        -0.011943142861127853
+      ],
+      "energy_parameters": [
+        0.27247145771980286,
+        0.18104678392410278,
+        0.2787061631679535,
+        0.6248487830162048
+      ]
+    }
+  ],
+  "contact_foot_lock": {
+    "enabled": true,
+    "leg_optimization": {
+      "iterations": 0,
+      "contact_pairs": 0,
+      "rounds": 5,
+      "foot_skating_ratio": 0.040983606557377046
+    },
+    "corrected_frames": 0,
+    "mean_correction": 0.0,
+    "maximum_accumulated_offset": 0.0
+  },
+  "beat_phase_alignment": {
+    "enabled": false
+  },
+  "key_motion_anchor_alignment": {
+    "enabled": false
+  },
+  "beat_velocity_valleys": {
+    "enabled": false
+  },
+  "official_bas_closed_loop": {
+    "enabled": true,
+    "used": false,
+    "baseline_bas": 0.26526514056991135,
+    "baseline_foot_skating_ratio": 0.040983606557377046,
+    "trials": [
+      {
+        "enabled": true,
+        "used": true,
+        "beat_count": 83,
+        "strength": 0.68,
+        "width": 3.5,
+        "minimum_rate": 0.41030914571906146,
+        "median_rate": 1.0005844778115556,
+        "endpoint_error": 0.0,
+        "strictly_monotonic": true,
+        "maximum_frame_displacement": 2.12202240854813,
+        "maximum_beat_phase_error": 6.821210263296962e-13,
+        "official_bas": 0.31179349848702564,
+        "foot_skating_ratio": 0.046296296296296294,
+        "feasible": false
+      },
+      {
+        "enabled": true,
+        "used": true,
+        "beat_count": 83,
+        "strength": 0.8,
+        "width": 4.5,
+        "minimum_rate": 0.2907539884572279,
+        "median_rate": 0.997818498958735,
+        "endpoint_error": 0.0,
+        "strictly_monotonic": true,
+        "maximum_frame_displacement": 2.9183107148210556,
+        "maximum_beat_phase_error": 4.547473508864641e-13,
+        "official_bas": 0.3208726657270132,
+        "foot_skating_ratio": 0.043859649122807015,
+        "feasible": false
+      },
+      {
+        "enabled": true,
+        "used": true,
+        "beat_count": 83,
+        "strength": 0.9,
+        "width": 5.5,
+        "minimum_rate": 0.1644721098395456,
+        "median_rate": 0.9994249660725092,
+        "endpoint_error": 0.0,
+        "strictly_monotonic": true,
+        "maximum_frame_displacement": 3.806650136489564,
+        "maximum_beat_phase_error": 1.1368683772161603e-12,
+        "official_bas": 0.355884711000613,
+        "foot_skating_ratio": 0.045454545454545456,
+        "feasible": false
+      }
+    ],
+    "reason": "no candidate passed displacement and foot constraints"
+  },
+  "motion_prior": {
+    "enabled": true,
+    "blend_weight": 0.9,
+    "training_only": true,
+    "retrievals": [
+      {
+        "output_start": 0,
+        "output_end": 240,
+        "source_split": "train",
+        "source_id": "156",
+        "source_song": "A",
+        "source_start": 2520,
+        "source_end": 2760,
+        "descriptor_distance": 0.898918867111206,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 14,
+        "target_beat_count": 20,
+        "excluded_song": "gangsta",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 210,
+        "output_end": 450,
+        "source_split": "train",
+        "source_id": "066",
+        "source_song": "One",
+        "source_start": 840,
+        "source_end": 1080,
+        "descriptor_distance": 0.536048173904419,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 16,
+        "target_beat_count": 21,
+        "excluded_song": "gangsta",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 420,
+        "output_end": 660,
+        "source_split": "train",
+        "source_id": "069",
+        "source_song": "Shizihou",
+        "source_start": 1560,
+        "source_end": 1800,
+        "descriptor_distance": 0.5487639307975769,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 17,
+        "target_beat_count": 20,
+        "excluded_song": "gangsta",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 630,
+        "output_end": 870,
+        "source_split": "train",
+        "source_id": "061",
+        "source_song": "GoodTimesEsone",
+        "source_start": 1440,
+        "source_end": 1680,
+        "descriptor_distance": 0.5432441830635071,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 16,
+        "target_beat_count": 20,
+        "excluded_song": "gangsta",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 840,
+        "output_end": 1024,
+        "source_split": "train",
+        "source_id": "069",
+        "source_song": "Shizihou",
+        "source_start": 1560,
+        "source_end": 1800,
+        "descriptor_distance": 0.43379929661750793,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 17,
+        "target_beat_count": 15,
+        "excluded_song": "gangsta",
+        "near_duplicate_floor": 1e-06
+      }
+    ]
+  }
+}

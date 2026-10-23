@@ -1,0 +1,142 @@
+{
+  "started_at_utc": "2026-09-30T17:10:11.412405+00:00",
+  "config": "/root/autodl-tmp/TempoGraph_ablation34_25k_results/seed_1234/random_relation_labels/v77_local/config.json",
+  "manifest": "/root/autodl-tmp/TempoGraph_v78_FINAL/implementation/data/finedance/manifest.json",
+  "output_dir": "/root/autodl-tmp/TempoGraph_ablation34_25k_results/seed_1234/random_relation_labels/v77_local/checkpoints",
+  "requested_stage": "joint_finetune",
+  "max_steps_override": 2000,
+  "max_hours_override": null,
+  "resume": null,
+  "init_checkpoint": "/root/autodl-tmp/TempoGraph_ablation34_25k_results/seed_1234/random_relation_labels/v73_joint/checkpoints/tempograph.pt",
+  "device": "cuda",
+  "python": "3.12.3",
+  "torch": "2.8.0+cu128",
+  "cuda": "12.8",
+  "gpu": "NVIDIA RTX 6000D",
+  "seed": 1234,
+  "training": {
+    "device": "auto",
+    "batch_size": 4,
+    "window_frames": 240,
+    "window_stride": 120,
+    "graph_nodes": 8,
+    "num_workers": 8,
+    "learning_rate": 0.0002,
+    "weight_decay": 0.0001,
+    "adam_betas": [
+      0.9,
+      0.99
+    ],
+    "gradient_accumulation_steps": 4,
+    "gradient_clip_norm": 1.0,
+    "mixed_precision": "fp16",
+    "validation_batches": 8,
+    "validation_flow_steps": 20,
+    "validation_rollout_batches": 4,
+    "validation_rollout_weight": 2.0,
+    "training_rollout_steps": 4,
+    "boundary_training_rollout_steps": 4,
+    "log_every": 50,
+    "checkpoint_every": 2500,
+    "validate_every": 2500,
+    "contact_input_noise": 0.15,
+    "scheduler": "constant",
+    "warmup_updates": 0,
+    "min_lr_ratio": 1.0,
+    "loss_weights": {
+      "pose": 1.75,
+      "velocity": 1.25,
+      "acceleration": 0.75,
+      "contact": 3.0,
+      "contact_clean": 0.5,
+      "contact_corrupt": 0.75,
+      "contact_f1": 1.5,
+      "rollout_reconstruction": 2.5,
+      "rollout_contact_f1": 2.0,
+      "rotation_regularization": 0.15,
+      "foot_skating": 5.0,
+      "foot_position": 1.5,
+      "beat_energy": 1.0,
+      "distribution_moments": 5.0,
+      "boundary_rollout": 1.5,
+      "energy": 1.5,
+      "root_velocity": 2.5,
+      "local_flow": 1.0,
+      "local_reconstruction": 1.0,
+      "graph_role": 1.0,
+      "graph_semantic": 1.0,
+      "graph_duration": 1.0,
+      "graph_edge": 1.0,
+      "plan_length": 1.0,
+      "plan_contact": 1.0,
+      "plan_root": 1.0,
+      "plan_energy": 1.0,
+      "flow": 1.0,
+      "local": 1.0,
+      "graph": 1.0,
+      "plan": 1.0,
+      "contact_transition": 0.75,
+      "fk_position": 4.0,
+      "fk_velocity": 2.0,
+      "fk_acceleration": 1.0,
+      "beat_alignment": 6.0,
+      "key_motion_anchor": 10.0,
+      "geometric_distribution": 4.0,
+      "manual_geometry_distribution": 8.0,
+      "diversity_preservation": 3.5,
+      "kinetic_coverage": 4.0,
+      "graph_edge_coverage": 0.5
+    },
+    "stage_hyperparameters": {
+      "motion_autoencoder": {
+        "learning_rate": 0.0002,
+        "weight_decay": 0.0001
+      },
+      "graph_and_local": {
+        "learning_rate": 0.0002,
+        "weight_decay": 0.0001,
+        "scheduler": "cosine",
+        "warmup_updates": 500,
+        "min_lr_ratio": 0.1
+      },
+      "boundary_planner": {
+        "learning_rate": 0.0002,
+        "weight_decay": 0.0001
+      },
+      "boundary_bridge": {
+        "learning_rate": 0.0002,
+        "weight_decay": 0.0001,
+        "scheduler": "cosine",
+        "warmup_updates": 250,
+        "min_lr_ratio": 0.1
+      },
+      "joint_finetune": {
+        "learning_rate": 3e-06,
+        "weight_decay": 0.0001,
+        "scheduler": "cosine",
+        "warmup_updates": 25,
+        "min_lr_ratio": 0.1,
+        "trainable_models": [
+          "local_generator"
+        ]
+      }
+    },
+    "stage_steps": {
+      "joint_finetune": 2000
+    },
+    "stages": [
+      "motion_autoencoder",
+      "graph_and_local",
+      "boundary_planner",
+      "boundary_bridge",
+      "joint_finetune"
+    ],
+    "beat_tolerance_frames": 3,
+    "key_motion_downbeat_stride": 1,
+    "manual_feature_temperature": 0.05,
+    "kinetic_diversity_gain": 1.05,
+    "checkpoint_policy": "final",
+    "relation_supervision": "random_relation_labels",
+    "relation_shuffle_seed": 77123
+  }
+}

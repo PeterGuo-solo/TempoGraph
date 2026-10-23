@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+.venv/
+implementation/data/
+implementation/models/
+comparison/assets/finedance/
+*.blend1
+# Reconstructed runtime weight; publish verified chunks instead.
+/comparison/assets/finenet/train-2000.pt
+/comparison/vendor/MEGADance/output/gpt/90/Model/model.pth
+# Licensed body-model runtime assets stay local, like implementation/models/.
+/comparison/vendor/MEGADance/Pretrained/SMPL/
+# Local body-model parameters are not prediction results.
+/local_assets/

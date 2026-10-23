@@ -1,0 +1,28 @@
+{
+  "seed": 7,
+  "model": {
+    "latent_dim": 32,
+    "hidden_dim": 64,
+    "num_layers": 1,
+    "num_heads": 4,
+    "dropout": 0.0
+  },
+  "training": {
+    "device": "cpu",
+    "batch_size": 2,
+    "window_frames": 60,
+    "window_stride": 60,
+    "graph_nodes": 4,
+    "num_workers": 0,
+    "learning_rate": 0.0002,
+    "weight_decay": 0.0001,
+    "gradient_accumulation_steps": 1,
+    "gradient_clip_norm": 1.0,
+    "mixed_precision": "none",
+    "validation_batches": 1,
+    "log_every": 1,
+    "max_records": 4,
+    "max_windows_per_record": 2,
+    "max_steps": 2
+  }
+}

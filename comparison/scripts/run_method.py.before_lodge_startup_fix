@@ -1,0 +1,23 @@
+import argparse,subprocess,time,os
+from common import *
+p=argparse.ArgumentParser();p.add_argument('method',choices=METHODS);p.add_argument('--work',type=Path,default=ROOT/'work');p.add_argument('--seeds',type=int,nargs='+');a=p.parse_args();w=a.work.resolve();cfg=read(w/'protocol.json')
+subprocess.run([sys.executable,str(ROOT/'scripts/preflight.py'),'--method',a.method],check=True)
+for seed in a.seeds or cfg['seeds']:
+ out=w/'npz'/a.method/str(seed)
+ if (out/'COMPLETE.json').exists():
+  done=read(out/'COMPLETE.json')
+  if done['protocol_sha256']!=sha(w/'protocol.json'):raise SystemExit('Protocol changed; choose a new work folder')
+  for n in cfg['ids']:
+   load_motion(out/(n+'.npz'))
+   if sha(out/(n+'.npz'))!=done['files'][n]:raise ValueError('Completed NPZ was modified: '+n)
+  print('Already complete',a.method,seed);continue
+ out.mkdir(parents=True,exist_ok=True);log=w/'logs'/f'{a.method}_{seed}.log';log.parent.mkdir(exist_ok=True)
+ env=dict(os.environ,CUBLAS_WORKSPACE_CONFIG=':4096:8',MPLBACKEND='Agg',PYOPENGL_PLATFORM='egl',PYTHONUNBUFFERED='1')
+ cmd=[sys.executable,str(ROOT/('scripts/run_'+a.method+'.py')),'--work',str(w),'--seed',str(seed)]
+ start=time.time();print('Running',a.method,seed,'log:',log,flush=True)
+ with log.open('w',encoding='utf-8') as f:subprocess.run(cmd,check=True,stdout=f,stderr=subprocess.STDOUT,env=env)
+ for n in cfg['ids']:
+  motion=load_motion(out/(n+'.npz'))
+  if len(motion['root_positions'])!=cfg['frames']:raise ValueError('Output length mismatch '+n)
+ write(out/'COMPLETE.json',dict(method=a.method,seed=seed,ids=cfg['ids'],elapsed_seconds=time.time()-start,protocol_sha256=sha(w/'protocol.json'),files={n:sha(out/(n+'.npz')) for n in cfg['ids']}))
+ print('Complete',a.method,seed,flush=True)

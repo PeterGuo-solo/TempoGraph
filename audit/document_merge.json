@@ -1,0 +1,178 @@
+{
+  "root": "D:\\3D数字生成\\探索新的Idea\\output\\idea-development\\dance-to-motion-ccfa\\TempoGraph\\github_release",
+  "targets": [
+    "comparison/README_CN.md",
+    "comparison/README_extra_baselines.md",
+    "docs/LOCAL_ASSETS.md",
+    "docs/TRAINING_AUTODL_CN.md",
+    "implementation/AUTODL_V2_REPLACEMENT_CN.md",
+    "implementation/AUTODL_V3_REPLACEMENT_CN.md",
+    "implementation/AUTODL_V4_REPLACEMENT_CN.md",
+    "implementation/PACKAGE_CONTENTS.md",
+    "implementation/README_1000_STEPS.md",
+    "implementation/README_AUTODL.md",
+    "implementation/README_FULL_TRAINING.md",
+    "implementation/V4_RESCUE_AUTODL_CN.md",
+    "implementation/V51_AUTODL_CN.md",
+    "implementation/V5_AUTODL_CN.md",
+    "implementation/V63_AUTODL_CN.md",
+    "implementation/V6_AUTODL_CN.md",
+    "implementation/V71_SOTA_AUTODL_CN.md",
+    "implementation/V72_SOTA_AUTODL_CN.md",
+    "implementation/V7_SOTA_AUTODL_CN.md",
+    "weights/README.md",
+    "implementation/docs/data_contract.md",
+    "implementation/docs/reference_mapping.md",
+    "implementation/docs/training_stages.md",
+    "results/qualitative/README.md",
+    "results/ablations/ablation12/README.md"
+  ],
+  "before_md_count": 34,
+  "own_docs_after": [
+    "README.md",
+    "ablations/README.md",
+    "comparison/README.md",
+    "implementation/README.md",
+    "results/README.md"
+  ],
+  "third_party_md_count": 5,
+  "removed_md_count": 25,
+  "sources": {
+    "README.md": {
+      "sha256": "2e28122225885e5bb4611c8fc79f77718368d91c792dcd9341ca56f3b7d61f5c",
+      "bytes": 2264
+    },
+    "ablations/README.md": {
+      "sha256": "ec9984bd3a3017b82ddfd01b3fa1a8688f2d1beb59285a0b6f92d64d82329581",
+      "bytes": 2467
+    },
+    "comparison/README_CN.md": {
+      "sha256": "b1ec6b17ecae9c8da89dd9d547972d20af7bad0965a2e5bfb8c36080231fc2a1",
+      "bytes": 12720
+    },
+    "comparison/README_extra_baselines.md": {
+      "sha256": "90c1fc824bac7ad5d50e7b147c68594801d984cfab803f7ed965b3460cd8f871",
+      "bytes": 4861
+    },
+    "docs/LOCAL_ASSETS.md": {
+      "sha256": "16a3fd0cdf2f0ca2be54a57030be672e713b066a5afb98700089bde66171f910",
+      "bytes": 518
+    },
+    "docs/TRAINING_AUTODL_CN.md": {
+      "sha256": "bc002351d67c86a7dc327db099431df24399a8cf0ce2c7ed1f8d6c5597134612",
+      "bytes": 1298
+    },
+    "implementation/AUTODL_V2_REPLACEMENT_CN.md": {
+      "sha256": "d68bf830949e3560752eff1613b0a69d6f2003d3f9274576f5bfe30c164c1fa4",
+      "bytes": 7600
+    },
+    "implementation/AUTODL_V3_REPLACEMENT_CN.md": {
+      "sha256": "4b9d83dda3e82e79be101da3475b16601ac0eb1966d50900d5e5b94dc7b2aada",
+      "bytes": 4271
+    },
+    "implementation/AUTODL_V4_REPLACEMENT_CN.md": {
+      "sha256": "3bb3f42bc06ba3cfa4fac1809be453d02d9bc35d95c8ccdba25bc6d0b8deb7bb",
+      "bytes": 3854
+    },
+    "implementation/PACKAGE_CONTENTS.md": {
+      "sha256": "72b218f3825af74126e0547655c78092393b06388a638e35269e3467177a5cf4",
+      "bytes": 1587
+    },
+    "implementation/README.md": {
+      "sha256": "beedf9ee8ea3f734ff9ddbe30366a6de97b33d1ceb905af36941510e50710875",
+      "bytes": 728
+    },
+    "implementation/README_1000_STEPS.md": {
+      "sha256": "bac5e01155f32d1ede448bd0a07d1511d3e5bbcac4f0e876febb4a48cc742ec2",
+      "bytes": 2013
+    },
+    "implementation/README_AUTODL.md": {
+      "sha256": "60aace9b39e9e76e1d53404f997c938a8aad93449f862d3703f0f549bc83d6d5",
+      "bytes": 30637
+    },
+    "implementation/README_FULL_TRAINING.md": {
+      "sha256": "69e05bfff5f394309b9ab2224f883b959a8d27c9ca5aa5eb75b20a4697142c5a",
+      "bytes": 7693
+    },
+    "implementation/V4_RESCUE_AUTODL_CN.md": {
+      "sha256": "5a4db1d52a0df4825c895fd99120579a93cc9825b56f682130a937dc05810aed",
+      "bytes": 1068
+    },
+    "implementation/V51_AUTODL_CN.md": {
+      "sha256": "56e263d04a3327774537513efc50631ef7e3f1c711d57abe573633c6e9d81e8c",
+      "bytes": 1289
+    },
+    "implementation/V5_AUTODL_CN.md": {
+      "sha256": "5c91cb2bc58dd2baa8c58ba17ad0b37af12b740ee07f4c997e9ec09e53b55ba8",
+      "bytes": 2164
+    },
+    "implementation/V63_AUTODL_CN.md": {
+      "sha256": "0c65b9c3d5a69b2b8cad341197d7b0a0c0f3facef0d988eb37cb0af12f27b909",
+      "bytes": 2146
+    },
+    "implementation/V6_AUTODL_CN.md": {
+      "sha256": "81fe806dd1f9c82b23eed02d7e44c4de4da9ea537cd06e4b19b449188573c3bc",
+      "bytes": 1864
+    },
+    "implementation/V71_SOTA_AUTODL_CN.md": {
+      "sha256": "8df92336247a7418a878d25d1fb909494a29e63e1d8e418b4509bec1485649b4",
+      "bytes": 2105
+    },
+    "implementation/V72_SOTA_AUTODL_CN.md": {
+      "sha256": "f3bf1b8f5846b087b441d05687385bb69d8f3306e957026a84dac2fdbc7f9a5e",
+      "bytes": 1220
+    },
+    "implementation/V7_SOTA_AUTODL_CN.md": {
+      "sha256": "73032158bc018f997a8d04d4db3794d85e735f81b5376f912da845f6762c10c7",
+      "bytes": 1575
+    },
+    "results/README.md": {
+      "sha256": "0f9bdd7b7d1a31e094e4d2783f105cd96c4689bc5c022ed51240db0988a0fe86",
+      "bytes": 919
+    },
+    "weights/README.md": {
+      "sha256": "1f3c878130f375b9b673e8e48fc376898f5aa506f4fdd52bff9a245df49d703c",
+      "bytes": 450
+    },
+    "comparison/vendor/FineNet/README.md": {
+      "sha256": "e89a0cdfac1405dd0a1450537341891e66ab878346f4a8d4a301525453176fbd",
+      "bytes": 4098
+    },
+    "comparison/vendor/FlowerDance/README.md": {
+      "sha256": "42bcb60b24e9bd000d16779dcd9f2043131954a64e542f93cc7f24c0077832eb",
+      "bytes": 5100
+    },
+    "comparison/vendor/LODGE/README.md": {
+      "sha256": "53d6196847dbaf2334652d758b335226fb071f3e056a056c92efdf24533f3d3c",
+      "bytes": 7036
+    },
+    "comparison/vendor/MEGADance/README.md": {
+      "sha256": "50f10a899b4fdf8a3066e3cb4354cc62ab2dd44816c378e952d5341be729370a",
+      "bytes": 4847
+    },
+    "implementation/docs/data_contract.md": {
+      "sha256": "6e0768384d65e4ae62335e32a5d6c189d3c409a9c17d770b623011b083f20bc7",
+      "bytes": 1689
+    },
+    "implementation/docs/reference_mapping.md": {
+      "sha256": "dc849457a986f65a323cc5044617882c99828e7c6fa4933729f77740ed1a86a4",
+      "bytes": 1153
+    },
+    "implementation/docs/training_stages.md": {
+      "sha256": "bfcb83c1cff44b9778d1b4f861ebb3f7ef42d0f9aab7637eacdbd9e6d98e3585",
+      "bytes": 1265
+    },
+    "reference_code/baselines/LODGE-main/README.md": {
+      "sha256": "53d6196847dbaf2334652d758b335226fb071f3e056a056c92efdf24533f3d3c",
+      "bytes": 7036
+    },
+    "results/qualitative/README.md": {
+      "sha256": "7d0d20931f71a6bc133bcee40d4c7bf1e72361a2742c57ad549518cf86f20afa",
+      "bytes": 153
+    },
+    "results/ablations/ablation12/README.md": {
+      "sha256": "5fdc3402d1814dcc10e74e023e418ca7ecb7df32307c46ef68d68555ed7277ae",
+      "bytes": 461
+    }
+  }
+}

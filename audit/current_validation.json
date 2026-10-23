@@ -1,0 +1,24 @@
+{
+  "checked_date": "2026-10-23",
+  "own_markdown_documents": 5,
+  "third_party_markdown_documents": 5,
+  "retained_npz": 136,
+  "original_experiment_files_byte_verified": 454,
+  "python_files_syntax_checked": 190,
+  "unified_ablation_tests_passed": 96,
+  "shared_ablation_layout": [
+    "configs",
+    "scripts",
+    "src",
+    "tests",
+    "pyproject.toml",
+    "README.md"
+  ],
+  "comparison_layout": "comparison/",
+  "new_exact_original_weight_matches": 0,
+  "new_original_npz_recovered": 0,
+  "licensed_local_assets_excluded_from_publish_manifest": [
+    "comparison/vendor/MEGADance/Pretrained/SMPL/SMPL_FEMALE.pkl",
+    "comparison/vendor/MEGADance/Pretrained/SMPL/SMPL_MALE.pkl"
+  ]
+}

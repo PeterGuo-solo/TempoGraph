@@ -1,0 +1,14 @@
+{
+  "method": "megadance",
+  "seed": 3407,
+  "ids": [
+    "012",
+    "036"
+  ],
+  "elapsed_seconds": 30.714090824127197,
+  "protocol_sha256": "42544f520e80245768d1943b490c9d5224a149966fbd9ab616de5d6bc376947e",
+  "files": {
+    "012": "b7cb946ed35f354384b4723bbbe9bde08cd8b4b523cd1ded647fc9cdbb360030",
+    "036": "099337a10ce11b0c1895e8f16abb5b7378c9f476ae0b4c90c0cd4184caff1e8b"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "removed_files": 1507,
+  "removed_npz": 337,
+  "removed_bytes": 885716975,
+  "remaining_npz": 136,
+  "results_npz": 122,
+  "renamed": [
+    {
+      "old": "docs/V78_AUTODL_CN.md",
+      "new": "docs/TRAINING_AUTODL_CN.md"
+    },
+    {
+      "old": "ablations/ablation12/implementation/scripts/reevaluate_v78_existing.sh",
+      "new": "ablations/ablation12/implementation/scripts/reevaluate_existing_predictions.sh"
+    },
+    {
+      "old": "ablations/ablation12/implementation/scripts/run_v78_closed_loop_autodl.sh",
+      "new": "ablations/ablation12/implementation/scripts/run_closed_loop_autodl.sh"
+    },
+    {
+      "old": "ablations/ablation12/implementation/scripts/select_v78_complete.py",
+      "new": "ablations/ablation12/implementation/scripts/select_complete_validation.py"
+    },
+    {
+      "old": "ablations/ablation12/implementation/tests/test_v78_closed_loop.py",
+      "new": "ablations/ablation12/implementation/tests/test_closed_loop.py"
+    },
+    {
+      "old": "implementation/scripts/reevaluate_v78_existing.sh",
+      "new": "implementation/scripts/reevaluate_existing_predictions.sh"
+    },
+    {
+      "old": "implementation/scripts/run_v78_closed_loop_autodl.sh",
+      "new": "implementation/scripts/run_closed_loop_autodl.sh"
+    },
+    {
+      "old": "implementation/scripts/select_v78_complete.py",
+      "new": "implementation/scripts/select_complete_validation.py"
+    },
+    {
+      "old": "implementation/tests/test_v78_closed_loop.py",
+      "new": "implementation/tests/test_closed_loop.py"
+    }
+  ],
+  "edited": [
+    "README.md",
+    "docs/TRAINING_AUTODL_CN.md",
+    "ablations/ablation34/SHA256SUMS.json",
+    "ablations/ablation34/source_provenance.json",
+    "ablations/tools/run_no_relation_message_autodl.sh",
+    "ablations/ablation12/implementation/scripts/infer.py",
+    "ablations/ablation12/implementation/scripts/reevaluate_existing_predictions.sh",
+    "ablations/ablation12/implementation/scripts/run_closed_loop_autodl.sh",
+    "ablations/ablation12/implementation/tests/test_closed_loop.py",
+    "ablations/ablation12/implementation/src/tempograph/generation.py",
+    "implementation/scripts/reevaluate_existing_predictions.sh",
+    "implementation/scripts/run_closed_loop_autodl.sh",
+    "implementation/tests/test_closed_loop.py",
+    "results/ablations/ablation34/source_data/ablation34/run_contract.json"
+  ],
+  "npz_failures": [],
+  "scope": "Only release copies were recycled; original experiment arrays and measurements were not changed.",
+  "historical_audits_moved_outside_release": [
+    "archive_members.json",
+    "archive_summary.json",
+    "build_status.json",
+    "cleanup_plan.json",
+    "extended_search_report.json",
+    "external_archives_checked.json",
+    "external_weight_hashes.json",
+    "integrity_review.json",
+    "integrity_review.md",
+    "invalid_ablation_recycle.json",
+    "provenance.json",
+    "recovered_validation_archive_members.json",
+    "recovered_validation_counts.json",
+    "recycle_log.json",
+    "remaining_archives_cleanup_plan.json",
+    "remaining_archives_recycle_log.json",
+    "results_reorganization.json",
+    "retained_archives.json",
+    "supplement_status.json",
+    "unit_tests.txt",
+    "validation.json",
+    "ablations/ablation34/SHA256SUMS.json",
+    "ablations/ablation34/source_provenance.json",
+    "comparison/code_manifest.json"
+  ],
+  "additional_unused_figure_tools_recycled": [
+    "ablations/tools/make_relation_results.py",
+    "ablations/tools/render_boundary_sequence.py"
+  ],
+  "recycled_files_gross": 1509,
+  "restored_runtime_dependencies": [
+    "implementation/scripts/aggregate_seed_results.py",
+    "ablations/ablation12/implementation/scripts/aggregate_seed_results.py"
+  ],
+  "unit_tests": {
+    "implementation": 90,
+    "ablation12": 90,
+    "ablation34": 6
+  },
+  "experiment_payloads_byte_verified": 456,
+  "python_syntax_checked": 243,
+  "remaining_v78_filenames": 0
+}

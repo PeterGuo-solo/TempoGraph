@@ -1,0 +1,188 @@
+1
+/root/autodl-tmp/envs/tempograph-compare/lib/python3.10/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+cfg.device [0]
+cuda:0
+music_fea_full (1024, 35)
+music_fea_cat torch.Size([1, 1024, 35])
+all_filenames_cat ['012g000g']
+render_count 1
+cond torch.Size([1, 1024, 35])
+wavname ['012g000g']
+sample_contact torch.Size([104, 4])
+pos_ torch.Size([104, 3])
+qq_rot6d torch.Size([104, 132])
+Done
+OK
+(104, 139)
+modata_13 (104, 139)
+music_fea.shape torch.Size([1, 1024, 35])
+modata.shape (96, 139)
+item 0
+modata[item*scale : (item+1)*scale] (24, 139)
+item 1
+modata[item*scale : (item+1)*scale] (24, 139)
+item 2
+modata[item*scale : (item+1)*scale] (24, 139)
+item 3
+modata[item*scale : (item+1)*scale] (24, 139)
+len(molist) 4
+molist[i].shape (24, 139)
+file  012.npy
+genre tensor([5])
+genre torch.Size([1])
+genre tensor([5, 5, 5, 5])
+genre torch.Size([4])
+orikey i .shape (24, 139)
+before is mocond_1[:, 4] [-0.00295328 -0.00350457 -0.00457269 -0.00511859]
+before is mocond_1[:, 6] [0.1780764  0.17394301 0.16712226 0.15468356]
+after is mocond_1[:, 4] [ 0.         -0.00055128 -0.00161941 -0.0021653 ]
+after is mocond_1[:, 6] [ 0.         -0.00413339 -0.01095414 -0.02339284]
+Mmid_pose.shape torch.Size([16, 22, 3])
+Mmid_pose.shape torch.Size([16, 132])
+orikey i .shape (24, 139)
+before is mocond_1[:, 4] [-0.00296857 -0.00470395 -0.00735894 -0.00943368]
+before is mocond_1[:, 6] [0.00667408 0.00796452 0.01154572 0.01423858]
+after is mocond_1[:, 4] [ 0.         -0.00173538 -0.00439037 -0.0064651 ]
+after is mocond_1[:, 6] [0.         0.00129044 0.00487164 0.0075645 ]
+Mmid_pose.shape torch.Size([16, 22, 3])
+Mmid_pose.shape torch.Size([16, 132])
+orikey i .shape (24, 139)
+before is mocond_1[:, 4] [-0.00082976 -0.00237524 -0.00264849 -0.00159294]
+before is mocond_1[:, 6] [ 0.00085741 -0.00102791 -0.00107668  0.00219491]
+after is mocond_1[:, 4] [ 0.         -0.00154547 -0.00181872 -0.00076318]
+after is mocond_1[:, 6] [ 0.         -0.00188532 -0.0019341   0.0013375 ]
+Mmid_pose.shape torch.Size([16, 22, 3])
+Mmid_pose.shape torch.Size([16, 132])
+orikey i .shape (24, 139)
+before is mocond_1[:, 4] [-0.00257398 -0.00188586 -0.00171857 -0.00016508]
+before is mocond_1[:, 6] [-0.00164939 -0.00272785  0.00016101  0.00363722]
+after is mocond_1[:, 4] [0.         0.00068812 0.00085541 0.0024089 ]
+after is mocond_1[:, 6] [ 0.         -0.00107846  0.0018104   0.00528662]
+Mmid_pose.shape torch.Size([16, 22, 3])
+Mmid_pose.shape torch.Size([16, 132])
+sampling loop time step:   0%|          | 0/50 [00:00<?, ?it/s]sampling loop time step:   6%|▌         | 3/50 [00:00<00:02, 20.80it/s]sampling loop time step:  12%|█▏        | 6/50 [00:00<00:02, 21.81it/s]sampling loop time step:  18%|█▊        | 9/50 [00:00<00:01, 21.78it/s]sampling loop time step:  24%|██▍       | 12/50 [00:00<00:01, 21.99it/s]sampling loop time step:  30%|███       | 15/50 [00:00<00:01, 22.13it/s]sampling loop time step:  36%|███▌      | 18/50 [00:00<00:01, 22.19it/s]sampling loop time step:  42%|████▏     | 21/50 [00:00<00:01, 22.23it/s]sampling loop time step:  48%|████▊     | 24/50 [00:01<00:01, 22.27it/s]sampling loop time step:  54%|█████▍    | 27/50 [00:01<00:01, 22.27it/s]sampling loop time step:  60%|██████    | 30/50 [00:01<00:00, 22.26it/s]sampling loop time step:  66%|██████▌   | 33/50 [00:01<00:00, 22.22it/s]sampling loop time step:  72%|███████▏  | 36/50 [00:01<00:00, 22.23it/s]sampling loop time step:  78%|███████▊  | 39/50 [00:01<00:00, 22.26it/s]sampling loop time step:  84%|████████▍ | 42/50 [00:01<00:00, 22.30it/s]sampling loop time step:  90%|█████████ | 45/50 [00:02<00:00, 22.29it/s]sampling loop time step:  96%|█████████▌| 48/50 [00:02<00:00, 22.27it/s]sampling loop time step: 100%|██████████| 50/50 [00:02<00:00, 22.19it/s]
+sample_contact torch.Size([256, 4])
+pos_ torch.Size([256, 3])
+qq_rot6d torch.Size([256, 132])
+sample_contact torch.Size([256, 4])
+pos_ torch.Size([256, 3])
+qq_rot6d torch.Size([256, 132])
+sample_contact torch.Size([256, 4])
+pos_ torch.Size([256, 3])
+qq_rot6d torch.Size([256, 132])
+sample_contact torch.Size([256, 4])
+pos_ torch.Size([256, 3])
+qq_rot6d torch.Size([256, 132])
+music_fea_full (1024, 35)
+music_fea_cat torch.Size([1, 1024, 35])
+all_filenames_cat ['036g000g']
+render_count 1
+cond torch.Size([1, 1024, 35])
+wavname ['036g000g']
+sample_contact torch.Size([104, 4])
+pos_ torch.Size([104, 3])
+qq_rot6d torch.Size([104, 132])
+Done
+OK
+(104, 139)
+modata_13 (104, 139)
+music_fea.shape torch.Size([1, 1024, 35])
+modata.shape (96, 139)
+item 0
+modata[item*scale : (item+1)*scale] (24, 139)
+item 1
+modata[item*scale : (item+1)*scale] (24, 139)
+item 2
+modata[item*scale : (item+1)*scale] (24, 139)
+item 3
+modata[item*scale : (item+1)*scale] (24, 139)
+len(molist) 4
+molist[i].shape (24, 139)
+file  036.npy
+genre tensor([9])
+genre torch.Size([1])
+genre tensor([9, 9, 9, 9])
+genre torch.Size([4])
+orikey i .shape (24, 139)
+before is mocond_1[:, 4] [-0.00511661 -0.00566866 -0.00647754 -0.00732562]
+before is mocond_1[:, 6] [0.16750981 0.1641289  0.15887679 0.14887838]
+after is mocond_1[:, 4] [ 0.         -0.00055204 -0.00136093 -0.00220901]
+after is mocond_1[:, 6] [ 0.         -0.00338091 -0.00863302 -0.01863143]
+Mmid_pose.shape torch.Size([16, 22, 3])
+Mmid_pose.shape torch.Size([16, 132])
+orikey i .shape (24, 139)
+before is mocond_1[:, 4] [-0.00055008 -0.00118474 -0.00216893 -0.00306994]
+before is mocond_1[:, 6] [-0.0029628  -0.00304164 -0.00228989 -0.00124891]
+after is mocond_1[:, 4] [ 0.         -0.00063466 -0.00161885 -0.00251986]
+after is mocond_1[:, 6] [ 0.0000000e+00 -7.8842044e-05  6.7290664e-04  1.7138869e-03]
+Mmid_pose.shape torch.Size([16, 22, 3])
+Mmid_pose.shape torch.Size([16, 132])
+orikey i .shape (24, 139)
+before is mocond_1[:, 4] [0.00440156 0.00556755 0.0068276  0.00611755]
+before is mocond_1[:, 6] [-0.00108366 -0.00118573  0.00332646  0.01032792]
+after is mocond_1[:, 4] [0.         0.00116599 0.00242604 0.00171598]
+after is mocond_1[:, 6] [ 0.         -0.00010207  0.00441012  0.01141158]
+Mmid_pose.shape torch.Size([16, 22, 3])
+Mmid_pose.shape torch.Size([16, 132])
+orikey i .shape (24, 139)
+before is mocond_1[:, 4] [0.0071033  0.00744213 0.0089959  0.01106644]
+before is mocond_1[:, 6] [-0.00241984 -0.0021808  -0.00078398 -0.00117938]
+after is mocond_1[:, 4] [0.         0.00033884 0.0018926  0.00396315]
+after is mocond_1[:, 6] [0.         0.00023904 0.00163586 0.00124046]
+Mmid_pose.shape torch.Size([16, 22, 3])
+Mmid_pose.shape torch.Size([16, 132])
+sampling loop time step:   0%|          | 0/50 [00:00<?, ?it/s]sampling loop time step:   6%|▌         | 3/50 [00:00<00:02, 22.35it/s]sampling loop time step:  12%|█▏        | 6/50 [00:00<00:01, 22.44it/s]sampling loop time step:  18%|█▊        | 9/50 [00:00<00:01, 22.52it/s]sampling loop time step:  24%|██▍       | 12/50 [00:00<00:01, 22.34it/s]sampling loop time step:  30%|███       | 15/50 [00:00<00:01, 22.29it/s]sampling loop time step:  36%|███▌      | 18/50 [00:00<00:01, 22.33it/s]sampling loop time step:  42%|████▏     | 21/50 [00:00<00:01, 22.39it/s]sampling loop time step:  48%|████▊     | 24/50 [00:01<00:01, 22.49it/s]sampling loop time step:  54%|█████▍    | 27/50 [00:01<00:01, 22.54it/s]sampling loop time step:  60%|██████    | 30/50 [00:01<00:00, 22.52it/s]sampling loop time step:  66%|██████▌   | 33/50 [00:01<00:00, 22.55it/s]sampling loop time step:  72%|███████▏  | 36/50 [00:01<00:00, 22.45it/s]sampling loop time step:  78%|███████▊  | 39/50 [00:01<00:00, 22.54it/s]sampling loop time step:  84%|████████▍ | 42/50 [00:01<00:00, 22.56it/s]sampling loop time step:  90%|█████████ | 45/50 [00:02<00:00, 22.59it/s]sampling loop time step:  96%|█████████▌| 48/50 [00:02<00:00, 22.39it/s]sampling loop time step: 100%|██████████| 50/50 [00:02<00:00, 22.46it/s]
+sample_contact torch.Size([256, 4])
+pos_ torch.Size([256, 3])
+qq_rot6d torch.Size([256, 132])
+sample_contact torch.Size([256, 4])
+pos_ torch.Size([256, 3])
+qq_rot6d torch.Size([256, 132])
+sample_contact torch.Size([256, 4])
+pos_ torch.Size([256, 3])
+qq_rot6d torch.Size([256, 132])
+sample_contact torch.Size([256, 4])
+pos_ torch.Size([256, 3])
+qq_rot6d torch.Size([256, 132])
+['012', '036']
+2
+repeatnum is 1
+['/root/autodl-tmp/TempoGraph_MainCompare/work_pilot/raw/lodge/3407/dod_0_012g000g_l000.npy', '/root/autodl-tmp/TempoGraph_MainCompare/work_pilot/raw/lodge/3407/dod_1_012g000g_l001.npy', '/root/autodl-tmp/TempoGraph_MainCompare/work_pilot/raw/lodge/3407/dod_2_012g000g_l002.npy', '/root/autodl-tmp/TempoGraph_MainCompare/work_pilot/raw/lodge/3407/dod_3_012g000g_l003.npy']
+total num 4
+/root/autodl-tmp/TempoGraph_MainCompare/work_pilot/raw/lodge/3407/dod*012g000g_l000.npy
+local_fineme /root/autodl-tmp/TempoGraph_MainCompare/work_pilot/raw/lodge/3407/dod_0_012g000g_l000.npy
+(256, 139)
+0
+/root/autodl-tmp/TempoGraph_MainCompare/work_pilot/raw/lodge/3407/dod*012g000g_l001.npy
+local_fineme /root/autodl-tmp/TempoGraph_MainCompare/work_pilot/raw/lodge/3407/dod_1_012g000g_l001.npy
+(256, 139)
+1
+/root/autodl-tmp/TempoGraph_MainCompare/work_pilot/raw/lodge/3407/dod*012g000g_l002.npy
+local_fineme /root/autodl-tmp/TempoGraph_MainCompare/work_pilot/raw/lodge/3407/dod_2_012g000g_l002.npy
+(256, 139)
+2
+/root/autodl-tmp/TempoGraph_MainCompare/work_pilot/raw/lodge/3407/dod*012g000g_l003.npy
+local_fineme /root/autodl-tmp/TempoGraph_MainCompare/work_pilot/raw/lodge/3407/dod_3_012g000g_l003.npy
+(256, 139)
+3
+danceshape (1024, 139)
+['/root/autodl-tmp/TempoGraph_MainCompare/work_pilot/raw/lodge/3407/dod_0_036g000g_l000.npy', '/root/autodl-tmp/TempoGraph_MainCompare/work_pilot/raw/lodge/3407/dod_1_036g000g_l001.npy', '/root/autodl-tmp/TempoGraph_MainCompare/work_pilot/raw/lodge/3407/dod_2_036g000g_l002.npy', '/root/autodl-tmp/TempoGraph_MainCompare/work_pilot/raw/lodge/3407/dod_3_036g000g_l003.npy']
+total num 4
+/root/autodl-tmp/TempoGraph_MainCompare/work_pilot/raw/lodge/3407/dod*036g000g_l000.npy
+local_fineme /root/autodl-tmp/TempoGraph_MainCompare/work_pilot/raw/lodge/3407/dod_0_036g000g_l000.npy
+(256, 139)
+0
+/root/autodl-tmp/TempoGraph_MainCompare/work_pilot/raw/lodge/3407/dod*036g000g_l001.npy
+local_fineme /root/autodl-tmp/TempoGraph_MainCompare/work_pilot/raw/lodge/3407/dod_1_036g000g_l001.npy
+(256, 139)
+1
+/root/autodl-tmp/TempoGraph_MainCompare/work_pilot/raw/lodge/3407/dod*036g000g_l002.npy
+local_fineme /root/autodl-tmp/TempoGraph_MainCompare/work_pilot/raw/lodge/3407/dod_2_036g000g_l002.npy
+(256, 139)
+2
+/root/autodl-tmp/TempoGraph_MainCompare/work_pilot/raw/lodge/3407/dod*036g000g_l003.npy
+local_fineme /root/autodl-tmp/TempoGraph_MainCompare/work_pilot/raw/lodge/3407/dod_3_036g000g_l003.npy
+(256, 139)
+3
+danceshape (1024, 139)

@@ -1,0 +1,21 @@
+{
+  "schema": "motion22-r6rows-yup-meters",
+  "contacts_available": false,
+  "raw_motion_sha256": "d30bd517fe6172a55b58de8dff11483273d2c11e195e575f61ea33bc03ecf6ee",
+  "method": "finenet",
+  "seed": 3407,
+  "clip_seed": 3419,
+  "clip": "012",
+  "checkpoint_sha256": "87016f3ed95d69cdcf24e69ac7c17d8e1f591b51ca9a019c10ed1e8ce5f53ba2",
+  "input_audio_sha256": "9340b49ddea20e7272601d652d7790464c5fa33ff95c01c806665b46c2f06d23",
+  "start_frame": 0,
+  "output_frames": 1024,
+  "body_joints": 22,
+  "sampler": "official long DDIM",
+  "steps": 50,
+  "condition": "music",
+  "raw_frames": 1080,
+  "audio_tail_zero_pad_frames": 56,
+  "crop": "first protocol frames after official overlap blending",
+  "world_conversion": "none; original FineDance y-up coordinates"
+}

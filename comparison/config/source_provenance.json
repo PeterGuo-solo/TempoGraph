@@ -1,0 +1,23 @@
+{
+  "MEGADance": {
+    "repository": "https://github.com/XulongT/MEGADance",
+    "commit": "903936d4820e5bb2cd5f6fc5935aa0ded960c960"
+  },
+  "LODGE": {
+    "repository": "https://github.com/THUSIGSICLAB/LODGE",
+    "source": "local reference_code/baselines/LODGE-main; upstream commit unknown; per-file SHA256 stored in code_manifest.json",
+    "patches": [
+      "FineDance_Module.py: hard-coded absolute rest-skeleton path changed to package-relative data/smplx_neu_J_1.npy"
+    ]
+  },
+  "PyTorch3D": {
+    "repository": "https://github.com/facebookresearch/pytorch3d",
+    "tag": "v0.7.7",
+    "scope": "transforms/common only; pure Torch implementation; licenses included"
+  },
+  "TempoGraph": {
+    "source": "output/v78_closed_loop_rescue/implementation/src",
+    "expected_checkpoint": "v77 joint_finetune step 15000; final archive currently absent",
+    "expected_final_archive_sha256": "a10eee63ba0a0ab6ded88920a0625ad60e6e7746504f6c1c8fde38ff42a37fcc"
+  }
+}

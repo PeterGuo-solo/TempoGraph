@@ -1,0 +1,454 @@
+{
+  "graph_scope": "full_song",
+  "node_spans": [
+    [
+      0,
+      149
+    ],
+    [
+      149,
+      286
+    ],
+    [
+      286,
+      424
+    ],
+    [
+      424,
+      561
+    ],
+    [
+      561,
+      698
+    ],
+    [
+      698,
+      835
+    ],
+    [
+      835,
+      972
+    ],
+    [
+      972,
+      1024
+    ]
+  ],
+  "roles": [
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    1
+  ],
+  "semantics": [
+    1,
+    1,
+    1,
+    88,
+    1,
+    88,
+    88,
+    88
+  ],
+  "dense_edge_types": [
+    [
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      0,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0
+    ]
+  ],
+  "motif_sources": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "seam_frames": [
+    225,
+    435,
+    645,
+    855
+  ],
+  "boundary_plans": [
+    {
+      "seam_frame": 225,
+      "length_class": 1,
+      "edge_type": 0,
+      "contact_endpoints": [
+        [
+          0.5860865116119385,
+          0.6206737160682678,
+          0.6233737468719482,
+          0.574201226234436
+        ],
+        [
+          0.646682858467102,
+          0.5835832357406616,
+          0.5992422103881836,
+          0.5986059904098511
+        ]
+      ],
+      "root_residual": [
+        0.03304776921868324,
+        -0.04374071583151817,
+        -0.05369367450475693,
+        0.008321554400026798,
+        -0.05010036751627922,
+        -0.08970324695110321
+      ],
+      "energy_parameters": [
+        0.6472905874252319,
+        0.06692643463611603,
+        0.22747468948364258,
+        0.6912458539009094
+      ]
+    },
+    {
+      "seam_frame": 435,
+      "length_class": 1,
+      "edge_type": 0,
+      "contact_endpoints": [
+        [
+          0.5768064260482788,
+          0.621079683303833,
+          0.613473653793335,
+          0.5986714363098145
+        ],
+        [
+          0.6227257251739502,
+          0.6672297716140747,
+          0.6259025931358337,
+          0.6490565538406372
+        ]
+      ],
+      "root_residual": [
+        0.032736886292696,
+        0.0018133088015019894,
+        -0.09527342766523361,
+        -0.01446314062923193,
+        0.009609841741621494,
+        -0.05179976671934128
+      ],
+      "energy_parameters": [
+        0.5177263617515564,
+        0.2515062093734741,
+        0.23545366525650024,
+        0.7509147524833679
+      ]
+    },
+    {
+      "seam_frame": 645,
+      "length_class": 1,
+      "edge_type": 0,
+      "contact_endpoints": [
+        [
+          0.607111930847168,
+          0.6034746766090393,
+          0.5979153513908386,
+          0.6677282452583313
+        ],
+        [
+          0.6186049580574036,
+          0.613498866558075,
+          0.5865387916564941,
+          0.637199342250824
+        ]
+      ],
+      "root_residual": [
+        0.03833218663930893,
+        -0.07134964317083359,
+        0.0696135014295578,
+        -0.019290465861558914,
+        0.06778712570667267,
+        -0.0639868676662445
+      ],
+      "energy_parameters": [
+        0.5345780253410339,
+        0.12931235134601593,
+        0.27963975071907043,
+        0.6932181119918823
+      ]
+    },
+    {
+      "seam_frame": 855,
+      "length_class": 1,
+      "edge_type": 0,
+      "contact_endpoints": [
+        [
+          0.5992517471313477,
+          0.6001957654953003,
+          0.5815633535385132,
+          0.5926717519760132
+        ],
+        [
+          0.6241617798805237,
+          0.5737717151641846,
+          0.61129230260849,
+          0.5898266434669495
+        ]
+      ],
+      "root_residual": [
+        0.04697488993406296,
+        0.011408992111682892,
+        -0.04590028151869774,
+        -0.01701188087463379,
+        0.12076658010482788,
+        -0.00203617662191391
+      ],
+      "energy_parameters": [
+        0.37094417214393616,
+        0.14600996673107147,
+        0.3736606240272522,
+        0.5646748542785645
+      ]
+    }
+  ],
+  "contact_foot_lock": {
+    "enabled": true,
+    "leg_optimization": {
+      "iterations": 150,
+      "contact_pairs": 1389,
+      "rounds": 2,
+      "foot_skating_ratio": 0.014632411615723555
+    },
+    "corrected_frames": 0,
+    "mean_correction": 0.0,
+    "maximum_accumulated_offset": 0.0
+  },
+  "beat_phase_alignment": {
+    "enabled": false
+  },
+  "key_motion_anchor_alignment": {
+    "enabled": false
+  },
+  "beat_velocity_valleys": {
+    "enabled": false
+  },
+  "official_bas_closed_loop": {
+    "enabled": true,
+    "used": false,
+    "baseline_bas": 0.22362084597135704,
+    "baseline_foot_skating_ratio": 0.014632411615723555,
+    "trials": [
+      {
+        "enabled": true,
+        "used": true,
+        "beat_count": 59,
+        "strength": 0.68,
+        "width": 3.5,
+        "minimum_rate": 0.4038494449528331,
+        "median_rate": 0.9940188139256455,
+        "endpoint_error": 0.0,
+        "strictly_monotonic": true,
+        "maximum_frame_displacement": 2.188862055147201,
+        "maximum_beat_phase_error": 3.296918293926865e-12,
+        "official_bas": 0.4987639864852487,
+        "foot_skating_ratio": 0.01833765864257139,
+        "feasible": false
+      },
+      {
+        "enabled": true,
+        "used": true,
+        "beat_count": 59,
+        "strength": 0.8,
+        "width": 4.5,
+        "minimum_rate": 0.2876742801437024,
+        "median_rate": 0.9534012521753967,
+        "endpoint_error": 0.0,
+        "strictly_monotonic": true,
+        "maximum_frame_displacement": 3.0270975729923055,
+        "maximum_beat_phase_error": 1.7053025658242404e-12,
+        "official_bas": 0.5871346790742723,
+        "foot_skating_ratio": 0.018282728301110655,
+        "feasible": false
+      },
+      {
+        "enabled": true,
+        "used": true,
+        "beat_count": 59,
+        "strength": 0.9,
+        "width": 5.5,
+        "minimum_rate": 0.16706569570590854,
+        "median_rate": 0.9334969817074517,
+        "endpoint_error": 0.0,
+        "strictly_monotonic": true,
+        "maximum_frame_displacement": 3.9141083164831585,
+        "maximum_beat_phase_error": 3.183231456205249e-12,
+        "official_bas": 0.7017552093122481,
+        "foot_skating_ratio": 0.01740228605676613,
+        "feasible": false
+      }
+    ],
+    "reason": "no candidate passed displacement and foot constraints"
+  },
+  "motion_prior": {
+    "enabled": true,
+    "blend_weight": 0.9,
+    "training_only": true,
+    "retrievals": [
+      {
+        "output_start": 0,
+        "output_end": 240,
+        "source_split": "train",
+        "source_id": "010",
+        "source_song": "pink Venom",
+        "source_start": 240,
+        "source_end": 480,
+        "descriptor_distance": 0.9210405945777893,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 12,
+        "target_beat_count": 14,
+        "excluded_song": "YeahUsherLilJon",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 210,
+        "output_end": 450,
+        "source_split": "train",
+        "source_id": "013",
+        "source_song": "PROBLEMA",
+        "source_start": 1080,
+        "source_end": 1320,
+        "descriptor_distance": 1.036708950996399,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 16,
+        "target_beat_count": 14,
+        "excluded_song": "YeahUsherLilJon",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 420,
+        "output_end": 660,
+        "source_split": "train",
+        "source_id": "013",
+        "source_song": "PROBLEMA",
+        "source_start": 840,
+        "source_end": 1080,
+        "descriptor_distance": 0.8891408443450928,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 16,
+        "target_beat_count": 14,
+        "excluded_song": "YeahUsherLilJon",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 630,
+        "output_end": 870,
+        "source_split": "train",
+        "source_id": "010",
+        "source_song": "pink Venom",
+        "source_start": 240,
+        "source_end": 480,
+        "descriptor_distance": 0.9748700857162476,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 12,
+        "target_beat_count": 15,
+        "excluded_song": "YeahUsherLilJon",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 840,
+        "output_end": 1024,
+        "source_split": "train",
+        "source_id": "209",
+        "source_song": "UhOH",
+        "source_start": 2400,
+        "source_end": 2640,
+        "descriptor_distance": 0.9572633504867554,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 12,
+        "target_beat_count": 10,
+        "excluded_song": "YeahUsherLilJon",
+        "near_duplicate_floor": 1e-06
+      }
+    ]
+  }
+}

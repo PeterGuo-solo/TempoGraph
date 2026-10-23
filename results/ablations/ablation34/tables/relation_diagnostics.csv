@@ -1,0 +1,4 @@
+﻿method,macro_F1_vs_original_pseudo_labels,repeat_predictions,variation_predictions,contrast_predictions,transition_predictions,motif_activations,eligible_nodes
+Full (25k),0.17313556373119354,8,3,37297,548,0,183
+Abl. 3: w/o relation supervision,0.0051244511269032955,37856,0,0,0,183,183
+Abl. 4: randomized relation labels,0.16912035644054413,0,14,37459,383,0,183

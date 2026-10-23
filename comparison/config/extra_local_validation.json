@@ -1,0 +1,10 @@
+{
+  "python_syntax": "PASS all bundled Python files",
+  "rotation_roundtrip": "PASS CPU torch2.1.2; max tolerance2e-6",
+  "finenet_root_preserved": "PASS",
+  "window_coverage": "PASS 1024->1080, 1020->1020",
+  "nonfinite_rejection": "PASS",
+  "official_weight_loading": "NOT RUN - weights not downloaded",
+  "GPU_sampling": "NOT RUN - local CPU only",
+  "official_checkpoint_downloads_verified": "FlowerDance HF API lists train-3700.pt; FineNet Google Drive page title assets.rar"
+}

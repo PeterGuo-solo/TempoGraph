@@ -1,0 +1,46 @@
+[
+  {
+    "restore_path": "comparison/assets/finenet/train-2000.pt",
+    "bytes": 2259554093,
+    "sha256": "87016f3ed95d69cdcf24e69ac7c17d8e1f591b51ca9a019c10ed1e8ce5f53ba2",
+    "parts": [
+      {
+        "file": "weights/shards/finenet/train-2000.pt.part-000",
+        "bytes": 1073741824,
+        "sha256": "39b0635a64ff292ae7b3e8e3a0de5d9da75e443ddf715d11e05739e903d9e1ea"
+      },
+      {
+        "file": "weights/shards/finenet/train-2000.pt.part-001",
+        "bytes": 1073741824,
+        "sha256": "695ecf059faec676e2508e583addd5afa70370bd7eb42743acf16dce8d652a08"
+      },
+      {
+        "file": "weights/shards/finenet/train-2000.pt.part-002",
+        "bytes": 112070445,
+        "sha256": "469c806119389fa684496958d9db6a5f759ba1d1e5b99ffe3342a517434f2c52"
+      }
+    ]
+  },
+  {
+    "restore_path": "comparison/vendor/MEGADance/output/gpt/90/Model/model.pth",
+    "bytes": 2164541840,
+    "sha256": "6b37d7c2da192f4b68c386e8424234d1205c877f50ad850239996bc021f83f26",
+    "parts": [
+      {
+        "file": "weights/shards/megadance_gpt/model.pth.part-000",
+        "bytes": 1073741824,
+        "sha256": "c49e1394b7ece706c1ac3971f1cbd0b170df75dbcd92047d028d05f26ab9579a"
+      },
+      {
+        "file": "weights/shards/megadance_gpt/model.pth.part-001",
+        "bytes": 1073741824,
+        "sha256": "7777aa78472944f21970b45893f39b9898f5ab1229da7562fe758930e92d1d8f"
+      },
+      {
+        "file": "weights/shards/megadance_gpt/model.pth.part-002",
+        "bytes": 17058192,
+        "sha256": "d69c2d5bd18d459db0eeaaf92984af3fcf1addc3c0b7d76f4f36a2b3698972e1"
+      }
+    ]
+  }
+]

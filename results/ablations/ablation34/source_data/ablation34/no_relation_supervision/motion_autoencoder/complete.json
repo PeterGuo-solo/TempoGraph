@@ -1,0 +1,4 @@
+{
+  "checkpoint": "/root/autodl-tmp/TempoGraph_ablation34_25k_results/seed_1234/no_relation_supervision/motion_autoencoder/checkpoints/motion_autoencoder.pt",
+  "sha256": "780fefe202bf0360da6fc062c954d295c3c16ffa43a02ff71c6dec64abe3ba05"
+}

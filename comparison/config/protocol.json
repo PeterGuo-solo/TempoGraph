@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "frames": 1024,
+  "fps": 30,
+  "start_frame": 0,
+  "seeds": [
+    3407,
+    1234,
+    2025
+  ],
+  "methods": [
+    "tempograph",
+    "lodge",
+    "megadance"
+  ],
+  "tempograph_profile": "v78_rhythmic",
+  "tempograph_prior_weight": 0.9,
+  "lodge_sampling": "DDIM official default",
+  "mega_initialization": "official fixed Init1.pkl; no target motion conditioning",
+  "genre_policy": "dataset genre for genre-conditioned baselines; TempoGraph current music-only interface retained and disclosed",
+  "selection": "Default figure uses first two sorted eligible clip IDs, frames 240..269, seed 3407; result-independent. Other illustrative windows must disclose selection.",
+  "metrics": {
+    "foot_height_m": 0.05,
+    "sliding_speed_m_s": 0.3,
+    "freeze_speed_m_s": 0.03,
+    "boundary_every_beats": 8,
+    "boundary_radius_frames": 3
+  },
+  "phase": "test"
+}

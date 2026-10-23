@@ -1,0 +1,47 @@
+{
+  "status": "rendered actual motion; no automatic success labels",
+  "cases": [
+    {
+      "clip": "012",
+      "frames": [
+        240,
+        246,
+        252,
+        257,
+        263,
+        269
+      ],
+      "seed": 3407,
+      "methods": [
+        "tempograph",
+        "lodge"
+      ],
+      "source_sha256": {
+        "tempograph": "e9f1fa033dcd591ebd9e74a9ed6e2f238741ad0adb8238f33d72297cf1d29a45",
+        "lodge": "19da9e26f88e97ef0d255f2ee744e7574bc20a6247417630d46ab2eed87890a2"
+      },
+      "display": "initial horizontal origin removed per sequence; shared floor/camera/scale; equal 0.8 m X offsets indicate time; original framewise root changes retained"
+    },
+    {
+      "clip": "036",
+      "frames": [
+        240,
+        246,
+        252,
+        257,
+        263,
+        269
+      ],
+      "seed": 3407,
+      "methods": [
+        "tempograph",
+        "lodge"
+      ],
+      "source_sha256": {
+        "tempograph": "fa07b7de07c1dd66fdfa1b183b72d99ccd159df566c75b0069a2e0de38835b12",
+        "lodge": "1cbae206885ebb02e273094c6d1c458e7b12f2d5d21cda553e9841223bba4b6b"
+      },
+      "display": "initial horizontal origin removed per sequence; shared floor/camera/scale; equal 0.8 m X offsets indicate time; original framewise root changes retained"
+    }
+  ]
+}

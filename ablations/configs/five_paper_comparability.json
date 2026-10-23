@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "decision_rule": "A paper value is primary-comparable only when dataset split, training data, sequence length, representation, preprocessing and metric implementation match. Canonical predictions from any method may be evaluated by the shared local evaluator, but that result is a new reproduced protocol rather than the paper's reported number.",
+  "papers": [
+    {
+      "id": "sgmd",
+      "document_label": "DGDSP.md",
+      "paper_title": "Controllable Dance Generation with Style-Guided Motion Diffusion",
+      "model": "SGMD",
+      "task": "music-to-dance with style and spatial-temporal controls",
+      "paper_dataset": "AIST++",
+      "paper_protocol": "EDGE split; 5-second clips at 30 FPS; AIST++ metrics averaged over 100 trials",
+      "paper_seed": null,
+      "seed_evidence": "No explicit integer training or inference seed is reported in the supplied paper text; the paper reports averaging the quantitative results over 100 trials.",
+      "comparison_tier": "conditional_same_task",
+      "shared_prediction_evaluation": true,
+      "primary_for_current_finedance_claim": false,
+      "code_status": "Official GitHub URL is stated in the paper, but code and weights are not bundled here.",
+      "protocol_warning": "The paper trains and reports on AIST++, whereas the current TempoGraph run trains on FineDance. Use only after an AIST++ TempoGraph run or after both methods are regenerated under one shared protocol.",
+      "published_metrics": {
+        "BeatAlign": 0.28,
+        "PFC": 1.65,
+        "FID_k": 37.21,
+        "FID_g": 18.19,
+        "Div_k": 7.25,
+        "Div_g": 6.42
+      },
+      "published_variant": "SGMD guidance weight w=1, AIST++ Table 1"
+    },
+    {
+      "id": "edge",
+      "document_label": "EDGE.md",
+      "paper_title": "EDGE: Editable Dance Generation From Music",
+      "model": "EDGE",
+      "task": "editable music-to-dance generation",
+      "paper_dataset": "AIST++",
+      "paper_protocol": "Original AIST++ split; 5-second clips at 30 FPS",
+      "paper_seed": null,
+      "seed_evidence": "No explicit integer training or inference seed is reported in the supplied paper text. The stated 1000 trials concern randomized Elo ordering, not 1000 model seeds.",
+      "comparison_tier": "conditional_same_task",
+      "shared_prediction_evaluation": true,
+      "primary_for_current_finedance_claim": false,
+      "code_status": "Official checkout is bundled; its released checkpoint is AIST++-trained and is not bundled.",
+      "protocol_warning": "The official paper result is AIST++-based. A FineDance run with the released checkpoint is a zero-shot robustness test, not a same-training-data primary comparison.",
+      "published_metrics": {
+        "BeatAlign": 0.27,
+        "PFC": 1.6545,
+        "Dist_k": 10.58,
+        "Dist_g": 7.62
+      },
+      "published_variant": "EDGE guidance weight w=1, AIST++ Table 1"
+    },
+    {
+      "id": "infinitedance",
+      "document_label": "InfiniteDance.md",
+      "paper_title": "InfiniteDance: Scalable 3D Dance Generation Towards in-the-wild Generalization",
+      "model": "ChoreoLLaMA",
+      "task": "large-scale music-to-dance generation and out-of-distribution generalization",
+      "paper_dataset": "InfiniteDance plus public datasets",
+      "paper_protocol": "Main table on InfiniteDance; cross-dataset FineDance test after training on InfiniteDance",
+      "paper_seed": null,
+      "seed_evidence": "No explicit integer training or inference seed is reported in the supplied paper text.",
+      "comparison_tier": "transfer_only",
+      "shared_prediction_evaluation": true,
+      "primary_for_current_finedance_claim": false,
+      "code_status": "The supplied manuscript gives a project page but no released training/inference package is bundled here.",
+      "protocol_warning": "Its FineDance number is a cross-dataset generalization result from an InfiniteDance-trained model. Treat it as transfer robustness, not a direct in-domain TempoGraph comparison.",
+      "published_metrics": {
+        "FID_k": 59.38,
+        "Div_k": 5.81,
+        "BAS": 0.2382
+      },
+      "published_variant": "ChoreoLLaMA trained on InfiniteDance, evaluated cross-dataset on FineDance, Table 4"
+    },
+    {
+      "id": "megadance",
+      "document_label": "MEGADance.md",
+      "paper_title": "MEGADance: Mixture-of-Experts Architecture for Genre-Aware 3D Dance Generation",
+      "model": "MEGADance",
+      "task": "genre-aware music-to-dance generation",
+      "paper_dataset": "FineDance",
+      "paper_protocol": "20 FineDance test music clips; 1024 frames (34.13 seconds) at 30 FPS; FID/DIV in kinetic, geometric and style spaces plus BAS",
+      "paper_seed": null,
+      "seed_evidence": "No explicit integer training or inference seed is reported in the supplied paper text.",
+      "comparison_tier": "primary_protocol_candidate",
+      "shared_prediction_evaluation": true,
+      "primary_for_current_finedance_claim": true,
+      "code_status": "The manuscript says code will be released upon acceptance; no official code or weights are bundled here.",
+      "protocol_warning": "This is the closest paper-level comparison, but a superiority claim still requires evaluating TempoGraph with MEGADance's exact feature extractors and split. The local feature_frechet_proxy is not paper FID.",
+      "published_metrics": {
+        "FID_k": 50.00,
+        "FID_g": 13.02,
+        "FID_s": 2.52,
+        "Div_k": 6.23,
+        "Div_g": 6.27,
+        "Div_s": 5.78,
+        "BAS": 0.226
+      },
+      "published_variant": "MEGADance, FineDance Table 1"
+    },
+    {
+      "id": "motioncraft",
+      "document_label": "MotionCraft.md",
+      "paper_title": "MotionCraft: Crafting Whole-Body Motion with Plug-and-Play Multimodal Controls",
+      "model": "MotionCraft-Mix",
+      "task": "unified multimodal whole-body generation with a music-to-dance branch",
+      "paper_dataset": "FineDance converted into MC-Bench SMPL-X",
+      "paper_protocol": "FineDance converted from SMPL-H rotation-6D to SMPL-X axis-angle; custom learned hand/body FID spaces",
+      "paper_seed": null,
+      "seed_evidence": "No explicit integer training or inference seed is reported in the supplied paper text.",
+      "comparison_tier": "conditional_representation",
+      "shared_prediction_evaluation": true,
+      "primary_for_current_finedance_claim": false,
+      "code_status": "A project page is stated, but no verified official checkpoint/evaluator is bundled here.",
+      "protocol_warning": "The task and source dataset overlap, but MC-Bench changes representation and evaluator. Compare only after converting both outputs and using the same MC-Bench encoders, or through the shared canonical evaluator.",
+      "published_metrics": {
+        "FID_H": 2.849,
+        "FID_B": 67.159,
+        "Div": 18.483
+      },
+      "published_variant": "MotionCraft-Mix, MC-Bench FineDance music-to-dance column in Table 3"
+    }
+  ]
+}

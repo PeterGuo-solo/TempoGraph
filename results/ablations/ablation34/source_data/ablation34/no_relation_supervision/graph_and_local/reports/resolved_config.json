@@ -1,0 +1,200 @@
+{
+  "seed": 1234,
+  "experiment": {
+    "split_seed": 1234,
+    "training_seeds": [
+      1234,
+      2025
+    ],
+    "seed_policy": "two independent full training runs; seed 2025 runs only if seed 1234 passes every anti-collapse gate; report both values and mean plus sample standard deviation"
+  },
+  "motion": {
+    "fps": 30.0,
+    "joint_count": 22,
+    "feature_dim": 139,
+    "contact_dim": 4,
+    "rotation_representation": "rotation_6d",
+    "root_representation": "planar_velocity_vertical_height"
+  },
+  "music": {
+    "feature_dim": 35,
+    "structure_source": "all-in-one",
+    "frame_rate": 30.0
+  },
+  "graph": {
+    "scope": "full_song",
+    "edge_types": [
+      "repeat",
+      "variation",
+      "contrast",
+      "transition"
+    ],
+    "min_segment_frames": 30,
+    "max_segment_frames": 240,
+    "repeat_threshold": 0.9,
+    "variation_threshold": 0.7,
+    "contrast_threshold": 0.2
+  },
+  "boundary": {
+    "context_frames": 15,
+    "min_transition_frames": 8,
+    "max_transition_frames": 60,
+    "allowed_beat_multipliers": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "ode_steps": 20,
+    "contact_threshold": 0.5,
+    "correction_iterations": 8
+  },
+  "generation": {
+    "local_flow_steps": 32,
+    "planar_root_velocity_scale": 0.8,
+    "pose_temporal_smoothing": 0.2,
+    "rotation_gaussian_sigma": 7.0,
+    "motion_prior": {
+      "enabled": true,
+      "source_split": "train",
+      "window_frames": 240,
+      "stride": 120,
+      "top_k": 4,
+      "temperature": 0.15,
+      "blend_weight": 0.85,
+      "minimum_descriptor_distance": 1e-06,
+      "exclude_same_song": true,
+      "beat_synchronous_warp": true
+    },
+    "contact_foot_lock": {
+      "enabled": true,
+      "threshold": 0.7,
+      "height_tolerance": 0.06,
+      "strength": 0.8,
+      "maximum_step": 0.025
+    },
+    "contact_leg_optimization": {
+      "enabled": true,
+      "iterations": 150,
+      "maximum_rounds": 5,
+      "target_ratio": 0.02,
+      "learning_rate": 0.02,
+      "pose_weight": 0.05,
+      "acceleration_weight": 0.01
+    }
+  },
+  "model": {
+    "latent_dim": 256,
+    "hidden_dim": 512,
+    "num_layers": 6,
+    "num_heads": 8,
+    "dropout": 0.1
+  },
+  "training": {
+    "device": "auto",
+    "batch_size": 4,
+    "window_frames": 240,
+    "window_stride": 120,
+    "graph_nodes": 8,
+    "num_workers": 8,
+    "learning_rate": 0.0002,
+    "weight_decay": 0.0001,
+    "adam_betas": [
+      0.9,
+      0.99
+    ],
+    "gradient_accumulation_steps": 8,
+    "gradient_clip_norm": 1.0,
+    "mixed_precision": "fp16",
+    "validation_batches": 0,
+    "validation_flow_steps": 20,
+    "validation_rollout_batches": 4,
+    "validation_rollout_weight": 2.0,
+    "training_rollout_steps": 2,
+    "boundary_training_rollout_steps": 2,
+    "log_every": 50,
+    "checkpoint_every": 5000,
+    "validate_every": 5000,
+    "contact_input_noise": 0.15,
+    "scheduler": "constant",
+    "warmup_updates": 0,
+    "min_lr_ratio": 1.0,
+    "loss_weights": {
+      "pose": 1.0,
+      "velocity": 0.5,
+      "acceleration": 0.25,
+      "contact": 2.0,
+      "contact_clean": 0.25,
+      "contact_corrupt": 0.5,
+      "contact_f1": 1.0,
+      "rollout_reconstruction": 1.0,
+      "rollout_contact_f1": 1.5,
+      "rotation_regularization": 0.1,
+      "foot_skating": 1.0,
+      "foot_position": 0.75,
+      "beat_energy": 1.0,
+      "distribution_moments": 2.0,
+      "boundary_rollout": 1.0,
+      "energy": 1.0,
+      "root_velocity": 2.0,
+      "local_flow": 1.0,
+      "local_reconstruction": 1.0,
+      "graph_role": 1.0,
+      "graph_semantic": 1.0,
+      "graph_duration": 1.0,
+      "graph_edge": 0.0,
+      "plan_length": 1.0,
+      "plan_contact": 1.0,
+      "plan_root": 1.0,
+      "plan_energy": 1.0,
+      "flow": 1.0,
+      "local": 1.0,
+      "graph": 1.0,
+      "plan": 1.0,
+      "graph_edge_coverage": 0.0
+    },
+    "stage_hyperparameters": {
+      "motion_autoencoder": {
+        "learning_rate": 0.0002,
+        "weight_decay": 0.0001
+      },
+      "graph_and_local": {
+        "learning_rate": 0.0002,
+        "weight_decay": 0.0001,
+        "scheduler": "cosine",
+        "warmup_updates": 62,
+        "min_lr_ratio": 0.1
+      },
+      "boundary_planner": {
+        "learning_rate": 0.0002,
+        "weight_decay": 0.0001
+      },
+      "boundary_bridge": {
+        "learning_rate": 0.0002,
+        "weight_decay": 0.0001,
+        "scheduler": "cosine",
+        "warmup_updates": 250,
+        "min_lr_ratio": 0.1
+      },
+      "joint_finetune": {
+        "learning_rate": 1e-05,
+        "weight_decay": 0.0001,
+        "scheduler": "cosine",
+        "warmup_updates": 100,
+        "min_lr_ratio": 0.1
+      }
+    },
+    "stage_steps": {
+      "graph_and_local": 10000
+    },
+    "stages": [
+      "motion_autoencoder",
+      "graph_and_local",
+      "boundary_planner",
+      "boundary_bridge",
+      "joint_finetune"
+    ],
+    "relation_supervision": "no_relation_supervision",
+    "relation_shuffle_seed": 77123,
+    "checkpoint_policy": "final"
+  }
+}

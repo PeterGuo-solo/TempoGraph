@@ -1,0 +1,119 @@
+{
+  "source": "/root/autodl-tmp/TempoGraph_ablation34_25k_results/seed_1234/full/evaluation/sampling_seed_3407/npz",
+  "destination": "/root/autodl-tmp/TempoGraph_ablation34_25k_results/seed_1234/full/evaluation/sampling_seed_3407/npy139",
+  "format": "FineDance canonical 139D",
+  "requested_frames": 1024,
+  "sample_count": 22,
+  "items": [
+    {
+      "id": "005",
+      "frames": 1024,
+      "path": "005.npy"
+    },
+    {
+      "id": "018",
+      "frames": 1024,
+      "path": "018.npy"
+    },
+    {
+      "id": "023",
+      "frames": 1024,
+      "path": "023.npy"
+    },
+    {
+      "id": "027",
+      "frames": 1024,
+      "path": "027.npy"
+    },
+    {
+      "id": "033",
+      "frames": 1024,
+      "path": "033.npy"
+    },
+    {
+      "id": "071",
+      "frames": 1024,
+      "path": "071.npy"
+    },
+    {
+      "id": "075",
+      "frames": 1024,
+      "path": "075.npy"
+    },
+    {
+      "id": "088",
+      "frames": 1024,
+      "path": "088.npy"
+    },
+    {
+      "id": "099",
+      "frames": 1024,
+      "path": "099.npy"
+    },
+    {
+      "id": "101",
+      "frames": 1024,
+      "path": "101.npy"
+    },
+    {
+      "id": "104",
+      "frames": 1024,
+      "path": "104.npy"
+    },
+    {
+      "id": "105",
+      "frames": 1024,
+      "path": "105.npy"
+    },
+    {
+      "id": "138",
+      "frames": 1024,
+      "path": "138.npy"
+    },
+    {
+      "id": "139",
+      "frames": 1024,
+      "path": "139.npy"
+    },
+    {
+      "id": "140",
+      "frames": 1024,
+      "path": "140.npy"
+    },
+    {
+      "id": "141",
+      "frames": 1024,
+      "path": "141.npy"
+    },
+    {
+      "id": "159",
+      "frames": 1024,
+      "path": "159.npy"
+    },
+    {
+      "id": "187",
+      "frames": 1024,
+      "path": "187.npy"
+    },
+    {
+      "id": "191",
+      "frames": 1024,
+      "path": "191.npy"
+    },
+    {
+      "id": "203",
+      "frames": 1024,
+      "path": "203.npy"
+    },
+    {
+      "id": "207",
+      "frames": 1024,
+      "path": "207.npy"
+    },
+    {
+      "id": "208",
+      "frames": 1024,
+      "path": "208.npy"
+    }
+  ]
+}

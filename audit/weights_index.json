@@ -1,0 +1,142 @@
+[
+  {
+    "source": "\\\\?\\D:\\3D数字生成\\探索新的Idea\\output\\idea-development\\dance-to-motion-ccfa\\TempoGraph\\implementation\\artifacts\\baselines\\lodge\\exp\\Global_Module\\FineDance_Global\\checkpoints\\epoch=2999.ckpt",
+    "file": "comparison/assets/lodge/exp/Global_Module/FineDance_Global/checkpoints/epoch=2999.ckpt",
+    "sha256": "e021e1deb8e8415c1e9ec93196257b301a533a608f0ad95eece1be293fa2da5b",
+    "bytes": 1139651800,
+    "status": "official_lodge_local"
+  },
+  {
+    "source": "\\\\?\\D:\\3D数字生成\\探索新的Idea\\output\\idea-development\\dance-to-motion-ccfa\\TempoGraph\\implementation\\artifacts\\baselines\\lodge\\exp\\Local_Module\\FineDance_FineTuneV2_Local\\checkpoints\\epoch=299.ckpt",
+    "file": "comparison/assets/lodge/exp/Local_Module/FineDance_FineTuneV2_Local/checkpoints/epoch=299.ckpt",
+    "sha256": "70acb4c18b6afb9d3bab825143dce42443d381f8262d8c1c84e84e0dbc6231a7",
+    "bytes": 1688114920,
+    "status": "official_lodge_local"
+  },
+  {
+    "source": "\\\\?\\D:\\3D数字生成\\探索新的Idea\\output\\idea-development\\dance-to-motion-ccfa\\SalientDance\\runtime_assets\\checkpoints\\finedance\\assets\\checkpoints\\train-2000.pt",
+    "file": "comparison/assets/finenet/train-2000.pt",
+    "sha256": "87016f3ed95d69cdcf24e69ac7c17d8e1f591b51ca9a019c10ed1e8ce5f53ba2",
+    "bytes": 2259554093,
+    "status": "exact_match_to_finenet_pilot_sha256"
+  },
+  {
+    "source": "\\\\?\\D:\\3D数字生成\\探索新的Idea\\output\\idea-development\\dance-to-motion-ccfa\\TempoGraph\\implementation\\artifacts\\baselines\\lodge\\exp\\Global_Module\\FineDance_Global\\checkpoints\\epoch=2999.ckpt",
+    "file": "comparison/assets/lodge/exp/Global_Module/FineDance_Global/checkpoints/epoch=2999.ckpt",
+    "sha256": "e021e1deb8e8415c1e9ec93196257b301a533a608f0ad95eece1be293fa2da5b",
+    "bytes": 1139651800,
+    "status": "duplicate_of_retained_weight"
+  },
+  {
+    "source": "\\\\?\\D:\\3D数字生成\\探索新的Idea\\output\\idea-development\\dance-to-motion-ccfa\\TempoGraph\\implementation\\artifacts\\baselines\\lodge\\exp\\Local_Module\\FineDance_FineTuneV2_Local\\checkpoints\\epoch=299.ckpt",
+    "file": "comparison/assets/lodge/exp/Local_Module/FineDance_FineTuneV2_Local/checkpoints/epoch=299.ckpt",
+    "sha256": "70acb4c18b6afb9d3bab825143dce42443d381f8262d8c1c84e84e0dbc6231a7",
+    "bytes": 1688114920,
+    "status": "duplicate_of_retained_weight"
+  },
+  {
+    "source": "\\\\?\\D:\\3D数字生成\\探索新的Idea\\output\\idea-development\\dance-to-motion-ccfa\\TempoGraph\\_archive_recovery\\implementation\\implementation\\artifacts\\baselines\\lodge\\exp\\Global_Module\\FineDance_Global\\checkpoints\\epoch=2999.ckpt",
+    "file": "comparison/assets/lodge/exp/Global_Module/FineDance_Global/checkpoints/epoch=2999.ckpt",
+    "sha256": "e021e1deb8e8415c1e9ec93196257b301a533a608f0ad95eece1be293fa2da5b",
+    "bytes": 1139651800,
+    "status": "duplicate_of_retained_weight"
+  },
+  {
+    "source": "\\\\?\\D:\\3D数字生成\\探索新的Idea\\output\\idea-development\\dance-to-motion-ccfa\\TempoGraph\\_archive_recovery\\implementation\\implementation\\artifacts\\baselines\\lodge\\exp\\Local_Module\\FineDance_FineTuneV2_Local\\checkpoints\\epoch=299.ckpt",
+    "file": "comparison/assets/lodge/exp/Local_Module/FineDance_FineTuneV2_Local/checkpoints/epoch=299.ckpt",
+    "sha256": "70acb4c18b6afb9d3bab825143dce42443d381f8262d8c1c84e84e0dbc6231a7",
+    "bytes": 1688114920,
+    "status": "duplicate_of_retained_weight"
+  },
+  {
+    "source": "\\\\?\\D:\\3D数字生成\\探索新的Idea\\output\\idea-development\\dance-to-motion-ccfa\\TempoGraph\\_archive_recovery\\output__main-comparison-autodl__TempoGraph_lodge_weights\\TempoGraph_MainCompare\\assets\\lodge\\exp\\Global_Module\\FineDance_Global\\checkpoints\\epoch=2999.ckpt",
+    "file": "comparison/assets/lodge/exp/Global_Module/FineDance_Global/checkpoints/epoch=2999.ckpt",
+    "sha256": "e021e1deb8e8415c1e9ec93196257b301a533a608f0ad95eece1be293fa2da5b",
+    "bytes": 1139651800,
+    "status": "duplicate_of_retained_weight"
+  },
+  {
+    "source": "\\\\?\\D:\\3D数字生成\\探索新的Idea\\output\\idea-development\\dance-to-motion-ccfa\\TempoGraph\\_archive_recovery\\output__main-comparison-autodl__TempoGraph_lodge_weights\\TempoGraph_MainCompare\\assets\\lodge\\exp\\Local_Module\\FineDance_FineTuneV2_Local\\checkpoints\\epoch=299.ckpt",
+    "file": "comparison/assets/lodge/exp/Local_Module/FineDance_FineTuneV2_Local/checkpoints/epoch=299.ckpt",
+    "sha256": "70acb4c18b6afb9d3bab825143dce42443d381f8262d8c1c84e84e0dbc6231a7",
+    "bytes": 1688114920,
+    "status": "duplicate_of_retained_weight"
+  },
+  {
+    "source": "\\\\?\\D:\\3D数字生成\\探索新的Idea\\output\\idea-development\\dance-to-motion-ccfa\\TempoGraph\\_archive_recovery\\TempoGraph_full_training_AutoDL\\implementation\\artifacts\\baselines\\lodge\\exp\\Global_Module\\FineDance_Global\\checkpoints\\epoch=2999.ckpt",
+    "file": "comparison/assets/lodge/exp/Global_Module/FineDance_Global/checkpoints/epoch=2999.ckpt",
+    "sha256": "e021e1deb8e8415c1e9ec93196257b301a533a608f0ad95eece1be293fa2da5b",
+    "bytes": 1139651800,
+    "status": "duplicate_of_retained_weight"
+  },
+  {
+    "source": "\\\\?\\D:\\3D数字生成\\探索新的Idea\\output\\idea-development\\dance-to-motion-ccfa\\TempoGraph\\_archive_recovery\\TempoGraph_full_training_AutoDL\\implementation\\artifacts\\baselines\\lodge\\exp\\Local_Module\\FineDance_FineTuneV2_Local\\checkpoints\\epoch=299.ckpt",
+    "file": "comparison/assets/lodge/exp/Local_Module/FineDance_FineTuneV2_Local/checkpoints/epoch=299.ckpt",
+    "sha256": "70acb4c18b6afb9d3bab825143dce42443d381f8262d8c1c84e84e0dbc6231a7",
+    "bytes": 1688114920,
+    "status": "duplicate_of_retained_weight"
+  },
+  {
+    "file": "comparison/assets/flowerdance/train-3700.pt",
+    "bytes": 251937302,
+    "sha256": "49a8e4e44a38f33ddec81bc4921cb1ee1d8b27f42db08f7f34f564454b50a6ab",
+    "status": "exact_pilot_hash_match",
+    "source": "C:/Users/guoyunnan/Desktop/train-3700.pt"
+  },
+  {
+    "file": "comparison/vendor/MEGADance/Pretrained/cls/mean.pt",
+    "bytes": 6513,
+    "sha256": "801eeeac7fdfefa152a62bf9ae06a07f3ef65266642707ce463299af6f798f02",
+    "status": "recovered_official_desktop_resource",
+    "source": "C:/Users/guoyunnan/Desktop/Pretrained.archive.7z"
+  },
+  {
+    "file": "comparison/vendor/MEGADance/Pretrained/cls/std.pt",
+    "bytes": 6504,
+    "sha256": "1ca911061de140e9bdae720dce2cd86026a2bf70a849655712f22c6b93d97a4d",
+    "status": "recovered_official_desktop_resource",
+    "source": "C:/Users/guoyunnan/Desktop/Pretrained.archive.7z"
+  },
+  {
+    "file": "comparison/vendor/MEGADance/Pretrained/Init1.pkl",
+    "bytes": 5014,
+    "sha256": "38a0cfc79280ccb6ea5a0ccbac3a32749666e22ea289c7e227475a5d82177f77",
+    "status": "recovered_official_desktop_resource",
+    "source": "C:/Users/guoyunnan/Desktop/Pretrained.archive.7z"
+  },
+  {
+    "file": "comparison/vendor/MEGADance/Pretrained/mean.pt",
+    "bytes": 2232,
+    "sha256": "92896af735ac3326f354c95c7ef663ffbedaf883af0b07e22d4367de90f92464",
+    "status": "recovered_official_desktop_resource",
+    "source": "C:/Users/guoyunnan/Desktop/Pretrained.archive.7z"
+  },
+  {
+    "file": "comparison/vendor/MEGADance/Pretrained/std.pt",
+    "bytes": 2224,
+    "sha256": "0acad8374ae9f0adeb8c620705fb77c3b9155aebc3015d254e057027296480a7",
+    "status": "recovered_official_desktop_resource",
+    "source": "C:/Users/guoyunnan/Desktop/Pretrained.archive.7z"
+  },
+  {
+    "file": "comparison/vendor/MEGADance/output/cls/30/Model/model.pth",
+    "bytes": 103745594,
+    "sha256": "cab2467f0a4d3179f958733fba8b017364e45263cb8eaebe8b5259ce6789724c",
+    "status": "recovered_official_desktop_resource",
+    "source": "C:/Users/guoyunnan/Desktop/output.archive.7z"
+  },
+  {
+    "file": "comparison/vendor/MEGADance/output/fsq/120/Model/model.pth",
+    "bytes": 177216202,
+    "sha256": "b52383834ac35e9fe7985b2cbb4526836ce83288dae130936701e283d0416654",
+    "status": "recovered_official_desktop_resource",
+    "source": "C:/Users/guoyunnan/Desktop/output.archive.7z"
+  },
+  {
+    "file": "comparison/vendor/MEGADance/output/gpt/90/Model/model.pth",
+    "bytes": 2164541840,
+    "sha256": "6b37d7c2da192f4b68c386e8424234d1205c877f50ad850239996bc021f83f26",
+    "status": "recovered_official_desktop_resource",
+    "source": "C:/Users/guoyunnan/Desktop/output.archive.7z"
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "source": {
+    "title": "Lodge: A Coarse to Fine Diffusion Network for Long Dance Generation Guided by the Characteristic Dance Primitives",
+    "venue": "CVPR 2024",
+    "url": "https://arxiv.org/html/2403.10518",
+    "table": "Table 1",
+    "protocol": "FineDance; 20 listed test music pieces (19 usable after the released ignore list removes clip 120); 1024 frames (34.13 seconds); runtime on NVIDIA A100",
+    "paper_seed": null,
+    "seed_evidence": "No explicit integer training or inference seed is reported in the LODGE paper table. Values are cited paper results, not a local rerun."
+  },
+  "metrics": {
+    "fid_k": "lower",
+    "fid_g": "lower",
+    "foot_skating_ratio": "lower",
+    "div_k": "higher",
+    "div_g": "higher",
+    "bas": "higher",
+    "runtime_seconds": "lower"
+  },
+  "rows": [
+    {"method": "Ground Truth", "fid_k": null, "fid_g": null, "foot_skating_ratio": 0.0622, "div_k": 9.73, "div_g": 7.44, "bas": 0.2120, "runtime_seconds": null},
+    {"method": "FACT", "fid_k": 113.38, "fid_g": 97.05, "foot_skating_ratio": 0.2844, "div_k": 3.36, "div_g": 6.37, "bas": 0.1831, "runtime_seconds": 35.88},
+    {"method": "MNET", "fid_k": 104.71, "fid_g": 90.31, "foot_skating_ratio": 0.3936, "div_k": 3.12, "div_g": 6.14, "bas": 0.1864, "runtime_seconds": 38.91},
+    {"method": "Bailando", "fid_k": 82.81, "fid_g": 28.17, "foot_skating_ratio": 0.1876, "div_k": 7.74, "div_g": 6.25, "bas": 0.2029, "runtime_seconds": 5.46},
+    {"method": "EDGE", "fid_k": 94.34, "fid_g": 50.38, "foot_skating_ratio": 0.2004, "div_k": 8.13, "div_g": 6.45, "bas": 0.2116, "runtime_seconds": 8.59},
+    {"method": "Lodge (DDIM)", "fid_k": 50.00, "fid_g": 35.52, "foot_skating_ratio": 0.0276, "div_k": 5.67, "div_g": 4.96, "bas": 0.2269, "runtime_seconds": 4.57},
+    {"method": "Lodge (DDPM)", "fid_k": 45.56, "fid_g": 34.29, "foot_skating_ratio": 0.0501, "div_k": 6.75, "div_g": 5.64, "bas": 0.2397, "runtime_seconds": 30.93}
+  ]
+}

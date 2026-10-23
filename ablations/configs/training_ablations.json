@@ -1,0 +1,42 @@
+{
+  "description": "User-requested fixed budget: exactly 25000 microsteps PER GROUP, including autoencoder training. No shared or extra training. Same complete architecture and inference for all groups; final-step checkpoints.",
+  "steps_per_group": 25000,
+  "phases": [
+    {
+      "name": "motion_autoencoder",
+      "stage": "motion_autoencoder",
+      "config": "configs/base.json",
+      "steps": 3000
+    },
+    {
+      "name": "graph_and_local",
+      "stage": "graph_and_local",
+      "config": "configs/base.json",
+      "steps": 10000
+    },
+    {
+      "name": "boundary_planner",
+      "stage": "boundary_planner",
+      "config": "configs/base.json",
+      "steps": 2000
+    },
+    {
+      "name": "boundary_bridge",
+      "stage": "boundary_bridge",
+      "config": "configs/base.json",
+      "steps": 3000
+    },
+    {
+      "name": "v73_joint",
+      "stage": "joint_finetune",
+      "config": "configs/v73_full_train.json",
+      "steps": 5000
+    },
+    {
+      "name": "v77_local",
+      "stage": "joint_finetune",
+      "config": "configs/v77_official_bas_train.json",
+      "steps": 2000
+    }
+  ]
+}

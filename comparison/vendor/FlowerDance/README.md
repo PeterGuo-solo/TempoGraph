@@ -1,0 +1,150 @@
+<h1 align="center">🌸 FlowerDance</h1>
+<h3 align="center">MeanFlow for Efficient and Refined 3D Dance Generation</h3>
+
+<p align="center">
+  <a href="https://arxiv.org/abs/2511.21029">
+    <img src="https://img.shields.io/badge/arXiv-FlowerDance-green" alt="Paper">
+  </a>
+  <a href="https://sun-happy-ykx.github.io/FlowerDance/">
+    <img src="https://img.shields.io/badge/Project_Page-FlowerDance-blue" alt="Project Page">
+  </a>
+  <a href="https://github.com/XulongT/FlowerDance">
+    <img src="https://img.shields.io/badge/Conference-ECCV%202026-orange" alt="Conference">
+  </a>
+  <a href="https://huggingface.co/xlt99/FlowerDance">
+    <img src="https://img.shields.io/badge/Hugging_Face-%F0%9F%A4%97_Model-FFD21E" alt="Hugging Face">
+  </a>
+</p>
+
+<p align="center">
+  <img src="./flowerteaser.png" width="90%" alt="FlowerDance teaser">
+</p>
+
+> **Abstract**: Music-to-dance generation translates auditory signals into expressive human motion, yet existing approaches still struggle to balance refined 3D motion quality with strict inference budgets. FlowerDance is designed for both physically plausible, artistically expressive motion and efficient generation in speed and memory usage.
+>
+> FlowerDance combines MeanFlow with Physical Consistency Constraints for high-quality few-step sampling, and uses a lightweight non-autoregressive BiMamba backbone with Channel-Level Fusion for long-horizon music-to-dance synthesis. It also supports motion editing through time-decayed soft masking, enabling users to refine generated dance sequences interactively.
+
+<p align="center">
+  <strong>🎉 FlowerDance has been accepted to ECCV 2026! 🎉</strong><br>
+  <em>✨ Training and inference code are now available. ✨</em>
+</p>
+
+---
+
+<a id="code"></a>
+
+## 🚀 Code
+
+### 🛠️ Set up the Environment
+
+To set up the necessary environment for running this project, follow the steps below:
+
+1. **Create a new conda environment**
+
+   ```bash
+   conda create -n Flower_env python=3.10
+   conda activate Flower_env
+   ```
+
+2. **Install PyTorch (CUDA 12.8)**
+
+   ```
+   pip install torch==2.7.1+cu128 torchvision==0.22.1+cu128 torchaudio==2.7.1+cu128 \
+       --index-url https://download.pytorch.org/whl/cu128
+   ```
+   
+3. **Install remaining dependencies**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+---
+
+## 📦 Download Resources
+
+- Download the **preprocessed features archive** from [Google Drive](https://drive.google.com/file/d/1506WjfwegXhT5DM9e4bXSoBgq7uvUPpA/view?usp=sharing) and extract it so that the preprocessed files are located under `./data/`.
+- Download the **evaluation checkpoint archive** from [Google Drive](https://drive.google.com/file/d/19Wxo3Zgq8dF3BLwncNEEtsq0O9nbcL6D/view?usp=sharing) and extract it in the project root. The archive creates the required `./runs/` directory.
+
+---
+
+## 🧩 Directory Structure
+
+After downloading the necessary files, ensure the directory structure follows the pattern below:
+
+```
+FlowerDance/
+    │                
+    ├── data/                 
+    ├── dataset/             
+    ├── model/                               
+    ├── runs/  
+    ├── requirements.txt
+    ├── args.py  
+    ├── EDGE.py
+    ├── train.py
+    ├── test.py
+    ├── inference.py
+    ├── inpaint.py
+    └── vis.py     
+```
+---
+
+## 🏋️ Training
+
+```bash
+export WANDB_MODE=offline
+accelerate launch train.py --batch_size 128 --epochs 4000 --feature_type baseline
+```
+---
+
+## 📏 Evaluation
+
+### 🧪 Evaluate the Model
+
+To evaluate the model:
+
+```bash
+python test.py --batch_size 128
+```
+
+---
+
+<a id="inference"></a>
+
+## 🎵 Inference
+
+Generate a genre-conditioned dance sequence of a custom length from your own music:
+
+```bash
+python inference.py path/to/music.wav \
+    --genre Hiphop \
+    --duration 32
+```
+
+List all supported dance genres:
+
+```bash
+python inference.py --list-genres
+```
+
+The checkpoint is downloaded automatically from [Hugging Face](https://huggingface.co/xlt99/FlowerDance) when `--checkpoint` is omitted. Generated motions are saved to `inference_outputs/`.
+
+---
+
+## 🙏 Acknowledgements
+
+This code is standing on the shoulders of giants. We want to thank the following contributors that our code is based on: [EDGE](https://github.com/Stanford-TML/EDGE), [Adan-pytorch](https://github.com/lucidrains/Adan-pytorch), [denoising-diffusion-pytorch](https://github.com/lucidrains/denoising-diffusion-pytorch), [Mamba](https://github.com/state-spaces/mamba), [causal-conv1d](https://github.com/Dao-AILab/causal-conv1d), and [fairmotion](https://github.com/facebookresearch/fairmotion). The preprocessed data builds on [AIST++](https://github.com/google/aistplusplus_api) and [FineDance](https://github.com/li-ronghui/FineDance).
+
+---
+
+## 📄 Citation
+
+```bibtex
+@article{yang2025flowerdance,
+  title={FlowerDance: MeanFlow for Efficient and Refined 3D Dance Generation},
+  author={Kaixing Yang and Xulong Tang and Ziqiao Peng and Xiangyue Zhang and Puwei Wang and Jun He and Hongyan Liu},
+  journal={arXiv preprint arXiv:2511.21029},
+  year={2025}
+}
+```

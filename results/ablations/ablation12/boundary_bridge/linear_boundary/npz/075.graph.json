@@ -1,0 +1,392 @@
+{
+  "graph_scope": "full_song",
+  "node_spans": [
+    [
+      0,
+      113
+    ],
+    [
+      113,
+      218
+    ],
+    [
+      218,
+      331
+    ],
+    [
+      331,
+      443
+    ],
+    [
+      443,
+      553
+    ],
+    [
+      553,
+      663
+    ],
+    [
+      663,
+      772
+    ],
+    [
+      772,
+      881
+    ],
+    [
+      881,
+      994
+    ],
+    [
+      994,
+      1024
+    ]
+  ],
+  "roles": [
+    0,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    0
+  ],
+  "semantics": [
+    79,
+    79,
+    79,
+    79,
+    79,
+    79,
+    79,
+    79,
+    79,
+    79
+  ],
+  "dense_edge_types": [
+    [
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0
+    ]
+  ],
+  "motif_sources": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "seam_frames": [
+    225,
+    435,
+    645,
+    855
+  ],
+  "boundary_plans": [
+    {
+      "seam_frame": 225,
+      "method": "linear_overlap"
+    },
+    {
+      "seam_frame": 435,
+      "method": "linear_overlap"
+    },
+    {
+      "seam_frame": 645,
+      "method": "linear_overlap"
+    },
+    {
+      "seam_frame": 855,
+      "method": "linear_overlap"
+    }
+  ],
+  "contact_foot_lock": {
+    "enabled": true,
+    "leg_optimization": {
+      "iterations": 150,
+      "contact_pairs": 1224,
+      "rounds": 5,
+      "foot_skating_ratio": 0.05234959423312327
+    },
+    "corrected_frames": 0,
+    "mean_correction": 0.0,
+    "maximum_accumulated_offset": 0.0
+  },
+  "beat_phase_alignment": {
+    "enabled": false
+  },
+  "key_motion_anchor_alignment": {
+    "enabled": false
+  },
+  "beat_velocity_valleys": {
+    "enabled": false
+  },
+  "official_bas_closed_loop": {
+    "enabled": true,
+    "used": false,
+    "baseline_bas": 0.19009726291152002,
+    "baseline_foot_skating_ratio": 0.05234959423312327,
+    "trials": [
+      {
+        "enabled": true,
+        "used": true,
+        "beat_count": 74,
+        "strength": 0.68,
+        "width": 3.5,
+        "minimum_rate": 0.38774075152374193,
+        "median_rate": 1.0004714767652196,
+        "endpoint_error": 0.0,
+        "strictly_monotonic": true,
+        "maximum_frame_displacement": 2.3403943268102037,
+        "maximum_beat_phase_error": 1.4779288903810084e-12,
+        "official_bas": 0.23515750060155569,
+        "foot_skating_ratio": 0.061061040968305266,
+        "feasible": false
+      },
+      {
+        "enabled": true,
+        "used": true,
+        "beat_count": 74,
+        "strength": 0.8,
+        "width": 4.5,
+        "minimum_rate": 0.26807472863156495,
+        "median_rate": 0.9449951546457972,
+        "endpoint_error": 0.0,
+        "strictly_monotonic": true,
+        "maximum_frame_displacement": 3.2877325385496388,
+        "maximum_beat_phase_error": 1.9326762412674725e-12,
+        "official_bas": 0.23981500927311764,
+        "foot_skating_ratio": 0.05806182121971595,
+        "feasible": false
+      },
+      {
+        "enabled": true,
+        "used": true,
+        "beat_count": 74,
+        "strength": 0.9,
+        "width": 5.5,
+        "minimum_rate": 0.14857305593293801,
+        "median_rate": 0.9384774967552725,
+        "endpoint_error": 0.0,
+        "strictly_monotonic": true,
+        "maximum_frame_displacement": 4.302820301501871,
+        "maximum_beat_phase_error": 1.1368683772161603e-12,
+        "official_bas": 0.2574241743275499,
+        "foot_skating_ratio": 0.0600741697663541,
+        "feasible": false
+      }
+    ],
+    "reason": "no candidate passed displacement and foot constraints"
+  },
+  "motion_prior": {
+    "enabled": true,
+    "blend_weight": 0.9,
+    "training_only": true,
+    "retrievals": [
+      {
+        "output_start": 0,
+        "output_end": 240,
+        "source_split": "train",
+        "source_id": "077",
+        "source_song": "shanguhuiyang",
+        "source_start": 3240,
+        "source_end": 3480,
+        "descriptor_distance": 0.6431443095207214,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 21,
+        "target_beat_count": 18,
+        "excluded_song": "miaozufengcai",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 210,
+        "output_end": 450,
+        "source_split": "train",
+        "source_id": "176",
+        "source_song": "LOCO",
+        "source_start": 4560,
+        "source_end": 4800,
+        "descriptor_distance": 0.6849325299263,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 13,
+        "target_beat_count": 17,
+        "excluded_song": "miaozufengcai",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 420,
+        "output_end": 660,
+        "source_split": "train",
+        "source_id": "110",
+        "source_song": "shuangren4_chenmeiying",
+        "source_start": 4320,
+        "source_end": 4560,
+        "descriptor_distance": 0.7823847532272339,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 19,
+        "target_beat_count": 17,
+        "excluded_song": "miaozufengcai",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 630,
+        "output_end": 870,
+        "source_split": "train",
+        "source_id": "111",
+        "source_song": "shuangren4_tanglanting",
+        "source_start": 4320,
+        "source_end": 4560,
+        "descriptor_distance": 0.7411307692527771,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 19,
+        "target_beat_count": 18,
+        "excluded_song": "miaozufengcai",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 840,
+        "output_end": 1024,
+        "source_split": "train",
+        "source_id": "021",
+        "source_song": "dunhuang1",
+        "source_start": 2040,
+        "source_end": 2280,
+        "descriptor_distance": 0.7411189079284668,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 16,
+        "target_beat_count": 14,
+        "excluded_song": "miaozufengcai",
+        "near_duplicate_floor": 1e-06
+      }
+    ]
+  }
+}

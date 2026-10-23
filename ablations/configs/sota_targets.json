@@ -1,0 +1,27 @@
+{
+  "warning": "The two supplied FineDance tables use different evaluation protocols and must not be merged into one claimed ranking.",
+  "lodge_protocol": {
+    "source": "user-supplied LODGE comparison table",
+    "targets": {
+      "fid_k": {"direction": "lower", "value": 45.56, "method": "Lodge (DDPM)"},
+      "fid_g": {"direction": "lower", "value": 28.17, "method": "Bailando"},
+      "foot_skating_ratio": {"direction": "lower", "value": 0.0276, "method": "Lodge (DDIM)"},
+      "div_k": {"direction": "higher", "value": 8.13, "method": "EDGE"},
+      "div_g": {"direction": "higher", "value": 6.45, "method": "EDGE"},
+      "bas": {"direction": "higher", "value": 0.2397, "method": "Lodge (DDPM)"}
+    },
+    "ground_truth": {"foot_skating_ratio": 0.0622, "div_k": 9.73, "div_g": 7.44, "bas": 0.2120}
+  },
+  "megadance_protocol": {
+    "source": "user-supplied MEGADance comparison table",
+    "targets": {
+      "fid_k": {"direction": "lower", "value": 50.00, "method": "MEGADance"},
+      "fid_g": {"direction": "lower", "value": 13.02, "method": "MEGADance"},
+      "fid_s": {"direction": "lower", "value": 2.52, "method": "MEGADance"},
+      "div_k": {"direction": "higher", "value": 6.23, "method": "MEGADance"},
+      "div_g": {"direction": "higher", "value": 6.27, "method": "MEGADance"},
+      "div_s": {"direction": "higher", "value": 5.78, "method": "MEGADance"},
+      "bas": {"direction": "higher", "value": 0.226, "method": "MEGADance"}
+    }
+  }
+}

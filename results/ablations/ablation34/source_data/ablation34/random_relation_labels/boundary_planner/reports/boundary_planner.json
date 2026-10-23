@@ -1,0 +1,29 @@
+{
+  "stage": "boundary_planner",
+  "steps": 2000,
+  "requested_steps": 2000,
+  "start_step": 0,
+  "optimizer_updates": 250,
+  "stopped_by_time_budget": false,
+  "validation_loss": 1.4924117235036998,
+  "best_validation_loss": 1.4924117235036998,
+  "best_step": 2000,
+  "checkpoint": "/root/autodl-tmp/TempoGraph_ablation34_25k_results/seed_1234/random_relation_labels/boundary_planner/checkpoints/boundary_planner.pt",
+  "checkpoint_policy": "final",
+  "elapsed_seconds": 34.40658976882696,
+  "micro_batches_per_second": 58.128399630353336,
+  "last_metrics": {
+    "relation_shuffle_changed_fraction": 0.482177734375,
+    "graph_role": 1.350555419921875,
+    "graph_semantic": 1.4097099304199219,
+    "graph_duration": 2.291105031967163,
+    "graph_edge": 0.6627116203308105,
+    "graph_edge_coverage": 0.03554477542638779,
+    "plan_length": 0.62640380859375,
+    "plan_contact": 0.34429916739463806,
+    "plan_root": 0.016042444854974747,
+    "plan_energy": 0.0077330064959824085,
+    "total": 0.9944784641265869
+  },
+  "peak_cuda_memory_gb": 0.5575723648071289
+}

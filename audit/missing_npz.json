@@ -1,0 +1,364 @@
+{
+  "schema_version": 1,
+  "checked_date": "2026-10-23",
+  "groups": [
+    {
+      "group": "full",
+      "training_seed": 1234,
+      "sampling_seed": 3407,
+      "expected_generation_ids": [
+        "005",
+        "018",
+        "023",
+        "027",
+        "033",
+        "071",
+        "075",
+        "088",
+        "099",
+        "101",
+        "104",
+        "105",
+        "138",
+        "139",
+        "140",
+        "141",
+        "159",
+        "187",
+        "191",
+        "192",
+        "203",
+        "207",
+        "208"
+      ],
+      "official_evaluation_ids": [
+        "005",
+        "018",
+        "023",
+        "027",
+        "033",
+        "071",
+        "075",
+        "088",
+        "099",
+        "101",
+        "104",
+        "105",
+        "138",
+        "139",
+        "140",
+        "141",
+        "159",
+        "187",
+        "191",
+        "203",
+        "207",
+        "208"
+      ],
+      "existing_real_npz": {
+        "075": {
+          "file": "results/ablations/ablation34/source_data/selected_motion/full/075.npz",
+          "sha256": "b3666242b0c42147b9a4de3047d54eddef0c0f90d1af1c825b3a02395fa5b419"
+        },
+        "140": {
+          "file": "results/ablations/ablation34/source_data/selected_motion/full/140.npz",
+          "sha256": "821376b2af788aeab5208345fa738025732a5f32b94f42033131b3aca2e0a2c2"
+        },
+        "027": {
+          "file": "results/qualitative/selected_six_way/full34/027.npz",
+          "sha256": "7d461c0d6bfb97514a6d33d58e2d5912f1e962b2689f91f85fae3990e18d62db"
+        },
+        "071": {
+          "file": "results/qualitative/selected_six_way/full34/071.npz",
+          "sha256": "f5e30c6f961059357b18767886e9e4683c7c59464f930f0bfb7acb2301e832b8"
+        },
+        "139": {
+          "file": "results/qualitative/selected_six_way/full34/139.npz",
+          "sha256": "3089fb7bfa403047ad41fa24a852c0b12ba866be553fcee3c1f4f8c321bfbff0"
+        },
+        "159": {
+          "file": "results/qualitative/selected_six_way/full34/159.npz",
+          "sha256": "afd5bfe6032d4af9db790f829391f0cb5c5024d2ee9c623cb5a4775ee8dc72c7"
+        }
+      },
+      "missing_generation_ids": [
+        "005",
+        "018",
+        "023",
+        "033",
+        "088",
+        "099",
+        "101",
+        "104",
+        "105",
+        "138",
+        "141",
+        "187",
+        "191",
+        "192",
+        "203",
+        "207",
+        "208"
+      ],
+      "missing_evaluation_ids": [
+        "005",
+        "018",
+        "023",
+        "033",
+        "088",
+        "099",
+        "101",
+        "104",
+        "105",
+        "138",
+        "141",
+        "187",
+        "191",
+        "203",
+        "207",
+        "208"
+      ],
+      "original_output_directory": "/root/autodl-tmp/TempoGraph_ablation34_25k_results/seed_1234/full/evaluation/sampling_seed_3407/npz",
+      "expected_checkpoint_sha256": "736f652d94f551f05819b39d22d54cd8a1778e5cc8be750d8b300da3fbe6644c"
+    },
+    {
+      "group": "no_relation_supervision",
+      "training_seed": 1234,
+      "sampling_seed": 3407,
+      "expected_generation_ids": [
+        "005",
+        "018",
+        "023",
+        "027",
+        "033",
+        "071",
+        "075",
+        "088",
+        "099",
+        "101",
+        "104",
+        "105",
+        "138",
+        "139",
+        "140",
+        "141",
+        "159",
+        "187",
+        "191",
+        "192",
+        "203",
+        "207",
+        "208"
+      ],
+      "official_evaluation_ids": [
+        "005",
+        "018",
+        "023",
+        "027",
+        "033",
+        "071",
+        "075",
+        "088",
+        "099",
+        "101",
+        "104",
+        "105",
+        "138",
+        "139",
+        "140",
+        "141",
+        "159",
+        "187",
+        "191",
+        "203",
+        "207",
+        "208"
+      ],
+      "existing_real_npz": {
+        "075": {
+          "file": "results/ablations/ablation34/source_data/selected_motion/no_relation_supervision/075.npz",
+          "sha256": "fdcda9123bbafb531bf3985cc169e5570f7c8685b2efc9076f499e7a38907203"
+        },
+        "140": {
+          "file": "results/ablations/ablation34/source_data/selected_motion/no_relation_supervision/140.npz",
+          "sha256": "9af416b214c123d697447f3d79c40532b08a2762169e6df424e26db0e0979cad"
+        },
+        "027": {
+          "file": "results/qualitative/selected_six_way/no_relation_supervision/027.npz",
+          "sha256": "15ef73ca34ac36e0475161abc72a074942943877e559e3cf5b8b3a448378b64d"
+        },
+        "071": {
+          "file": "results/qualitative/selected_six_way/no_relation_supervision/071.npz",
+          "sha256": "f57d0c834c3feffd6354e4305e4ea0ca648805562b9a1e3a8096af236229c85f"
+        },
+        "139": {
+          "file": "results/qualitative/selected_six_way/no_relation_supervision/139.npz",
+          "sha256": "ae3761e6496bb590d0f52b56f27da332b15b0bf9407205ac23260331967c994d"
+        },
+        "159": {
+          "file": "results/qualitative/selected_six_way/no_relation_supervision/159.npz",
+          "sha256": "6c492db0695d788ccfd077eeedf2ac8d5d307980d88ea6e28c3efaf86b2c482b"
+        }
+      },
+      "missing_generation_ids": [
+        "005",
+        "018",
+        "023",
+        "033",
+        "088",
+        "099",
+        "101",
+        "104",
+        "105",
+        "138",
+        "141",
+        "187",
+        "191",
+        "192",
+        "203",
+        "207",
+        "208"
+      ],
+      "missing_evaluation_ids": [
+        "005",
+        "018",
+        "023",
+        "033",
+        "088",
+        "099",
+        "101",
+        "104",
+        "105",
+        "138",
+        "141",
+        "187",
+        "191",
+        "203",
+        "207",
+        "208"
+      ],
+      "original_output_directory": "/root/autodl-tmp/TempoGraph_ablation34_25k_results/seed_1234/no_relation_supervision/evaluation/sampling_seed_3407/npz",
+      "expected_checkpoint_sha256": "f9403264c2d15e217bd7eabb2daec88019d1a214196df028f0fbb371ea8d88e5"
+    },
+    {
+      "group": "random_relation_labels",
+      "training_seed": 1234,
+      "sampling_seed": 3407,
+      "expected_generation_ids": [
+        "005",
+        "018",
+        "023",
+        "027",
+        "033",
+        "071",
+        "075",
+        "088",
+        "099",
+        "101",
+        "104",
+        "105",
+        "138",
+        "139",
+        "140",
+        "141",
+        "159",
+        "187",
+        "191",
+        "192",
+        "203",
+        "207",
+        "208"
+      ],
+      "official_evaluation_ids": [
+        "005",
+        "018",
+        "023",
+        "027",
+        "033",
+        "071",
+        "075",
+        "088",
+        "099",
+        "101",
+        "104",
+        "105",
+        "138",
+        "139",
+        "140",
+        "141",
+        "159",
+        "187",
+        "191",
+        "203",
+        "207",
+        "208"
+      ],
+      "existing_real_npz": {
+        "075": {
+          "file": "results/ablations/ablation34/source_data/selected_motion/random_relation_labels/075.npz",
+          "sha256": "e2dd1c8dbf12d71759b6022638c7d3e0c15d571f669acf69ab669e54aa505a7a"
+        },
+        "140": {
+          "file": "results/ablations/ablation34/source_data/selected_motion/random_relation_labels/140.npz",
+          "sha256": "be7d725d65ee33aa00948654567b657d68479328b06243b980ae85e52308f90b"
+        },
+        "027": {
+          "file": "results/qualitative/selected_six_way/random_relation_labels/027.npz",
+          "sha256": "f871261f6458631fdf5537c095bb929435fb5da064ac14f8aeefb68aab496b6e"
+        },
+        "071": {
+          "file": "results/qualitative/selected_six_way/random_relation_labels/071.npz",
+          "sha256": "e0d4efc90027c192b9b345e478a7afd688707e34e2a2797458bc79917167de40"
+        },
+        "139": {
+          "file": "results/qualitative/selected_six_way/random_relation_labels/139.npz",
+          "sha256": "021327707defb9690b6dc4a465005e4c9f8eba879f6c2927776cb7d76b184d64"
+        },
+        "159": {
+          "file": "results/qualitative/selected_six_way/random_relation_labels/159.npz",
+          "sha256": "44d086c2a4f391b5fe822e64c604589ed64989d9784afe3ca975a24da266494f"
+        }
+      },
+      "missing_generation_ids": [
+        "005",
+        "018",
+        "023",
+        "033",
+        "088",
+        "099",
+        "101",
+        "104",
+        "105",
+        "138",
+        "141",
+        "187",
+        "191",
+        "192",
+        "203",
+        "207",
+        "208"
+      ],
+      "missing_evaluation_ids": [
+        "005",
+        "018",
+        "023",
+        "033",
+        "088",
+        "099",
+        "101",
+        "104",
+        "105",
+        "138",
+        "141",
+        "187",
+        "191",
+        "203",
+        "207",
+        "208"
+      ],
+      "original_output_directory": "/root/autodl-tmp/TempoGraph_ablation34_25k_results/seed_1234/random_relation_labels/evaluation/sampling_seed_3407/npz",
+      "expected_checkpoint_sha256": "4c4cec2841ee4c4f520b44144543cdf20ac6d3526d36077f5417fa1d037c565f"
+    }
+  ],
+  "note": "Existing selected outputs are real but do not constitute the full evaluation set. No arrays were generated."
+}

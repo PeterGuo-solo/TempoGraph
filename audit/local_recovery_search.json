@@ -1,0 +1,52 @@
+{
+  "checked_date": "2026-10-23",
+  "roots": [
+    "C:\\",
+    "D:\\"
+  ],
+  "directory_count": 238513,
+  "file_count": 1588589,
+  "excluded_system_directory_names": [
+    "$360section",
+    "deliveryoptimization",
+    "system volume information",
+    "windows"
+  ],
+  "directory_access_errors": 103,
+  "weight_or_opaque_candidates": 28961,
+  "files_sha256_checked": 2511,
+  "archive_candidate_files": 7636,
+  "recycle_metadata_files_not_archives": 55,
+  "archive_successful_member_inventories": 4056,
+  "archive_inventory_errors": 3054,
+  "nested_archives_extracted_and_checked": 159,
+  "nested_weight_members_sha256_checked": 39,
+  "nested_archive_errors": 40,
+  "expected_distinct_checkpoint_hashes": 19,
+  "new_exact_weight_matches": [],
+  "new_confirmed_npz": [],
+  "ablation34_known_real_npz_per_group": {
+    "full": 6,
+    "no_relation_supervision": 6,
+    "random_relation_labels": 6
+  },
+  "ablation34_missing_official_evaluation_npz_per_group": {
+    "full": 16,
+    "no_relation_supervision": 16,
+    "random_relation_labels": 16
+  },
+  "ablation34_missing_all_generation_npz_per_group": {
+    "full": 17,
+    "no_relation_supervision": 17,
+    "random_relation_labels": 17
+  },
+  "status": "not_completed_original_assets_still_missing",
+  "limits": [
+    "Protected OS folders, inaccessible account folders and locked application caches are recorded; the scan does not prove absence from inaccessible storage.",
+    "Known non-experiment compressed shader/text files and library fixtures were not treated as model archives.",
+    "Some previously fully indexed tar archives used their original-path and size member inventory; ZIP member tables were reread.",
+    "No cloud-only files or remote AutoDL storage were accessed. Android emulator and application VM disks were identified but not mounted.",
+    "No old checkpoints, failed validation predictions, reconstructed arrays, ground truth or synthetic data were imported."
+  ],
+  "detailed_local_evidence_directory": "C:\\Users\\guoyunnan\\.codex\\visualizations\\2026\\10\\22\\01a1631a-544e-7a70-b93b-56e4949a4fd4"
+}

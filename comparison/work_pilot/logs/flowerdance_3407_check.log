@@ -1,0 +1,3 @@
+Model has 62948503 parameters
+PASS: flowerdance official model construction and strict checkpoint loading on GPU
+Sampling and visual quality have NOT been checked by this command.

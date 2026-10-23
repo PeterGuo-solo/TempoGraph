@@ -1,0 +1,30 @@
+version: "0.4.0"
+project:
+  title: "TempoGraph"
+  short_name: "tempograph"
+  root: "."
+target_venue:
+  name: ""
+  year: ""
+  mode: "research"
+stage:
+  current: "implementation"
+  gate: "synthetic_pipeline_verified"
+  updated_at: "2026-09-17"
+artifacts:
+  manuscript: "../TempoGraph_theory.tex"
+  bibliography: ""
+  figures: "../"
+  tables: ""
+  experiments: "experiments/"
+  reviews: "reviews/"
+  submission: "submission/"
+claims: []
+experiments: []
+reviews: []
+revision_ledger:
+  path: "reviews/revision-ledger.md"
+  status: "not_started"
+submission_checks:
+  path: "submission/checks.md"
+  status: "not_started"

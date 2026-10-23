@@ -1,0 +1,30 @@
+{
+  "method": "flowerdance",
+  "seed": 3407,
+  "ids": [
+    "012",
+    "036"
+  ],
+  "identity": {
+    "checkpoint_sha256": "49a8e4e44a38f33ddec81bc4921cb1ee1d8b27f42db08f7f34f564454b50a6ab",
+    "code_sha256": "28c105824e84987a213da603aa96253bac9a149797213de1b780a807cd17dbce",
+    "protocol_sha256": "42544f520e80245768d1943b490c9d5224a149966fbd9ab616de5d6bc376947e",
+    "inputs": {
+      "012": {
+        "music.wav": "9340b49ddea20e7272601d652d7790464c5fa33ff95c01c806665b46c2f06d23",
+        "label.json": "01b5951f0636e4bdcac5b0dd264ae269a8b72707811ec89dd86d15d4f2ded53c"
+      },
+      "036": {
+        "music.wav": "cd6f2a488963610104426904edb087df654f67c528950b47b757bcbaa488bc30",
+        "label.json": "2a59b30edd458ba5e9601a88a0adf394e7e2cf2cfb5600fd28cc79fea6b75c76"
+      }
+    }
+  },
+  "protocol_sha256": "42544f520e80245768d1943b490c9d5224a149966fbd9ab616de5d6bc376947e",
+  "files": {
+    "012": "6ed9260066ffc90b66756de56d7fc460b8295f83a613adadd9bb8309d4b13918",
+    "036": "f7c09dfd71191fe5f2b8b36394a40d652822a30d4cd49d40883d4554a9b9a2aa"
+  },
+  "elapsed_seconds": 8.145097255706787,
+  "status": "pilot_outputs_not_yet_visually_audited"
+}

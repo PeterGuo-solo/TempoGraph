@@ -1,0 +1,23 @@
+Model has 62948503 parameters
+PASS: flowerdance official model construction and strict checkpoint loading on GPU
+Generating flowerdance 012 frames 1024 clip seed 3419
+/root/autodl-tmp/TempoGraph_MainCompare/vendor/FlowerDance/inference.py:175: FutureWarning: librosa.beat.tempo
+	This function was moved to 'librosa.feature.rhythm.tempo' in librosa version 0.10.0.
+	This alias will be removed in librosa version 1.0.
+  tempo = librosa.beat.tempo(y=audio, sr=sample_rate)
+
+  0%|          | 0/20 [00:00<?, ?it/s]
+  5%|▌         | 1/20 [00:00<00:06,  2.98it/s]
+ 65%|██████▌   | 13/20 [00:00<00:00, 37.63it/s]
+100%|██████████| 20/20 [00:00<00:00, 40.14it/s]
+gt torch.Size([1, 1024, 35]) (1, 1024, 151) pred torch.Size([1, 1024, 151])
+Time: 0.50 s
+Saved /root/autodl-tmp/TempoGraph_MainCompare/work_pilot/npz/flowerdance/3407/012.npz
+Generating flowerdance 036 frames 1024 clip seed 3443
+
+  0%|          | 0/20 [00:00<?, ?it/s]
+ 60%|██████    | 12/20 [00:00<00:00, 116.50it/s]
+100%|██████████| 20/20 [00:00<00:00, 116.40it/s]
+gt torch.Size([1, 1024, 35]) (1, 1024, 151) pred torch.Size([1, 1024, 151])
+Time: 0.17 s
+Saved /root/autodl-tmp/TempoGraph_MainCompare/work_pilot/npz/flowerdance/3407/036.npz

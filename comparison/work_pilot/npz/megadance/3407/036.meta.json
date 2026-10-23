@@ -1,0 +1,11 @@
+{
+  "schema": "motion22-r6rows-yup-meters",
+  "contacts_available": false,
+  "method": "megadance",
+  "seed": 3407,
+  "clip": "036",
+  "initialization": "official Init1.pkl, not target motion",
+  "genre": "HanTang",
+  "source_commit": "903936d4820e5bb2cd5f6fc5935aa0ded960c960",
+  "audio_extractor": "official essentia/librosa"
+}

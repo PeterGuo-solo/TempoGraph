@@ -1,0 +1,538 @@
+{
+  "graph_scope": "full_song",
+  "node_spans": [
+    [
+      0,
+      109
+    ],
+    [
+      109,
+      198
+    ],
+    [
+      198,
+      289
+    ],
+    [
+      289,
+      379
+    ],
+    [
+      379,
+      469
+    ],
+    [
+      469,
+      558
+    ],
+    [
+      558,
+      648
+    ],
+    [
+      648,
+      739
+    ],
+    [
+      739,
+      829
+    ],
+    [
+      829,
+      918
+    ],
+    [
+      918,
+      1024
+    ]
+  ],
+  "roles": [
+    0,
+    0,
+    1,
+    3,
+    2,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "semantics": [
+    113,
+    1,
+    113,
+    111,
+    111,
+    111,
+    111,
+    111,
+    111,
+    111,
+    111
+  ],
+  "dense_edge_types": [
+    [
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0
+    ]
+  ],
+  "motif_sources": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "seam_frames": [
+    225,
+    435,
+    645,
+    855
+  ],
+  "boundary_plans": [
+    {
+      "seam_frame": 225,
+      "length_class": 1,
+      "edge_type": 0,
+      "contact_endpoints": [
+        [
+          0.6339232325553894,
+          0.6583902835845947,
+          0.6738650798797607,
+          0.6761375665664673
+        ],
+        [
+          0.6571506261825562,
+          0.6160147786140442,
+          0.6465527415275574,
+          0.6645029187202454
+        ]
+      ],
+      "root_residual": [
+        0.13011884689331055,
+        0.011462697759270668,
+        -0.014360817149281502,
+        0.07883055508136749,
+        0.09411361813545227,
+        0.002745799720287323
+      ],
+      "energy_parameters": [
+        0.4321148693561554,
+        0.11378544569015503,
+        0.17637278139591217,
+        0.5135412216186523
+      ]
+    },
+    {
+      "seam_frame": 435,
+      "length_class": 1,
+      "edge_type": 0,
+      "contact_endpoints": [
+        [
+          0.5780470967292786,
+          0.5729796290397644,
+          0.5451596975326538,
+          0.556048572063446
+        ],
+        [
+          0.5508618950843811,
+          0.5806640982627869,
+          0.5363590717315674,
+          0.6061838269233704
+        ]
+      ],
+      "root_residual": [
+        0.035367317497730255,
+        0.001710356678813696,
+        -0.01980217918753624,
+        0.07512132823467255,
+        0.04770028218626976,
+        -0.06969966739416122
+      ],
+      "energy_parameters": [
+        0.398896187543869,
+        0.11165238171815872,
+        0.32555267214775085,
+        0.6553577184677124
+      ]
+    },
+    {
+      "seam_frame": 645,
+      "length_class": 1,
+      "edge_type": 0,
+      "contact_endpoints": [
+        [
+          0.5707954168319702,
+          0.5899251103401184,
+          0.5130513906478882,
+          0.547493040561676
+        ],
+        [
+          0.5853611826896667,
+          0.5458808541297913,
+          0.5819461941719055,
+          0.5561671257019043
+        ]
+      ],
+      "root_residual": [
+        0.10263504832983017,
+        0.004997654352337122,
+        -0.13734731078147888,
+        0.03877478837966919,
+        0.1027689203619957,
+        -0.005782879889011383
+      ],
+      "energy_parameters": [
+        0.4760299623012543,
+        0.06336712837219238,
+        0.30876997113227844,
+        0.7018768787384033
+      ]
+    },
+    {
+      "seam_frame": 855,
+      "length_class": 1,
+      "edge_type": 0,
+      "contact_endpoints": [
+        [
+          0.5917814373970032,
+          0.5904728174209595,
+          0.5760962963104248,
+          0.5783506035804749
+        ],
+        [
+          0.5795522332191467,
+          0.5913377404212952,
+          0.5876611471176147,
+          0.6205332279205322
+        ]
+      ],
+      "root_residual": [
+        0.07321741431951523,
+        0.037615951150655746,
+        -0.007752649486064911,
+        0.01412112731486559,
+        0.041749756783246994,
+        -0.06644681841135025
+      ],
+      "energy_parameters": [
+        0.4715830385684967,
+        0.06998363882303238,
+        0.3035905659198761,
+        0.6438062787055969
+      ]
+    }
+  ],
+  "contact_foot_lock": {
+    "enabled": true,
+    "leg_optimization": {
+      "iterations": 150,
+      "contact_pairs": 1696,
+      "rounds": 5,
+      "foot_skating_ratio": 0.021160855894710482
+    },
+    "corrected_frames": 0,
+    "mean_correction": 0.0,
+    "maximum_accumulated_offset": 0.0
+  },
+  "beat_phase_alignment": {
+    "enabled": false
+  },
+  "key_motion_anchor_alignment": {
+    "enabled": false
+  },
+  "beat_velocity_valleys": {
+    "enabled": false
+  },
+  "official_bas_closed_loop": {
+    "enabled": true,
+    "used": false,
+    "baseline_bas": 0.2524577859702175,
+    "baseline_foot_skating_ratio": 0.021160855894710482,
+    "trials": [
+      {
+        "enabled": true,
+        "used": true,
+        "beat_count": 83,
+        "strength": 0.68,
+        "width": 3.5,
+        "minimum_rate": 0.3307232148159649,
+        "median_rate": 1.0354827591548301,
+        "endpoint_error": 0.0,
+        "strictly_monotonic": true,
+        "maximum_frame_displacement": 3.07672166860047,
+        "maximum_beat_phase_error": 4.888534022029489e-12,
+        "official_bas": 0.26413234922002804,
+        "foot_skating_ratio": 0.028084935897435895,
+        "feasible": false
+      },
+      {
+        "enabled": true,
+        "used": true,
+        "beat_count": 83,
+        "strength": 0.8,
+        "width": 4.5,
+        "minimum_rate": 0.2058789302479103,
+        "median_rate": 1.0493370443552434,
+        "endpoint_error": 0.0,
+        "strictly_monotonic": true,
+        "maximum_frame_displacement": 4.50636521714523,
+        "maximum_beat_phase_error": 2.0463630789890885e-12,
+        "official_bas": 0.27084095272197006,
+        "foot_skating_ratio": 0.026964525741251622,
+        "feasible": false
+      },
+      {
+        "enabled": true,
+        "used": true,
+        "beat_count": 83,
+        "strength": 0.9,
+        "width": 5.5,
+        "minimum_rate": 0.09845016919467628,
+        "median_rate": 1.063705413063147,
+        "endpoint_error": 0.0,
+        "strictly_monotonic": true,
+        "maximum_frame_displacement": 6.071683300649923,
+        "maximum_beat_phase_error": 1.4779288903810084e-12,
+        "official_bas": 0.2807800075381663,
+        "foot_skating_ratio": 0.028078280680814232,
+        "feasible": false
+      }
+    ],
+    "reason": "no candidate passed displacement and foot constraints"
+  },
+  "motion_prior": {
+    "enabled": true,
+    "blend_weight": 0.9,
+    "training_only": true,
+    "retrievals": [
+      {
+        "output_start": 0,
+        "output_end": 240,
+        "source_split": "train",
+        "source_id": "040",
+        "source_song": "shenyun4",
+        "source_start": 960,
+        "source_end": 1200,
+        "descriptor_distance": 0.541146457195282,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 17,
+        "target_beat_count": 20,
+        "excluded_song": "cheers",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 210,
+        "output_end": 450,
+        "source_split": "train",
+        "source_id": "200",
+        "source_song": "killthislove",
+        "source_start": 1200,
+        "source_end": 1440,
+        "descriptor_distance": 0.5355221629142761,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 17,
+        "target_beat_count": 22,
+        "excluded_song": "cheers",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 420,
+        "output_end": 660,
+        "source_split": "train",
+        "source_id": "186",
+        "source_song": "world",
+        "source_start": 0,
+        "source_end": 240,
+        "descriptor_distance": 0.8688820600509644,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 15,
+        "target_beat_count": 21,
+        "excluded_song": "cheers",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 630,
+        "output_end": 870,
+        "source_split": "train",
+        "source_id": "183",
+        "source_song": "panorama",
+        "source_start": 3360,
+        "source_end": 3600,
+        "descriptor_distance": 0.567954421043396,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 17,
+        "target_beat_count": 21,
+        "excluded_song": "cheers",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 840,
+        "output_end": 1024,
+        "source_split": "train",
+        "source_id": "186",
+        "source_song": "world",
+        "source_start": 120,
+        "source_end": 360,
+        "descriptor_distance": 0.6249179244041443,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 15,
+        "target_beat_count": 17,
+        "excluded_song": "cheers",
+        "near_duplicate_floor": 1e-06
+      }
+    ]
+  }
+}

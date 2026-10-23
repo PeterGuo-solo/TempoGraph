@@ -1,0 +1,56 @@
+[
+  {
+    "file": "comparison/assets/flowerdance/train-3700.pt",
+    "bytes": 251937302,
+    "sha256": "49a8e4e44a38f33ddec81bc4921cb1ee1d8b27f42db08f7f34f564454b50a6ab",
+    "status": "exact_pilot_hash_match"
+  },
+  {
+    "file": "comparison/vendor/MEGADance/Pretrained/cls/mean.pt",
+    "bytes": 6513,
+    "sha256": "801eeeac7fdfefa152a62bf9ae06a07f3ef65266642707ce463299af6f798f02",
+    "status": "recovered_official_desktop_resource"
+  },
+  {
+    "file": "comparison/vendor/MEGADance/Pretrained/cls/std.pt",
+    "bytes": 6504,
+    "sha256": "1ca911061de140e9bdae720dce2cd86026a2bf70a849655712f22c6b93d97a4d",
+    "status": "recovered_official_desktop_resource"
+  },
+  {
+    "file": "comparison/vendor/MEGADance/Pretrained/Init1.pkl",
+    "bytes": 5014,
+    "sha256": "38a0cfc79280ccb6ea5a0ccbac3a32749666e22ea289c7e227475a5d82177f77",
+    "status": "recovered_official_desktop_resource"
+  },
+  {
+    "file": "comparison/vendor/MEGADance/Pretrained/mean.pt",
+    "bytes": 2232,
+    "sha256": "92896af735ac3326f354c95c7ef663ffbedaf883af0b07e22d4367de90f92464",
+    "status": "recovered_official_desktop_resource"
+  },
+  {
+    "file": "comparison/vendor/MEGADance/Pretrained/std.pt",
+    "bytes": 2224,
+    "sha256": "0acad8374ae9f0adeb8c620705fb77c3b9155aebc3015d254e057027296480a7",
+    "status": "recovered_official_desktop_resource"
+  },
+  {
+    "file": "comparison/vendor/MEGADance/output/cls/30/Model/model.pth",
+    "bytes": 103745594,
+    "sha256": "cab2467f0a4d3179f958733fba8b017364e45263cb8eaebe8b5259ce6789724c",
+    "status": "recovered_official_desktop_resource"
+  },
+  {
+    "file": "comparison/vendor/MEGADance/output/fsq/120/Model/model.pth",
+    "bytes": 177216202,
+    "sha256": "b52383834ac35e9fe7985b2cbb4526836ce83288dae130936701e283d0416654",
+    "status": "recovered_official_desktop_resource"
+  },
+  {
+    "file": "comparison/vendor/MEGADance/output/gpt/90/Model/model.pth",
+    "bytes": 2164541840,
+    "sha256": "6b37d7c2da192f4b68c386e8424234d1205c877f50ad850239996bc021f83f26",
+    "status": "recovered_official_desktop_resource"
+  }
+]

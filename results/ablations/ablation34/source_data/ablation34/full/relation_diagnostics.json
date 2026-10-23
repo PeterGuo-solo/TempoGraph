@@ -1,0 +1,69 @@
+{
+  "split": "val",
+  "windows": 676,
+  "labels": [
+    "repeat",
+    "variation",
+    "contrast",
+    "transition"
+  ],
+  "reference": "original motion-derived pseudo labels, NOT human ground truth",
+  "confusion_true_rows_predicted_columns": [
+    [
+      2,
+      0,
+      390,
+      0
+    ],
+    [
+      1,
+      0,
+      3037,
+      40
+    ],
+    [
+      5,
+      3,
+      18213,
+      265
+    ],
+    [
+      0,
+      0,
+      15657,
+      243
+    ]
+  ],
+  "precision": [
+    0.25,
+    0.0,
+    0.488323450088501,
+    0.44343066215515137
+  ],
+  "recall": [
+    0.005102040711790323,
+    0.0,
+    0.9852320551872253,
+    0.015283019281923771
+  ],
+  "f1": [
+    0.009999999776482582,
+    0.0,
+    0.6529945731163025,
+    0.029547665268182755
+  ],
+  "macro_f1_all_four_zero_division_0": 0.17313556373119354,
+  "target_counts": [
+    392,
+    3078,
+    18486,
+    15900
+  ],
+  "prediction_counts": [
+    8,
+    3,
+    37297,
+    548
+  ],
+  "mean_relation_projection_l2_per_node": 117.96505527383476
+}

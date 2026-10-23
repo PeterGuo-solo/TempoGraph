@@ -1,0 +1,4 @@
+{
+  "checkpoint": "/root/autodl-tmp/TempoGraph_ablation34_25k_results/seed_1234/no_relation_supervision/boundary_planner/checkpoints/boundary_planner.pt",
+  "sha256": "77220300f685367ace7d3ac0bc9f104d62845042f7eff167fc038790ec477aac"
+}

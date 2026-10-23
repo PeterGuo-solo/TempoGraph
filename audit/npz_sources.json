@@ -1,0 +1,996 @@
+[
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_red_dashed_figures/revision12_redboxes/selected_npz/linear_boundary/159.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/159.npz",
+    "sha256": "aa3b6a556bfbb36531407ef8385ea59247b1982a1dd2ec86d22ecca2485bb4b1",
+    "bytes": 518278,
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/159.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_red_dashed_figures/revision12_redboxes/selected_npz/no_relation_message/071.npz",
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/071.npz",
+    "sha256": "a1b9fe7a694662857fdc40221ff0924ca203d4e3dd13b8142eac47f45cb160a6",
+    "bytes": 520799,
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/071.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/full/npz/005.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/005.npz",
+    "sha256": "46496a388dfe08103a515e203fbe49f280f40d455ff9520841301b7f3e089144",
+    "bytes": 519284,
+    "previous_file": "results/ablation12/ablation12_original/full/npz/005.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/full/npz/018.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/018.npz",
+    "sha256": "daed7e2e8f1419795c860d11bbee14d9490d3175b0ef007106406ef33690c7f1",
+    "bytes": 520989,
+    "previous_file": "results/ablation12/ablation12_original/full/npz/018.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/full/npz/023.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/023.npz",
+    "sha256": "020e699b4abbf1ce69df438875d8cf9e7e5e2438bdc1e39ccc3ba3230a416e19",
+    "bytes": 519839,
+    "previous_file": "results/ablation12/ablation12_original/full/npz/023.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/full/npz/027.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/027.npz",
+    "sha256": "11da8144ca7252b472110159f62059c1013c955c8659b5211aed3682d72cff49",
+    "bytes": 518654,
+    "previous_file": "results/ablation12/ablation12_original/full/npz/027.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/full/npz/033.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/033.npz",
+    "sha256": "3c00db64a3848ede2ab189ea0fa828227b7e3d1a425a0cc29428746c8968b812",
+    "bytes": 519908,
+    "previous_file": "results/ablation12/ablation12_original/full/npz/033.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/full/npz/071.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/071.npz",
+    "sha256": "458ef777d22a161a77ea072f03d4684eb228c988ffeea092fcfab4144059f6b7",
+    "bytes": 519800,
+    "previous_file": "results/ablation12/ablation12_original/full/npz/071.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/full/npz/075.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/075.npz",
+    "sha256": "00da931ad4759c155c92d7e4c5ccef5c1bf676e990cf4002824bcdec3d9f1109",
+    "bytes": 520543,
+    "previous_file": "results/ablation12/ablation12_original/full/npz/075.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/full/npz/088.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/088.npz",
+    "sha256": "bed128b0e0010cbab8056382675f9f2a9fbafa7fa6ab9549cb27118695796c4c",
+    "bytes": 521902,
+    "previous_file": "results/ablation12/ablation12_original/full/npz/088.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/full/npz/099.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/099.npz",
+    "sha256": "590ea6799260a20e8745c5b159f2da3e78fcf4a3e5280ee949e0db021a49aa38",
+    "bytes": 518613,
+    "previous_file": "results/ablation12/ablation12_original/full/npz/099.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/full/npz/101.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/101.npz",
+    "sha256": "a105027dba8ace0e3cd02a13256ef9f394201e29c71e34ee7a9371d8a4d914d6",
+    "bytes": 520462,
+    "previous_file": "results/ablation12/ablation12_original/full/npz/101.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/full/npz/104.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/104.npz",
+    "sha256": "d944c7631c0c46f948c90b1e0c952336faf8d24b5a41b74144541ca290988a50",
+    "bytes": 520918,
+    "previous_file": "results/ablation12/ablation12_original/full/npz/104.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/full/npz/105.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/105.npz",
+    "sha256": "b52a3c4e551998b1ec8fee3237a65fbf6d2d7694769cd503522622ad9334823d",
+    "bytes": 520965,
+    "previous_file": "results/ablation12/ablation12_original/full/npz/105.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/full/npz/138.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/138.npz",
+    "sha256": "9f9230a3a2bb39c96f9442a3a1e62c23dd1c45cf5497b2d0090c1cd1462b5e82",
+    "bytes": 520075,
+    "previous_file": "results/ablation12/ablation12_original/full/npz/138.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/full/npz/139.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/139.npz",
+    "sha256": "638044bd759ae9281430b816aca13e6be7e8556f664cffe813cb46362bf9dfd5",
+    "bytes": 520318,
+    "previous_file": "results/ablation12/ablation12_original/full/npz/139.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/full/npz/140.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/140.npz",
+    "sha256": "4ff0645308f538cf359c917b3d42f8a6457cc78404ffa991371eecb03c190b01",
+    "bytes": 518538,
+    "previous_file": "results/ablation12/ablation12_original/full/npz/140.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/full/npz/141.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/141.npz",
+    "sha256": "768dfac567312b09028f9cf4985e1f414ecab6ab70cef41d42d1b04d4f7099ad",
+    "bytes": 517025,
+    "previous_file": "results/ablation12/ablation12_original/full/npz/141.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/full/npz/159.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/159.npz",
+    "sha256": "260a0ec9c4dc75a3a26feb437bb9639ea58e37edd13a9475e5274516069edcd3",
+    "bytes": 520002,
+    "previous_file": "results/ablation12/ablation12_original/full/npz/159.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/full/npz/187.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/187.npz",
+    "sha256": "c88a2f8f8aa724aabbb69ea217341906fb00396e38de63c37cf421f658422a81",
+    "bytes": 521582,
+    "previous_file": "results/ablation12/ablation12_original/full/npz/187.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/full/npz/191.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/191.npz",
+    "sha256": "bbd77322891ad5a5af069935046e86e1a9a6caaf28ef0086cd0ff3d51e984725",
+    "bytes": 520604,
+    "previous_file": "results/ablation12/ablation12_original/full/npz/191.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/full/npz/192.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/192.npz",
+    "sha256": "444cea03c7280c75daeeeccd2dcb0e62cb8f3669ae4135cb8f152d1e490c98ed",
+    "bytes": 265332,
+    "previous_file": "results/ablation12/ablation12_original/full/npz/192.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/full/npz/203.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/203.npz",
+    "sha256": "de4fcbfbf851ec1563b1b364881bce5155eb514b5460d6c7fcb3b1d24a63efa8",
+    "bytes": 521076,
+    "previous_file": "results/ablation12/ablation12_original/full/npz/203.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/full/npz/207.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/207.npz",
+    "sha256": "37eecca427d584312aaf2ba7a8871a0ad9ef9b17a2aa32833da3de919a9ce55f",
+    "bytes": 521727,
+    "previous_file": "results/ablation12/ablation12_original/full/npz/207.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/full/npz/208.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/208.npz",
+    "sha256": "43c922b92cd78561a570cfa90ff3dce259edda3bb72815307a21341c5a66f258",
+    "bytes": 519164,
+    "previous_file": "results/ablation12/ablation12_original/full/npz/208.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/linear_boundary/npz/005.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/005.npz",
+    "sha256": "a66a0133949b9f48ee6c724b1a6ae014de28368c389b196279a3d4ac6c9d1aa7",
+    "bytes": 518460,
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/005.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/linear_boundary/npz/018.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/018.npz",
+    "sha256": "40bc59f4156138bdeed5d451635b6fda0fde5e247b40a2d19d9b34bcb45d004b",
+    "bytes": 520233,
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/018.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/linear_boundary/npz/023.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/023.npz",
+    "sha256": "8e0825a303096ed82cf6cf9de96e438912ab29c15148279af0eb66d9d2adb7eb",
+    "bytes": 519398,
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/023.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/linear_boundary/npz/027.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/027.npz",
+    "sha256": "dbd04b3bb87fb890860f6e776c71347f841c8f4d076d9db15f53a9d502d3f898",
+    "bytes": 517776,
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/027.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/linear_boundary/npz/033.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/033.npz",
+    "sha256": "0078b8974db190ef74bc54b173cfea42f9e017eddf128cc1318b649442924d6f",
+    "bytes": 519237,
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/033.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/linear_boundary/npz/071.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/071.npz",
+    "sha256": "fe47a0bf6a4cf90df187f3e233a909976edb4768412f88a0935421cd8d94387c",
+    "bytes": 519406,
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/071.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/linear_boundary/npz/075.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/075.npz",
+    "sha256": "6d35bbe9633ed4145218514cf29309b2fd49760fec3eb96019eb438022664a2c",
+    "bytes": 519739,
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/075.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/linear_boundary/npz/088.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/088.npz",
+    "sha256": "50eb585ac839a842d0b8a9ece5eb8e12d19461072d90dd568a6177ab20358454",
+    "bytes": 521359,
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/088.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/linear_boundary/npz/099.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/099.npz",
+    "sha256": "2d252316ad84c120d40d4f04662bfe58c3c800e1bc02ca8496bffd1243d5a9c8",
+    "bytes": 517865,
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/099.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/linear_boundary/npz/101.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/101.npz",
+    "sha256": "65f8c1f74de165f23e6114e3b1f27f97b14bfd82fcd2315a2a49164b5c7a7ee7",
+    "bytes": 519760,
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/101.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/linear_boundary/npz/104.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/104.npz",
+    "sha256": "bc088382973d66a9c5ab9f80efd26e90855381f172d759be8dbf132dcc08bc00",
+    "bytes": 520173,
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/104.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/linear_boundary/npz/105.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/105.npz",
+    "sha256": "9ef50f65a82e5665fb0f04fde26435c9e3d639fbaba4bdb8a6e555980e0a8125",
+    "bytes": 520306,
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/105.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/linear_boundary/npz/138.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/138.npz",
+    "sha256": "444e4155727dced430dd4b472e59f0d5ccc403aafd2f279b8bbbfcaacd574a13",
+    "bytes": 519534,
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/138.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/linear_boundary/npz/139.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/139.npz",
+    "sha256": "624cb9d2ff51d691d1e47289ccbce45a039625cd0733e80e37c91b68e2d8d3c0",
+    "bytes": 519658,
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/139.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/linear_boundary/npz/140.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/140.npz",
+    "sha256": "9c3d14f079c15dc0f6f7a64421a9428a780d05e85003acfa1200d1b3d914170e",
+    "bytes": 517650,
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/140.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/linear_boundary/npz/141.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/141.npz",
+    "sha256": "342ee115e0cf65674e7f45b6d06e1699f610bd309ce508b7352a763e672537fd",
+    "bytes": 516342,
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/141.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/linear_boundary/npz/159.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/159.npz",
+    "sha256": "aa3b6a556bfbb36531407ef8385ea59247b1982a1dd2ec86d22ecca2485bb4b1",
+    "bytes": 518278,
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/159.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/linear_boundary/npz/187.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/187.npz",
+    "sha256": "d457873cc4a32a0fb3e1aa1e541260ffe58bef183beffc62c3cf2e4da3464788",
+    "bytes": 521084,
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/187.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/linear_boundary/npz/191.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/191.npz",
+    "sha256": "0ef9e8b8d669f635532a29a6b319cb529ea667fdb31d83f5fd9a1ff45ce219db",
+    "bytes": 519845,
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/191.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/linear_boundary/npz/192.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/192.npz",
+    "sha256": "dcc3e5ab9814f03cb76316e7754fa7f889b56a9e209169baf1cc90dd25be086c",
+    "bytes": 264913,
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/192.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/linear_boundary/npz/203.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/203.npz",
+    "sha256": "b916457fa43770e38a7c0ca00048adbff9d73594d3f3fd7a8408de04ed16f2ff",
+    "bytes": 520676,
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/203.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/linear_boundary/npz/207.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/207.npz",
+    "sha256": "b4f82efd68ce5917e907095ef644c5ed49f4586b5ff09094ee6d2a12d3742404",
+    "bytes": 521171,
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/207.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation12_seed3407_handoff/linear_boundary/npz/208.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/208.npz",
+    "sha256": "e392b2e46e2e09f312cb56d994a390a0192949fed5951fd54f544bc1fd4fb6c4",
+    "bytes": 518268,
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/208.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation34_red_dashed_figures/revision_redboxes/selected_npz/full/071.npz",
+    "file": "results/qualitative/selected_six_way/full34/071.npz",
+    "sha256": "f5e30c6f961059357b18767886e9e4683c7c59464f930f0bfb7acb2301e832b8",
+    "bytes": 519533,
+    "previous_file": "results/selected_six_way/full34/071.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation34_red_dashed_figures/revision_redboxes/selected_npz/full/139.npz",
+    "file": "results/qualitative/selected_six_way/full34/139.npz",
+    "sha256": "3089fb7bfa403047ad41fa24a852c0b12ba866be553fcee3c1f4f8c321bfbff0",
+    "bytes": 519259,
+    "previous_file": "results/selected_six_way/full34/139.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation34_red_dashed_figures/revision_redboxes/selected_npz/no_relation_supervision/139.npz",
+    "file": "results/qualitative/selected_six_way/no_relation_supervision/139.npz",
+    "sha256": "ae3761e6496bb590d0f52b56f27da332b15b0bf9407205ac23260331967c994d",
+    "bytes": 519422,
+    "previous_file": "results/selected_six_way/no_relation_supervision/139.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation34_red_dashed_figures/revision_redboxes/selected_npz/random_relation_labels/071.npz",
+    "file": "results/qualitative/selected_six_way/random_relation_labels/071.npz",
+    "sha256": "e0d4efc90027c192b9b345e478a7afd688707e34e2a2797458bc79917167de40",
+    "bytes": 520304,
+    "previous_file": "results/selected_six_way/random_relation_labels/071.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation34_tables_and_Blender/TempoGraph_ablation34/source_data/selected_motion/full/075.npz",
+    "file": "results/ablations/ablation34/source_data/selected_motion/full/075.npz",
+    "sha256": "b3666242b0c42147b9a4de3047d54eddef0c0f90d1af1c825b3a02395fa5b419",
+    "bytes": 519700,
+    "previous_file": "results/ablation34/source_data/selected_motion/full/075.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation34_tables_and_Blender/TempoGraph_ablation34/source_data/selected_motion/full/140.npz",
+    "file": "results/ablations/ablation34/source_data/selected_motion/full/140.npz",
+    "sha256": "821376b2af788aeab5208345fa738025732a5f32b94f42033131b3aca2e0a2c2",
+    "bytes": 517770,
+    "previous_file": "results/ablation34/source_data/selected_motion/full/140.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation34_tables_and_Blender/TempoGraph_ablation34/source_data/selected_motion/no_relation_supervision/075.npz",
+    "file": "results/ablations/ablation34/source_data/selected_motion/no_relation_supervision/075.npz",
+    "sha256": "fdcda9123bbafb531bf3985cc169e5570f7c8685b2efc9076f499e7a38907203",
+    "bytes": 519689,
+    "previous_file": "results/ablation34/source_data/selected_motion/no_relation_supervision/075.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation34_tables_and_Blender/TempoGraph_ablation34/source_data/selected_motion/no_relation_supervision/140.npz",
+    "file": "results/ablations/ablation34/source_data/selected_motion/no_relation_supervision/140.npz",
+    "sha256": "9af416b214c123d697447f3d79c40532b08a2762169e6df424e26db0e0979cad",
+    "bytes": 517754,
+    "previous_file": "results/ablation34/source_data/selected_motion/no_relation_supervision/140.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation34_tables_and_Blender/TempoGraph_ablation34/source_data/selected_motion/random_relation_labels/075.npz",
+    "file": "results/ablations/ablation34/source_data/selected_motion/random_relation_labels/075.npz",
+    "sha256": "e2dd1c8dbf12d71759b6022638c7d3e0c15d571f669acf69ab669e54aa505a7a",
+    "bytes": 520118,
+    "previous_file": "results/ablation34/source_data/selected_motion/random_relation_labels/075.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_ablation34_tables_and_Blender/TempoGraph_ablation34/source_data/selected_motion/random_relation_labels/140.npz",
+    "file": "results/ablations/ablation34/source_data/selected_motion/random_relation_labels/140.npz",
+    "sha256": "be7d725d65ee33aa00948654567b657d68479328b06243b980ae85e52308f90b",
+    "bytes": 518158,
+    "previous_file": "results/ablation34/source_data/selected_motion/random_relation_labels/140.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_no_relation_message_seed3407_handoff/no_relation_message/npz/005.npz",
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/005.npz",
+    "sha256": "6e5daf563bcbd3802daf06134ba09a046aa325cac1475de5ad6fda4d2b10b2ed",
+    "bytes": 519561,
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/005.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_no_relation_message_seed3407_handoff/no_relation_message/npz/018.npz",
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/018.npz",
+    "sha256": "de84f1dd40bda92ccee3cfbe1d6c749809241cd2b9fba5dd5374c9bfd23d8842",
+    "bytes": 521434,
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/018.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_no_relation_message_seed3407_handoff/no_relation_message/npz/023.npz",
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/023.npz",
+    "sha256": "51fbe105eac0ac9ca3c0c1f1e253ea83811ecf0b005e053fbfd4e3d3359ed0f9",
+    "bytes": 520112,
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/023.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_no_relation_message_seed3407_handoff/no_relation_message/npz/027.npz",
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/027.npz",
+    "sha256": "134bf283c2f02626516e662ce0082208aebd46573ab5eb0fef36ef9bda9b2be0",
+    "bytes": 518632,
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/027.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_no_relation_message_seed3407_handoff/no_relation_message/npz/033.npz",
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/033.npz",
+    "sha256": "593e1aa072c1e58b52f8d21b33e494c48c047fda542cfa75b7cac018b1a9612e",
+    "bytes": 520100,
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/033.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_no_relation_message_seed3407_handoff/no_relation_message/npz/071.npz",
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/071.npz",
+    "sha256": "a1b9fe7a694662857fdc40221ff0924ca203d4e3dd13b8142eac47f45cb160a6",
+    "bytes": 520799,
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/071.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_no_relation_message_seed3407_handoff/no_relation_message/npz/075.npz",
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/075.npz",
+    "sha256": "d27f19a4ea837149ddf3ad0f65abdd75f5dd3fad8db4771504085af236cc1e2e",
+    "bytes": 520605,
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/075.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_no_relation_message_seed3407_handoff/no_relation_message/npz/088.npz",
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/088.npz",
+    "sha256": "799c90a207ee8df8345e0cfea44a0eb8434c1e90db975fa43cf4da47b98d9a73",
+    "bytes": 519866,
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/088.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_no_relation_message_seed3407_handoff/no_relation_message/npz/099.npz",
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/099.npz",
+    "sha256": "b652a0edbad01aecbb3f7ca98c3ee6c54bfd2b83f353e266c657510a3a16469d",
+    "bytes": 519040,
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/099.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_no_relation_message_seed3407_handoff/no_relation_message/npz/101.npz",
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/101.npz",
+    "sha256": "d13a04841a225703ee024e12631828e5072289f078e9cef329dfa6924705a83d",
+    "bytes": 518522,
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/101.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_no_relation_message_seed3407_handoff/no_relation_message/npz/104.npz",
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/104.npz",
+    "sha256": "a4408bdfc0570ddd65cda4e148ecfd7bf3f9f1a93b14d3c9459a5afa116e1667",
+    "bytes": 521156,
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/104.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_no_relation_message_seed3407_handoff/no_relation_message/npz/105.npz",
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/105.npz",
+    "sha256": "0cb600462ba6b66013e6c13fe20f8b3301b70c9afd40d3e271c1966405f12d04",
+    "bytes": 521030,
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/105.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_no_relation_message_seed3407_handoff/no_relation_message/npz/138.npz",
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/138.npz",
+    "sha256": "258e29d73088c65395056f0981801f70e78d18c5a302aa12db67896b6c766a12",
+    "bytes": 520364,
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/138.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_no_relation_message_seed3407_handoff/no_relation_message/npz/139.npz",
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/139.npz",
+    "sha256": "4fe8f336d29007a39d190f9193273f8f8390982e345fca3123eee3e3a6161911",
+    "bytes": 520449,
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/139.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_no_relation_message_seed3407_handoff/no_relation_message/npz/140.npz",
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/140.npz",
+    "sha256": "6b49d720b3a394bcbb67fbb59195090c9857bfb2bad526a5c5c552f2f6ca3210",
+    "bytes": 518859,
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/140.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_no_relation_message_seed3407_handoff/no_relation_message/npz/141.npz",
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/141.npz",
+    "sha256": "17304215809e43596d80bb87fcecc3c0a3d9a98543962b7cb50278c6cdaa31fb",
+    "bytes": 517195,
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/141.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_no_relation_message_seed3407_handoff/no_relation_message/npz/159.npz",
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/159.npz",
+    "sha256": "4f7b0e3cc758e4794c59bd623d4691b648ef7121484bee64449d53faa1e68932",
+    "bytes": 519903,
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/159.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_no_relation_message_seed3407_handoff/no_relation_message/npz/187.npz",
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/187.npz",
+    "sha256": "f1fccb9e8a213735cf8d7b9861b40e9e240ea0c03941e37c72e1e2a50a16069d",
+    "bytes": 521638,
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/187.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_no_relation_message_seed3407_handoff/no_relation_message/npz/191.npz",
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/191.npz",
+    "sha256": "01a9f1167b2ee4b2b274cacf0c04ff6521af7c18bc0073e9ba842e882b78817f",
+    "bytes": 520760,
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/191.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_no_relation_message_seed3407_handoff/no_relation_message/npz/192.npz",
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/192.npz",
+    "sha256": "a3f2a1f111e07c28f6346e541b28c7d1fa1af29861bb1a8cbc59c3d1848c2021",
+    "bytes": 265438,
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/192.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_no_relation_message_seed3407_handoff/no_relation_message/npz/203.npz",
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/203.npz",
+    "sha256": "6078a9fd43e83c1cd17afacbc475d97c862fa16b739429973644871810937fbb",
+    "bytes": 521116,
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/203.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_no_relation_message_seed3407_handoff/no_relation_message/npz/207.npz",
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/207.npz",
+    "sha256": "123b5ee0c79cb29ec5f3b50aa7f3ac6798723ee78ede8fa53a467122d8040775",
+    "bytes": 518933,
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/207.npz"
+  },
+  {
+    "source": "_archive_recovery/ablation_experiments__data__TempoGraph_no_relation_message_seed3407_handoff/no_relation_message/npz/208.npz",
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/208.npz",
+    "sha256": "14b5c87535ce79bae9107943b1061f8494c123a467833bd01a6080003a88ff26",
+    "bytes": 519045,
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/208.npz"
+  },
+  {
+    "source": "_archive_recovery/TempoGraph_5methods_results/work_pilot/npz/finenet/3407/012.npz",
+    "file": "comparison/work_pilot/npz/finenet/3407/012.npz",
+    "sha256": "1e49f9679ec38347717021f180daa86b7f88bf2e2483d7984d0bde4544d808c5",
+    "bytes": 512639
+  },
+  {
+    "source": "_archive_recovery/TempoGraph_5methods_results/work_pilot/npz/finenet/3407/036.npz",
+    "file": "comparison/work_pilot/npz/finenet/3407/036.npz",
+    "sha256": "fddd95cc091c73b4d645e10c20463de19dbe0acf84c31510b54c6eeb60be3429",
+    "bytes": 512312
+  },
+  {
+    "source": "_archive_recovery/TempoGraph_5methods_results/work_pilot/npz/flowerdance/3407/012.npz",
+    "file": "comparison/work_pilot/npz/flowerdance/3407/012.npz",
+    "sha256": "6ed9260066ffc90b66756de56d7fc460b8295f83a613adadd9bb8309d4b13918",
+    "bytes": 476382
+  },
+  {
+    "source": "_archive_recovery/TempoGraph_5methods_results/work_pilot/npz/flowerdance/3407/036.npz",
+    "file": "comparison/work_pilot/npz/flowerdance/3407/036.npz",
+    "sha256": "f7c09dfd71191fe5f2b8b36394a40d652822a30d4cd49d40883d4554a9b9a2aa",
+    "bytes": 494197
+  },
+  {
+    "source": "_archive_recovery/TempoGraph_5methods_results/work_pilot/npz/gt/012.npz",
+    "file": "comparison/work_pilot/npz/gt/012.npz",
+    "sha256": "1366b12d06cfccaea9c4028ad055777c37400562e00b4ac22336c7cf4de7da3c",
+    "bytes": 457048
+  },
+  {
+    "source": "_archive_recovery/TempoGraph_5methods_results/work_pilot/npz/gt/036.npz",
+    "file": "comparison/work_pilot/npz/gt/036.npz",
+    "sha256": "b2151b530ca5168f291c036e0bf9cd2c6d92c021692cf2525d37a1b3a4560cbb",
+    "bytes": 454075
+  },
+  {
+    "source": "_archive_recovery/TempoGraph_5methods_results/work_pilot/npz/lodge/3407/012.npz",
+    "file": "comparison/work_pilot/npz/lodge/3407/012.npz",
+    "sha256": "19da9e26f88e97ef0d255f2ee744e7574bc20a6247417630d46ab2eed87890a2",
+    "bytes": 516285
+  },
+  {
+    "source": "_archive_recovery/TempoGraph_5methods_results/work_pilot/npz/lodge/3407/036.npz",
+    "file": "comparison/work_pilot/npz/lodge/3407/036.npz",
+    "sha256": "1cbae206885ebb02e273094c6d1c458e7b12f2d5d21cda553e9841223bba4b6b",
+    "bytes": 493110
+  },
+  {
+    "source": "_archive_recovery/TempoGraph_5methods_results/work_pilot/npz/megadance/3407/012.npz",
+    "file": "comparison/work_pilot/npz/megadance/3407/012.npz",
+    "sha256": "b7cb946ed35f354384b4723bbbe9bde08cd8b4b523cd1ded647fc9cdbb360030",
+    "bytes": 510866
+  },
+  {
+    "source": "_archive_recovery/TempoGraph_5methods_results/work_pilot/npz/megadance/3407/036.npz",
+    "file": "comparison/work_pilot/npz/megadance/3407/036.npz",
+    "sha256": "099337a10ce11b0c1895e8f16abb5b7378c9f476ae0b4c90c0cd4184caff1e8b",
+    "bytes": 511524
+  },
+  {
+    "source": "_archive_recovery/TempoGraph_5methods_results/work_pilot/npz/tempograph/3407/012.npz",
+    "file": "comparison/work_pilot/npz/tempograph/3407/012.npz",
+    "sha256": "e9f1fa033dcd591ebd9e74a9ed6e2f238741ad0adb8238f33d72297cf1d29a45",
+    "bytes": 520160
+  },
+  {
+    "source": "_archive_recovery/TempoGraph_5methods_results/work_pilot/npz/tempograph/3407/036.npz",
+    "file": "comparison/work_pilot/npz/tempograph/3407/036.npz",
+    "sha256": "fa07b7de07c1dd66fdfa1b183b72d99ccd159df566c75b0069a2e0de38835b12",
+    "bytes": 519252
+  },
+  {
+    "source": "_archive_recovery/TempoGraph_5methods_results/work_pilot/raw/tempograph/3407/012.npz",
+    "file": "comparison/work_pilot/raw/tempograph/3407/012.npz",
+    "sha256": "4b816c8d01158b62dc6aff5fb7d39b9fd42698930f3cbe97c76ec3a90a12d27e",
+    "bytes": 520160
+  },
+  {
+    "source": "_archive_recovery/TempoGraph_5methods_results/work_pilot/raw/tempograph/3407/036.npz",
+    "file": "comparison/work_pilot/raw/tempograph/3407/036.npz",
+    "sha256": "686e23769a966a452d5b884248f2d37a07af3caa256ffac8970b744e558146b0",
+    "bytes": 519252
+  },
+  {
+    "source": "ablation_experiments/aba_ablation23/selected_npz/full34/140.npz",
+    "file": "results/ablations/ablation34/source_data/selected_motion/full/140.npz",
+    "sha256": "821376b2af788aeab5208345fa738025732a5f32b94f42033131b3aca2e0a2c2",
+    "bytes": 517770,
+    "previous_file": "results/ablation34/source_data/selected_motion/full/140.npz"
+  },
+  {
+    "source": "ablation_experiments/aba_ablation23/selected_npz/linear_boundary/140.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/140.npz",
+    "sha256": "9c3d14f079c15dc0f6f7a64421a9428a780d05e85003acfa1200d1b3d914170e",
+    "bytes": 517650,
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/140.npz"
+  },
+  {
+    "source": "ablation_experiments/aba_ablation23/selected_npz/no_relation_supervision/140.npz",
+    "file": "results/ablations/ablation34/source_data/selected_motion/no_relation_supervision/140.npz",
+    "sha256": "9af416b214c123d697447f3d79c40532b08a2762169e6df424e26db0e0979cad",
+    "bytes": 517754,
+    "previous_file": "results/ablation34/source_data/selected_motion/no_relation_supervision/140.npz"
+  },
+  {
+    "source": "ablation_experiments/ablation12_results/selected_npz/linear_boundary/159.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/159.npz",
+    "sha256": "aa3b6a556bfbb36531407ef8385ea59247b1982a1dd2ec86d22ecca2485bb4b1",
+    "bytes": 518278,
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/159.npz"
+  },
+  {
+    "source": "ablation_experiments/ablation12_results/selected_npz/no_relation_message/071.npz",
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/071.npz",
+    "sha256": "a1b9fe7a694662857fdc40221ff0924ca203d4e3dd13b8142eac47f45cb160a6",
+    "bytes": 520799,
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/071.npz"
+  },
+  {
+    "source": "ablation_experiments/ablation34_results/revision_redboxes/selected_npz/full/071.npz",
+    "file": "results/qualitative/selected_six_way/full34/071.npz",
+    "sha256": "f5e30c6f961059357b18767886e9e4683c7c59464f930f0bfb7acb2301e832b8",
+    "bytes": 519533,
+    "previous_file": "results/selected_six_way/full34/071.npz"
+  },
+  {
+    "source": "ablation_experiments/ablation34_results/revision_redboxes/selected_npz/full/139.npz",
+    "file": "results/qualitative/selected_six_way/full34/139.npz",
+    "sha256": "3089fb7bfa403047ad41fa24a852c0b12ba866be553fcee3c1f4f8c321bfbff0",
+    "bytes": 519259,
+    "previous_file": "results/selected_six_way/full34/139.npz"
+  },
+  {
+    "source": "ablation_experiments/ablation34_results/revision_redboxes/selected_npz/no_relation_supervision/139.npz",
+    "file": "results/qualitative/selected_six_way/no_relation_supervision/139.npz",
+    "sha256": "ae3761e6496bb590d0f52b56f27da332b15b0bf9407205ac23260331967c994d",
+    "bytes": 519422,
+    "previous_file": "results/selected_six_way/no_relation_supervision/139.npz"
+  },
+  {
+    "source": "ablation_experiments/ablation34_results/revision_redboxes/selected_npz/random_relation_labels/071.npz",
+    "file": "results/qualitative/selected_six_way/random_relation_labels/071.npz",
+    "sha256": "e0d4efc90027c192b9b345e478a7afd688707e34e2a2797458bc79917167de40",
+    "bytes": 520304,
+    "previous_file": "results/selected_six_way/random_relation_labels/071.npz"
+  },
+  {
+    "source": "ablation_experiments/ablation34_results/source_data/selected_motion/full/075.npz",
+    "file": "results/ablations/ablation34/source_data/selected_motion/full/075.npz",
+    "sha256": "b3666242b0c42147b9a4de3047d54eddef0c0f90d1af1c825b3a02395fa5b419",
+    "bytes": 519700,
+    "previous_file": "results/ablation34/source_data/selected_motion/full/075.npz"
+  },
+  {
+    "source": "ablation_experiments/ablation34_results/source_data/selected_motion/full/140.npz",
+    "file": "results/ablations/ablation34/source_data/selected_motion/full/140.npz",
+    "sha256": "821376b2af788aeab5208345fa738025732a5f32b94f42033131b3aca2e0a2c2",
+    "bytes": 517770,
+    "previous_file": "results/ablation34/source_data/selected_motion/full/140.npz"
+  },
+  {
+    "source": "ablation_experiments/ablation34_results/source_data/selected_motion/no_relation_supervision/075.npz",
+    "file": "results/ablations/ablation34/source_data/selected_motion/no_relation_supervision/075.npz",
+    "sha256": "fdcda9123bbafb531bf3985cc169e5570f7c8685b2efc9076f499e7a38907203",
+    "bytes": 519689,
+    "previous_file": "results/ablation34/source_data/selected_motion/no_relation_supervision/075.npz"
+  },
+  {
+    "source": "ablation_experiments/ablation34_results/source_data/selected_motion/no_relation_supervision/140.npz",
+    "file": "results/ablations/ablation34/source_data/selected_motion/no_relation_supervision/140.npz",
+    "sha256": "9af416b214c123d697447f3d79c40532b08a2762169e6df424e26db0e0979cad",
+    "bytes": 517754,
+    "previous_file": "results/ablation34/source_data/selected_motion/no_relation_supervision/140.npz"
+  },
+  {
+    "source": "ablation_experiments/ablation34_results/source_data/selected_motion/random_relation_labels/075.npz",
+    "file": "results/ablations/ablation34/source_data/selected_motion/random_relation_labels/075.npz",
+    "sha256": "e2dd1c8dbf12d71759b6022638c7d3e0c15d571f669acf69ab669e54aa505a7a",
+    "bytes": 520118,
+    "previous_file": "results/ablation34/source_data/selected_motion/random_relation_labels/075.npz"
+  },
+  {
+    "source": "ablation_experiments/ablation34_results/source_data/selected_motion/random_relation_labels/140.npz",
+    "file": "results/ablations/ablation34/source_data/selected_motion/random_relation_labels/140.npz",
+    "sha256": "be7d725d65ee33aa00948654567b657d68479328b06243b980ae85e52308f90b",
+    "bytes": 518158,
+    "previous_file": "results/ablation34/source_data/selected_motion/random_relation_labels/140.npz"
+  },
+  {
+    "source": "ablation_experiments/combined_six_way/selected_npz/full34/027.npz",
+    "file": "results/qualitative/selected_six_way/full34/027.npz",
+    "sha256": "7d461c0d6bfb97514a6d33d58e2d5912f1e962b2689f91f85fae3990e18d62db",
+    "bytes": 516979,
+    "previous_file": "results/selected_six_way/full34/027.npz"
+  },
+  {
+    "source": "ablation_experiments/combined_six_way/selected_npz/full34/071.npz",
+    "file": "results/qualitative/selected_six_way/full34/071.npz",
+    "sha256": "f5e30c6f961059357b18767886e9e4683c7c59464f930f0bfb7acb2301e832b8",
+    "bytes": 519533,
+    "previous_file": "results/selected_six_way/full34/071.npz"
+  },
+  {
+    "source": "ablation_experiments/combined_six_way/selected_npz/full34/139.npz",
+    "file": "results/qualitative/selected_six_way/full34/139.npz",
+    "sha256": "3089fb7bfa403047ad41fa24a852c0b12ba866be553fcee3c1f4f8c321bfbff0",
+    "bytes": 519259,
+    "previous_file": "results/selected_six_way/full34/139.npz"
+  },
+  {
+    "source": "ablation_experiments/combined_six_way/selected_npz/full34/159.npz",
+    "file": "results/qualitative/selected_six_way/full34/159.npz",
+    "sha256": "afd5bfe6032d4af9db790f829391f0cb5c5024d2ee9c623cb5a4775ee8dc72c7",
+    "bytes": 519389,
+    "previous_file": "results/selected_six_way/full34/159.npz"
+  },
+  {
+    "source": "ablation_experiments/combined_six_way/selected_npz/linear_boundary/027.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/027.npz",
+    "sha256": "dbd04b3bb87fb890860f6e776c71347f841c8f4d076d9db15f53a9d502d3f898",
+    "bytes": 517776,
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/027.npz"
+  },
+  {
+    "source": "ablation_experiments/combined_six_way/selected_npz/linear_boundary/071.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/071.npz",
+    "sha256": "fe47a0bf6a4cf90df187f3e233a909976edb4768412f88a0935421cd8d94387c",
+    "bytes": 519406,
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/071.npz"
+  },
+  {
+    "source": "ablation_experiments/combined_six_way/selected_npz/linear_boundary/139.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/139.npz",
+    "sha256": "624cb9d2ff51d691d1e47289ccbce45a039625cd0733e80e37c91b68e2d8d3c0",
+    "bytes": 519658,
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/139.npz"
+  },
+  {
+    "source": "ablation_experiments/combined_six_way/selected_npz/linear_boundary/159.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/159.npz",
+    "sha256": "aa3b6a556bfbb36531407ef8385ea59247b1982a1dd2ec86d22ecca2485bb4b1",
+    "bytes": 518278,
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/159.npz"
+  },
+  {
+    "source": "ablation_experiments/combined_six_way/selected_npz/no_relation_message/027.npz",
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/027.npz",
+    "sha256": "134bf283c2f02626516e662ce0082208aebd46573ab5eb0fef36ef9bda9b2be0",
+    "bytes": 518632,
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/027.npz"
+  },
+  {
+    "source": "ablation_experiments/combined_six_way/selected_npz/no_relation_message/071.npz",
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/071.npz",
+    "sha256": "a1b9fe7a694662857fdc40221ff0924ca203d4e3dd13b8142eac47f45cb160a6",
+    "bytes": 520799,
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/071.npz"
+  },
+  {
+    "source": "ablation_experiments/combined_six_way/selected_npz/no_relation_message/139.npz",
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/139.npz",
+    "sha256": "4fe8f336d29007a39d190f9193273f8f8390982e345fca3123eee3e3a6161911",
+    "bytes": 520449,
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/139.npz"
+  },
+  {
+    "source": "ablation_experiments/combined_six_way/selected_npz/no_relation_message/159.npz",
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/159.npz",
+    "sha256": "4f7b0e3cc758e4794c59bd623d4691b648ef7121484bee64449d53faa1e68932",
+    "bytes": 519903,
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/159.npz"
+  },
+  {
+    "source": "ablation_experiments/combined_six_way/selected_npz/no_relation_supervision/027.npz",
+    "file": "results/qualitative/selected_six_way/no_relation_supervision/027.npz",
+    "sha256": "15ef73ca34ac36e0475161abc72a074942943877e559e3cf5b8b3a448378b64d",
+    "bytes": 517642,
+    "previous_file": "results/selected_six_way/no_relation_supervision/027.npz"
+  },
+  {
+    "source": "ablation_experiments/combined_six_way/selected_npz/no_relation_supervision/071.npz",
+    "file": "results/qualitative/selected_six_way/no_relation_supervision/071.npz",
+    "sha256": "f57d0c834c3feffd6354e4305e4ea0ca648805562b9a1e3a8096af236229c85f",
+    "bytes": 519484,
+    "previous_file": "results/selected_six_way/no_relation_supervision/071.npz"
+  },
+  {
+    "source": "ablation_experiments/combined_six_way/selected_npz/no_relation_supervision/139.npz",
+    "file": "results/qualitative/selected_six_way/no_relation_supervision/139.npz",
+    "sha256": "ae3761e6496bb590d0f52b56f27da332b15b0bf9407205ac23260331967c994d",
+    "bytes": 519422,
+    "previous_file": "results/selected_six_way/no_relation_supervision/139.npz"
+  },
+  {
+    "source": "ablation_experiments/combined_six_way/selected_npz/no_relation_supervision/159.npz",
+    "file": "results/qualitative/selected_six_way/no_relation_supervision/159.npz",
+    "sha256": "6c492db0695d788ccfd077eeedf2ac8d5d307980d88ea6e28c3efaf86b2c482b",
+    "bytes": 519207,
+    "previous_file": "results/selected_six_way/no_relation_supervision/159.npz"
+  },
+  {
+    "source": "ablation_experiments/combined_six_way/selected_npz/random_relation_labels/027.npz",
+    "file": "results/qualitative/selected_six_way/random_relation_labels/027.npz",
+    "sha256": "f871261f6458631fdf5537c095bb929435fb5da064ac14f8aeefb68aab496b6e",
+    "bytes": 518188,
+    "previous_file": "results/selected_six_way/random_relation_labels/027.npz"
+  },
+  {
+    "source": "ablation_experiments/combined_six_way/selected_npz/random_relation_labels/071.npz",
+    "file": "results/qualitative/selected_six_way/random_relation_labels/071.npz",
+    "sha256": "e0d4efc90027c192b9b345e478a7afd688707e34e2a2797458bc79917167de40",
+    "bytes": 520304,
+    "previous_file": "results/selected_six_way/random_relation_labels/071.npz"
+  },
+  {
+    "source": "ablation_experiments/combined_six_way/selected_npz/random_relation_labels/139.npz",
+    "file": "results/qualitative/selected_six_way/random_relation_labels/139.npz",
+    "sha256": "021327707defb9690b6dc4a465005e4c9f8eba879f6c2927776cb7d76b184d64",
+    "bytes": 519749,
+    "previous_file": "results/selected_six_way/random_relation_labels/139.npz"
+  },
+  {
+    "source": "ablation_experiments/combined_six_way/selected_npz/random_relation_labels/159.npz",
+    "file": "results/qualitative/selected_six_way/random_relation_labels/159.npz",
+    "sha256": "44d086c2a4f391b5fe822e64c604589ed64989d9784afe3ca975a24da266494f",
+    "bytes": 518027,
+    "previous_file": "results/selected_six_way/random_relation_labels/159.npz"
+  },
+  {
+    "source": "output/five-method-analysis/cache/submitted/work_pilot/npz/finenet/3407/012.npz",
+    "file": "comparison/work_pilot/npz/finenet/3407/012.npz",
+    "sha256": "1e49f9679ec38347717021f180daa86b7f88bf2e2483d7984d0bde4544d808c5",
+    "bytes": 512639
+  },
+  {
+    "source": "output/five-method-analysis/cache/submitted/work_pilot/npz/finenet/3407/036.npz",
+    "file": "comparison/work_pilot/npz/finenet/3407/036.npz",
+    "sha256": "fddd95cc091c73b4d645e10c20463de19dbe0acf84c31510b54c6eeb60be3429",
+    "bytes": 512312
+  },
+  {
+    "source": "output/five-method-analysis/cache/submitted/work_pilot/npz/flowerdance/3407/012.npz",
+    "file": "comparison/work_pilot/npz/flowerdance/3407/012.npz",
+    "sha256": "6ed9260066ffc90b66756de56d7fc460b8295f83a613adadd9bb8309d4b13918",
+    "bytes": 476382
+  },
+  {
+    "source": "output/five-method-analysis/cache/submitted/work_pilot/npz/flowerdance/3407/036.npz",
+    "file": "comparison/work_pilot/npz/flowerdance/3407/036.npz",
+    "sha256": "f7c09dfd71191fe5f2b8b36394a40d652822a30d4cd49d40883d4554a9b9a2aa",
+    "bytes": 494197
+  },
+  {
+    "source": "output/five-method-analysis/cache/submitted/work_pilot/npz/gt/012.npz",
+    "file": "comparison/work_pilot/npz/gt/012.npz",
+    "sha256": "1366b12d06cfccaea9c4028ad055777c37400562e00b4ac22336c7cf4de7da3c",
+    "bytes": 457048
+  },
+  {
+    "source": "output/five-method-analysis/cache/submitted/work_pilot/npz/gt/036.npz",
+    "file": "comparison/work_pilot/npz/gt/036.npz",
+    "sha256": "b2151b530ca5168f291c036e0bf9cd2c6d92c021692cf2525d37a1b3a4560cbb",
+    "bytes": 454075
+  },
+  {
+    "source": "output/five-method-analysis/cache/submitted/work_pilot/npz/lodge/3407/012.npz",
+    "file": "comparison/work_pilot/npz/lodge/3407/012.npz",
+    "sha256": "19da9e26f88e97ef0d255f2ee744e7574bc20a6247417630d46ab2eed87890a2",
+    "bytes": 516285
+  },
+  {
+    "source": "output/five-method-analysis/cache/submitted/work_pilot/npz/lodge/3407/036.npz",
+    "file": "comparison/work_pilot/npz/lodge/3407/036.npz",
+    "sha256": "1cbae206885ebb02e273094c6d1c458e7b12f2d5d21cda553e9841223bba4b6b",
+    "bytes": 493110
+  },
+  {
+    "source": "output/five-method-analysis/cache/submitted/work_pilot/npz/megadance/3407/012.npz",
+    "file": "comparison/work_pilot/npz/megadance/3407/012.npz",
+    "sha256": "b7cb946ed35f354384b4723bbbe9bde08cd8b4b523cd1ded647fc9cdbb360030",
+    "bytes": 510866
+  },
+  {
+    "source": "output/five-method-analysis/cache/submitted/work_pilot/npz/megadance/3407/036.npz",
+    "file": "comparison/work_pilot/npz/megadance/3407/036.npz",
+    "sha256": "099337a10ce11b0c1895e8f16abb5b7378c9f476ae0b4c90c0cd4184caff1e8b",
+    "bytes": 511524
+  },
+  {
+    "source": "output/five-method-analysis/cache/submitted/work_pilot/npz/tempograph/3407/012.npz",
+    "file": "comparison/work_pilot/npz/tempograph/3407/012.npz",
+    "sha256": "e9f1fa033dcd591ebd9e74a9ed6e2f238741ad0adb8238f33d72297cf1d29a45",
+    "bytes": 520160
+  },
+  {
+    "source": "output/five-method-analysis/cache/submitted/work_pilot/npz/tempograph/3407/036.npz",
+    "file": "comparison/work_pilot/npz/tempograph/3407/036.npz",
+    "sha256": "fa07b7de07c1dd66fdfa1b183b72d99ccd159df566c75b0069a2e0de38835b12",
+    "bytes": 519252
+  },
+  {
+    "source": "output/five-method-analysis/cache/submitted/work_pilot/raw/tempograph/3407/012.npz",
+    "file": "comparison/work_pilot/raw/tempograph/3407/012.npz",
+    "sha256": "4b816c8d01158b62dc6aff5fb7d39b9fd42698930f3cbe97c76ec3a90a12d27e",
+    "bytes": 520160
+  },
+  {
+    "source": "output/five-method-analysis/cache/submitted/work_pilot/raw/tempograph/3407/036.npz",
+    "file": "comparison/work_pilot/raw/tempograph/3407/036.npz",
+    "sha256": "686e23769a966a452d5b884248f2d37a07af3caa256ffac8970b744e558146b0",
+    "bytes": 519252
+  },
+  {
+    "source": "output/motif_overview/build/selected_088.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/088.npz",
+    "sha256": "bed128b0e0010cbab8056382675f9f2a9fbafa7fa6ab9549cb27118695796c4c",
+    "bytes": 521902,
+    "previous_file": "results/ablation12/ablation12_original/full/npz/088.npz"
+  },
+  {
+    "source": "output/motif_overview/data/088.npz",
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/088.npz",
+    "sha256": "bed128b0e0010cbab8056382675f9f2a9fbafa7fa6ab9549cb27118695796c4c",
+    "bytes": 521902,
+    "previous_file": "results/ablation12/ablation12_original/full/npz/088.npz"
+  }
+]

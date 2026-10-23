@@ -1,0 +1,58 @@
+{
+  "training": {
+    "training_rollout_steps": 4,
+    "boundary_training_rollout_steps": 4,
+    "beat_tolerance_frames": 3,
+    "checkpoint_every": 5000,
+    "validate_every": 5000,
+    "stage_hyperparameters": {
+      "joint_finetune": {
+        "learning_rate": 0.00002,
+        "weight_decay": 0.0001,
+        "scheduler": "cosine",
+        "warmup_updates": 250,
+        "min_lr_ratio": 0.05
+      }
+    },
+    "stage_steps": {
+      "joint_finetune": 40000
+    },
+    "loss_weights": {
+      "pose": 1.0,
+      "velocity": 0.75,
+      "acceleration": 0.5,
+      "contact": 3.0,
+      "contact_clean": 0.5,
+      "contact_corrupt": 0.75,
+      "contact_f1": 1.5,
+      "rollout_reconstruction": 1.5,
+      "rollout_contact_f1": 2.0,
+      "contact_transition": 0.75,
+      "rotation_regularization": 0.1,
+      "foot_skating": 4.0,
+      "foot_position": 1.0,
+      "beat_energy": 1.0,
+      "beat_alignment": 4.0,
+      "distribution_moments": 3.0,
+      "geometric_distribution": 3.0,
+      "diversity_preservation": 1.5,
+      "boundary_rollout": 1.5,
+      "energy": 1.0,
+      "root_velocity": 2.0,
+      "local_flow": 1.0,
+      "local_reconstruction": 1.0,
+      "graph_role": 1.0,
+      "graph_semantic": 1.0,
+      "graph_duration": 1.0,
+      "graph_edge": 1.0,
+      "plan_length": 1.0,
+      "plan_contact": 1.0,
+      "plan_root": 1.0,
+      "plan_energy": 1.0,
+      "flow": 1.0,
+      "local": 1.0,
+      "graph": 1.0,
+      "plan": 1.0
+    }
+  }
+}

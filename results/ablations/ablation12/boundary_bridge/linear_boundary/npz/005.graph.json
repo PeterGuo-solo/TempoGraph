@@ -1,0 +1,422 @@
+{
+  "graph_scope": "full_song",
+  "node_spans": [
+    [
+      0,
+      105
+    ],
+    [
+      105,
+      207
+    ],
+    [
+      207,
+      304
+    ],
+    [
+      304,
+      401
+    ],
+    [
+      401,
+      500
+    ],
+    [
+      500,
+      596
+    ],
+    [
+      596,
+      699
+    ],
+    [
+      699,
+      796
+    ],
+    [
+      796,
+      894
+    ],
+    [
+      894,
+      994
+    ],
+    [
+      994,
+      1024
+    ]
+  ],
+  "roles": [
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0
+  ],
+  "semantics": [
+    79,
+    79,
+    79,
+    79,
+    79,
+    79,
+    79,
+    79,
+    79,
+    37,
+    79
+  ],
+  "dense_edge_types": [
+    [
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0
+    ]
+  ],
+  "motif_sources": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "seam_frames": [
+    225,
+    435,
+    645,
+    855
+  ],
+  "boundary_plans": [
+    {
+      "seam_frame": 225,
+      "method": "linear_overlap"
+    },
+    {
+      "seam_frame": 435,
+      "method": "linear_overlap"
+    },
+    {
+      "seam_frame": 645,
+      "method": "linear_overlap"
+    },
+    {
+      "seam_frame": 855,
+      "method": "linear_overlap"
+    }
+  ],
+  "contact_foot_lock": {
+    "enabled": true,
+    "leg_optimization": {
+      "iterations": 150,
+      "contact_pairs": 1432,
+      "rounds": 5,
+      "foot_skating_ratio": 0.02019820317382539
+    },
+    "corrected_frames": 0,
+    "mean_correction": 0.0,
+    "maximum_accumulated_offset": 0.0
+  },
+  "beat_phase_alignment": {
+    "enabled": false
+  },
+  "key_motion_anchor_alignment": {
+    "enabled": false
+  },
+  "beat_velocity_valleys": {
+    "enabled": false
+  },
+  "official_bas_closed_loop": {
+    "enabled": true,
+    "used": false,
+    "baseline_bas": 0.20502208270573927,
+    "baseline_foot_skating_ratio": 0.02019820317382539,
+    "trials": [
+      {
+        "enabled": true,
+        "used": true,
+        "beat_count": 78,
+        "strength": 0.68,
+        "width": 3.5,
+        "minimum_rate": 0.3769062559859439,
+        "median_rate": 1.0005291889867707,
+        "endpoint_error": 0.0,
+        "strictly_monotonic": true,
+        "maximum_frame_displacement": 2.4494902457450394,
+        "maximum_beat_phase_error": 1.2505552149377763e-12,
+        "official_bas": 0.27337790281829083,
+        "foot_skating_ratio": 0.02455243553486665,
+        "feasible": false
+      },
+      {
+        "enabled": true,
+        "used": true,
+        "beat_count": 78,
+        "strength": 0.8,
+        "width": 4.5,
+        "minimum_rate": 0.2567125897511203,
+        "median_rate": 0.9975301286410678,
+        "endpoint_error": 0.0,
+        "strictly_monotonic": true,
+        "maximum_frame_displacement": 3.4743434257054986,
+        "maximum_beat_phase_error": 5.684341886080801e-13,
+        "official_bas": 0.27817605134512063,
+        "foot_skating_ratio": 0.02380120607194843,
+        "feasible": false
+      },
+      {
+        "enabled": true,
+        "used": true,
+        "beat_count": 78,
+        "strength": 0.9,
+        "width": 5.5,
+        "minimum_rate": 0.14029440756329306,
+        "median_rate": 0.9958418132780277,
+        "endpoint_error": 0.0,
+        "strictly_monotonic": true,
+        "maximum_frame_displacement": 4.562950670390887,
+        "maximum_beat_phase_error": 5.684341886080801e-13,
+        "official_bas": 0.3136101847107013,
+        "foot_skating_ratio": 0.02816635594316054,
+        "feasible": false
+      }
+    ],
+    "reason": "no candidate passed displacement and foot constraints"
+  },
+  "motion_prior": {
+    "enabled": true,
+    "blend_weight": 0.9,
+    "training_only": true,
+    "retrievals": [
+      {
+        "output_start": 0,
+        "output_end": 240,
+        "source_split": "train",
+        "source_id": "015",
+        "source_song": "mohewuting",
+        "source_start": 240,
+        "source_end": 480,
+        "descriptor_distance": 0.8543680310249329,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 19,
+        "target_beat_count": 19,
+        "excluded_song": "juelian",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 210,
+        "output_end": 450,
+        "source_split": "train",
+        "source_id": "155",
+        "source_song": "zuoshouzhiyue",
+        "source_start": 3000,
+        "source_end": 3240,
+        "descriptor_distance": 0.916252076625824,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 20,
+        "target_beat_count": 20,
+        "excluded_song": "juelian",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 420,
+        "output_end": 660,
+        "source_split": "train",
+        "source_id": "112",
+        "source_song": "shuangren5_chenmeiying",
+        "source_start": 5040,
+        "source_end": 5280,
+        "descriptor_distance": 0.7192565202713013,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 18,
+        "target_beat_count": 19,
+        "excluded_song": "juelian",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 630,
+        "output_end": 870,
+        "source_split": "train",
+        "source_id": "017",
+        "source_song": "qinghuida1998",
+        "source_start": 1320,
+        "source_end": 1560,
+        "descriptor_distance": 0.679533064365387,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 19,
+        "target_beat_count": 19,
+        "excluded_song": "juelian",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 840,
+        "output_end": 1024,
+        "source_split": "train",
+        "source_id": "015",
+        "source_song": "mohewuting",
+        "source_start": 1560,
+        "source_end": 1800,
+        "descriptor_distance": 0.8461377024650574,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 19,
+        "target_beat_count": 15,
+        "excluded_song": "juelian",
+        "near_duplicate_floor": 1e-06
+      }
+    ]
+  }
+}

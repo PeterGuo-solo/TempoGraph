@@ -1,0 +1,609 @@
+{
+  "copied_sources": [
+    {
+      "source": "ablations/ablation12/implementation/pyproject.toml",
+      "destination": "ablations/pyproject.toml",
+      "source_sha256": "09869ccb69106ee3280cbaea6f59ed5e584288a1ed627bb00855f035b952ad9e"
+    },
+    {
+      "source": "ablations/ablation12/implementation/README.md",
+      "destination": "ablations/README.md",
+      "source_sha256": "beedf9ee8ea3f734ff9ddbe30366a6de97b33d1ceb905af36941510e50710875"
+    },
+    {
+      "source": "ablations/ablation12/implementation/configs/base.json",
+      "destination": "ablations/configs/base.json",
+      "source_sha256": "433662cb8ccbc275e1b055c3a8c5f80fb01cb2b1bd83338fe6c9504a3615a1b1"
+    },
+    {
+      "source": "ablations/ablation12/implementation/configs/debug.json",
+      "destination": "ablations/configs/debug.json",
+      "source_sha256": "f43add939d860bd3217290846dbd021cfd1c18aa0e51d6271770ab9aa815b5cd"
+    },
+    {
+      "source": "ablations/ablation12/implementation/configs/five_paper_comparability.json",
+      "destination": "ablations/configs/five_paper_comparability.json",
+      "source_sha256": "e877d7ed8cd16fd9d51fa887259233e5c364b61d6f6c89eb7383bbb0bf4b0294"
+    },
+    {
+      "source": "ablations/ablation12/implementation/configs/paper_baselines.json",
+      "destination": "ablations/configs/paper_baselines.json",
+      "source_sha256": "fcfab53bf0c31989e7f9d23de3a3acaf06611bbe92e0a21c41416e5df705039c"
+    },
+    {
+      "source": "ablations/ablation12/implementation/configs/sota_targets.json",
+      "destination": "ablations/configs/sota_targets.json",
+      "source_sha256": "c04c2c938a53bcb31cfa1fd96ec268f781ad9dff1ede2191f39da8e76a202b52"
+    },
+    {
+      "source": "ablations/ablation12/implementation/configs/v63_metric_policy.json",
+      "destination": "ablations/configs/v63_metric_policy.json",
+      "source_sha256": "9e7f76d0992b5c4336a15c1ede2305b53fd07288eddcfa674665d4c37728cf7a"
+    },
+    {
+      "source": "ablations/ablation12/implementation/configs/v71_sota_train.json",
+      "destination": "ablations/configs/v71_sota_train.json",
+      "source_sha256": "c02f69d21cf84b4939127fd91b63dd07cbd7d95dea1f87e8608b25e81aebfed6"
+    },
+    {
+      "source": "ablations/ablation12/implementation/configs/v73_full_train.json",
+      "destination": "ablations/configs/v73_full_train.json",
+      "source_sha256": "2a2f33c5279a232b2a0260d57d70fa43965af509d751f9f76914078a514106d9"
+    },
+    {
+      "source": "ablations/ablation12/implementation/configs/v74_12k_train.json",
+      "destination": "ablations/configs/v74_12k_train.json",
+      "source_sha256": "cfe73d957da0c5f4e769600e8606f27da06803f0d5256f875ff0886e3039dc51"
+    },
+    {
+      "source": "ablations/ablation12/implementation/configs/v75_constrained_train.json",
+      "destination": "ablations/configs/v75_constrained_train.json",
+      "source_sha256": "68bf20b013d95d622dade05a39d67bfae0e8cf149aef297ab73ff15e8759fd21"
+    },
+    {
+      "source": "ablations/ablation12/implementation/configs/v76_rhythm_anchor_train.json",
+      "destination": "ablations/configs/v76_rhythm_anchor_train.json",
+      "source_sha256": "0adea5d812945f7dbec52fc4da977761fc09fd2b786a41b68a8611d65f86b143"
+    },
+    {
+      "source": "ablations/ablation12/implementation/configs/v77_official_bas_train.json",
+      "destination": "ablations/configs/v77_official_bas_train.json",
+      "source_sha256": "66a918f85b66d741bd41f0db6e2d92163652ee57aecd8626d108d3593ca460c9"
+    },
+    {
+      "source": "ablations/ablation12/implementation/configs/v7_sota_train.json",
+      "destination": "ablations/configs/v7_sota_train.json",
+      "source_sha256": "5fd8626ce03d6f5bd80b31c9dde6d4bd3d7a4edc49c402a131dcd7e87659e889"
+    },
+    {
+      "source": "ablations/ablation12/implementation/scripts/aggregate_seed_results.py",
+      "destination": "ablations/scripts/aggregate_seed_results.py",
+      "source_sha256": "8ca12f88132a37001dfae5399636d112288737f8d0b04f3bb60d99200a60cfe9"
+    },
+    {
+      "source": "ablations/ablation12/implementation/scripts/build_comparison.py",
+      "destination": "ablations/scripts/build_comparison.py",
+      "source_sha256": "6955103e2115ffe5ca33c0b72e5a697b291d9fdfb7b4d9e869f9cd52cab45c43"
+    },
+    {
+      "source": "ablations/ablation12/implementation/scripts/cache_lodge_beats.py",
+      "destination": "ablations/scripts/cache_lodge_beats.py",
+      "source_sha256": "e4317bf30282ffdf14c442536eb788aa04a4e0c406ef4d4e9bc0ca779897ced8"
+    },
+    {
+      "source": "ablations/ablation12/implementation/scripts/check_assets.py",
+      "destination": "ablations/scripts/check_assets.py",
+      "source_sha256": "b827ff706bf890669a8073329f39c4eb2a6a939f39e7eaf2b69ed20f33601577"
+    },
+    {
+      "source": "ablations/ablation12/implementation/scripts/check_sota_targets.py",
+      "destination": "ablations/scripts/check_sota_targets.py",
+      "source_sha256": "b5fa92db515c6f23f44fa05245e0b84e335c5e1373bf6367e1da369040aada51"
+    },
+    {
+      "source": "ablations/ablation12/implementation/scripts/check_v63_metrics.py",
+      "destination": "ablations/scripts/check_v63_metrics.py",
+      "source_sha256": "abba4be05e91b487015ea0769a76b6c831cce85d42cd281e9a783af36694bba1"
+    },
+    {
+      "source": "ablations/ablation12/implementation/scripts/evaluate.py",
+      "destination": "ablations/scripts/evaluate.py",
+      "source_sha256": "e00ef5ac62394e3f44d6b75f9f1fbab5fc6bcf43fe0adaf18d32727c48b517da"
+    },
+    {
+      "source": "ablations/ablation12/implementation/scripts/evaluate_baselines.py",
+      "destination": "ablations/scripts/evaluate_baselines.py",
+      "source_sha256": "1cf909fc39f0c65f100738f0ac1bc4664ad4756762722d3b9231055a0364dc22"
+    },
+    {
+      "source": "ablations/ablation12/implementation/scripts/evaluate_lodge_protocol.py",
+      "destination": "ablations/scripts/evaluate_lodge_protocol.py",
+      "source_sha256": "e00b7fa9f71f89e800fec8120b276192655ffabc52850025115196637f99b13a"
+    },
+    {
+      "source": "ablations/ablation12/implementation/scripts/export_finedance139.py",
+      "destination": "ablations/scripts/export_finedance139.py",
+      "source_sha256": "20375b8d046509d8fe2de7400c5508267b2f6414e51298afe91dcfd6d6c61e12"
+    },
+    {
+      "source": "ablations/ablation12/implementation/scripts/infer.py",
+      "destination": "ablations/scripts/infer.py",
+      "source_sha256": "090758343d9f40363aa02ea2a483e1c4c5df776d41877315df443efccadd1488"
+    },
+    {
+      "source": "ablations/ablation12/implementation/scripts/prepare_body_models.py",
+      "destination": "ablations/scripts/prepare_body_models.py",
+      "source_sha256": "5954dba21f034566b77bb3ed4a6ffa77872c9dd4e649d53240ae472eed4c719d"
+    },
+    {
+      "source": "ablations/ablation12/implementation/scripts/prepare_finedance.py",
+      "destination": "ablations/scripts/prepare_finedance.py",
+      "source_sha256": "3ba551540c1995ce1478fa42ba6b74d3ef4b309d7a2f3c474e2471f4017689d4"
+    },
+    {
+      "source": "ablations/ablation12/implementation/scripts/preprocess_dataset.py",
+      "destination": "ablations/scripts/preprocess_dataset.py",
+      "source_sha256": "f5152b381b8662a4b9c95b9963ac68a52f232da2b6d4689284ff9dacd62a5288"
+    },
+    {
+      "source": "ablations/ablation12/implementation/scripts/quality_gate.py",
+      "destination": "ablations/scripts/quality_gate.py",
+      "source_sha256": "b4660b734c83e6927a9e69017304cdbde88af19bac595008b37f72834c2c84b1"
+    },
+    {
+      "source": "ablations/ablation12/implementation/scripts/reevaluate_existing_predictions.sh",
+      "destination": "ablations/scripts/reevaluate_existing_predictions.sh",
+      "source_sha256": "42afe3d8c412da7e26c580e756c2fdf98de76351c0bb6a85d349566e55592a71"
+    },
+    {
+      "source": "ablations/ablation12/implementation/scripts/render.py",
+      "destination": "ablations/scripts/render.py",
+      "source_sha256": "092c2de9e4cb023e2f5800893c07939e0ad0201f82890c485bda18d9ac9617d9"
+    },
+    {
+      "source": "ablations/ablation12/implementation/scripts/run_autodl.sh",
+      "destination": "ablations/scripts/run_autodl.sh",
+      "source_sha256": "91b5fefb87f3c3267e730c3dca24d3af26356c2c05073a35d069401921be2a3d"
+    },
+    {
+      "source": "ablations/ablation12/implementation/scripts/run_closed_loop_autodl.sh",
+      "destination": "ablations/scripts/run_closed_loop_autodl.sh",
+      "source_sha256": "0857443c1174698694ce74555664f52b6b285b2d27cd0c5346c5103da6cc2159"
+    },
+    {
+      "source": "ablations/ablation12/implementation/scripts/run_lodge_autodl.sh",
+      "destination": "ablations/scripts/run_lodge_autodl.sh",
+      "source_sha256": "f66d4c78b7cf6007799eacf3f0b5a98aa41376178af1e884981ebba5498ead51"
+    },
+    {
+      "source": "ablations/ablation12/implementation/scripts/run_v73_full_autodl.sh",
+      "destination": "ablations/scripts/run_v73_full_autodl.sh",
+      "source_sha256": "894780fcddd65e8e1d4d00b8ee53b234fddaed4862d57867894f3e11823b1618"
+    },
+    {
+      "source": "ablations/ablation12/implementation/scripts/run_v74_12k_autodl.sh",
+      "destination": "ablations/scripts/run_v74_12k_autodl.sh",
+      "source_sha256": "e075a1f3c6c7be17db11b0045876de19dd3fd2a3c0088a49a7024eab5c14f605"
+    },
+    {
+      "source": "ablations/ablation12/implementation/scripts/run_v75_constrained_autodl.sh",
+      "destination": "ablations/scripts/run_v75_constrained_autodl.sh",
+      "source_sha256": "fdd18636c22193441242935d09966b0a4348e365ea4128fbff7097fb57bcdbae"
+    },
+    {
+      "source": "ablations/ablation12/implementation/scripts/run_v76_rhythm_anchor_autodl.sh",
+      "destination": "ablations/scripts/run_v76_rhythm_anchor_autodl.sh",
+      "source_sha256": "3498567ac6ea5493ff60b2d50370239a26db8f08d5752bf51706b71c50714846"
+    },
+    {
+      "source": "ablations/ablation12/implementation/scripts/run_v77_official_bas_autodl.sh",
+      "destination": "ablations/scripts/run_v77_official_bas_autodl.sh",
+      "source_sha256": "364111a59b86b460c331127c5848fe0fcaf81179a6b504b5c8447f50d24accf4"
+    },
+    {
+      "source": "ablations/ablation12/implementation/scripts/select_complete_validation.py",
+      "destination": "ablations/scripts/select_complete_validation.py",
+      "source_sha256": "c3267e80cb28acc5323bc38c7afa6cd9b143f262a75e43cab994477390d5eb00"
+    },
+    {
+      "source": "ablations/ablation12/implementation/scripts/select_v61_prior_weight.py",
+      "destination": "ablations/scripts/select_v61_prior_weight.py",
+      "source_sha256": "8043156548f27b2061ff196e015d0ab99e8bfbc830f2e9e1a532be8313b32fc3"
+    },
+    {
+      "source": "ablations/ablation12/implementation/scripts/select_v71_candidate.py",
+      "destination": "ablations/scripts/select_v71_candidate.py",
+      "source_sha256": "1987466d2748958991a341311e843cec39bf79f2e5ca3fe218e2db0f7e116642"
+    },
+    {
+      "source": "ablations/ablation12/implementation/scripts/select_v75_group.py",
+      "destination": "ablations/scripts/select_v75_group.py",
+      "source_sha256": "faf8ff7a7cba8cc2d037c880f492554ba74ec33dee67645dcd2e202ef6e7477a"
+    },
+    {
+      "source": "ablations/ablation12/implementation/scripts/select_v75_screen.py",
+      "destination": "ablations/scripts/select_v75_screen.py",
+      "source_sha256": "2f08489ab1d07da91d0892443f42845e0369a952fc247f3a1372ea0fbe539b6d"
+    },
+    {
+      "source": "ablations/ablation12/implementation/scripts/setup_autodl.sh",
+      "destination": "ablations/scripts/setup_autodl.sh",
+      "source_sha256": "c1bbb67c7b5a1d2f8debb145072bc00bbafae783799abd57b4b615957bead92b"
+    },
+    {
+      "source": "ablations/ablation12/implementation/scripts/train.py",
+      "destination": "ablations/scripts/train.py",
+      "source_sha256": "13d41e1af3ab56c1a79cc631f4d06899fe9023e8895d48dfd0b0adbce1523675"
+    },
+    {
+      "source": "ablations/ablation12/implementation/tests/test_boundary.py",
+      "destination": "ablations/tests/test_boundary.py",
+      "source_sha256": "59fdf96c18306d684281a1d6fc7440965c9cc9035aa6bf559396d3befe5f2be8"
+    },
+    {
+      "source": "ablations/ablation12/implementation/tests/test_closed_loop.py",
+      "destination": "ablations/tests/test_closed_loop.py",
+      "source_sha256": "d9ed934a8f45de06196d18d2ba866efbb086d2dcca110ab655d4600c42177e0c"
+    },
+    {
+      "source": "ablations/ablation12/implementation/tests/test_comparison_protocol.py",
+      "destination": "ablations/tests/test_comparison_protocol.py",
+      "source_sha256": "4be600fbe04f42246db665026e4102b4e871cf6ead5b2f15d1a7a88471343647"
+    },
+    {
+      "source": "ablations/ablation12/implementation/tests/test_config.py",
+      "destination": "ablations/tests/test_config.py",
+      "source_sha256": "ad59979e1794a6d986029a07d3a45a8eb8f936bc4e7319542fce0dab5d1887ba"
+    },
+    {
+      "source": "ablations/ablation12/implementation/tests/test_data.py",
+      "destination": "ablations/tests/test_data.py",
+      "source_sha256": "ecabc7351f9289501738bc53db0cc0827db6b832ad1d5b9a7764836fd44eab7d"
+    },
+    {
+      "source": "ablations/ablation12/implementation/tests/test_flow_and_contacts.py",
+      "destination": "ablations/tests/test_flow_and_contacts.py",
+      "source_sha256": "97e42db9c2b261ad134ae4ad50e4531a5ec3f267657b3bbd91a680842d3c4ee4"
+    },
+    {
+      "source": "ablations/ablation12/implementation/tests/test_geometry.py",
+      "destination": "ablations/tests/test_geometry.py",
+      "source_sha256": "b976adfc50fa92424ac83f17503210319059db25db5424b2c3815c9384f9c293"
+    },
+    {
+      "source": "ablations/ablation12/implementation/tests/test_graph.py",
+      "destination": "ablations/tests/test_graph.py",
+      "source_sha256": "2bc83aa30418beb8547b06dedb9480b5b72181582bfdd78458eb6f307b2517e9"
+    },
+    {
+      "source": "ablations/ablation12/implementation/tests/test_lodge_duration_match.py",
+      "destination": "ablations/tests/test_lodge_duration_match.py",
+      "source_sha256": "4cf636ebb840a7f5b1b8372f0019a7bb55f3ddf77dcfe7e3a827255d3d6b450b"
+    },
+    {
+      "source": "ablations/ablation12/implementation/tests/test_motion_prior.py",
+      "destination": "ablations/tests/test_motion_prior.py",
+      "source_sha256": "267cb918b9d50594aa12db0860f28cf42ce99971e805a20dafeebffbef56032e"
+    },
+    {
+      "source": "ablations/ablation12/implementation/tests/test_pipeline.py",
+      "destination": "ablations/tests/test_pipeline.py",
+      "source_sha256": "53b8491b497f78c27bdb7e9344075d2bd19101c9d9b3c9a8b1689be6476934ea"
+    },
+    {
+      "source": "ablations/ablation12/implementation/tests/test_postprocess.py",
+      "destination": "ablations/tests/test_postprocess.py",
+      "source_sha256": "50a7dbcce5599bfdf05ae98dd0a90857a2ef3ef9cc788221610c816c3bac6941"
+    },
+    {
+      "source": "ablations/ablation12/implementation/tests/test_real_pipeline.py",
+      "destination": "ablations/tests/test_real_pipeline.py",
+      "source_sha256": "98198e81262906e5741125746f142cd39750df3cad71c54627d14a3c771856a9"
+    },
+    {
+      "source": "ablations/ablation12/implementation/tests/test_seed_reporting.py",
+      "destination": "ablations/tests/test_seed_reporting.py",
+      "source_sha256": "09561335b0dd183746ba04cd6f7640cc5e07ef111699df8162d931a6f6c771ab"
+    },
+    {
+      "source": "ablations/ablation12/implementation/tests/test_v61_selection.py",
+      "destination": "ablations/tests/test_v61_selection.py",
+      "source_sha256": "9b282d96aded97e4a6000adec60813cf9fc1900c5ccbf6a442b34f22ebbc8971"
+    },
+    {
+      "source": "ablations/ablation12/implementation/tests/test_v63_metric_policy.py",
+      "destination": "ablations/tests/test_v63_metric_policy.py",
+      "source_sha256": "d65d1b98064c69db0ba42681e73a0fe461f1500ae809850d0e0f0ce8ab4f7fb8"
+    },
+    {
+      "source": "ablations/ablation12/implementation/tests/test_v73_objectives.py",
+      "destination": "ablations/tests/test_v73_objectives.py",
+      "source_sha256": "53acc5ad75b5e648f1b582347193cb3768dd1bdd55eede0d90f4702bfdf6f905"
+    },
+    {
+      "source": "ablations/ablation12/implementation/tests/test_v74_short_tune.py",
+      "destination": "ablations/tests/test_v74_short_tune.py",
+      "source_sha256": "da9053e3e6e8b46e3584e5d88fed0fa57f03f3a697860148f6db7d1bf32d677a"
+    },
+    {
+      "source": "ablations/ablation12/implementation/tests/test_v75_constrained.py",
+      "destination": "ablations/tests/test_v75_constrained.py",
+      "source_sha256": "70124dcb1dc715c0c1036319961a2f929353732b4270df11c21877862139e0c2"
+    },
+    {
+      "source": "ablations/ablation12/implementation/tests/test_v76_rhythm_anchor.py",
+      "destination": "ablations/tests/test_v76_rhythm_anchor.py",
+      "source_sha256": "e316fc79fe99e2a40c11594d92aaeaeaa103833a400018d4758ee20967a2b1a3"
+    },
+    {
+      "source": "ablations/ablation12/implementation/tests/test_v77_official_bas.py",
+      "destination": "ablations/tests/test_v77_official_bas.py",
+      "source_sha256": "160c3f9d80fc2fdb7d2c3466be3ccc4e3d51611261972b4f6c2351f0b45b1db1"
+    },
+    {
+      "source": "ablations/ablation12/implementation/tests/test_v7_objectives.py",
+      "destination": "ablations/tests/test_v7_objectives.py",
+      "source_sha256": "141b4ea2149bf63058629135f1fd83d22d16bccddc9ae96051ba2aae6820d5f1"
+    },
+    {
+      "source": "ablations/ablation12/implementation/src/tempograph/benchmarking.py",
+      "destination": "ablations/src/tempograph/benchmarking.py",
+      "source_sha256": "08b9cab0f85d5f1b0f5969c709341cf976ef89d63c240d87ec0497eced1fc7ee"
+    },
+    {
+      "source": "ablations/ablation12/implementation/src/tempograph/cli.py",
+      "destination": "ablations/src/tempograph/cli.py",
+      "source_sha256": "38d333ce348cd1639cb72201825cbc02c6cf1ec66553e889f07e54034a010529"
+    },
+    {
+      "source": "ablations/ablation12/implementation/src/tempograph/config.py",
+      "destination": "ablations/src/tempograph/config.py",
+      "source_sha256": "8ce21eceb18f0e915111d86419a4299ef7988aa4a07a49f29e3ad8ec94c9ba95"
+    },
+    {
+      "source": "ablations/ablation12/implementation/src/tempograph/engine.py",
+      "destination": "ablations/src/tempograph/engine.py",
+      "source_sha256": "f47d2457447d7e2d24effb8d4cd44d4c14869d41b3be0525e4e633ed1478e969"
+    },
+    {
+      "source": "ablations/ablation12/implementation/src/tempograph/evaluation.py",
+      "destination": "ablations/src/tempograph/evaluation.py",
+      "source_sha256": "878344603e21fa2f36fb05d82615f9caf58b1ff4a578db73a72494ad116a7d0c"
+    },
+    {
+      "source": "ablations/ablation12/implementation/src/tempograph/generation.py",
+      "destination": "ablations/src/tempograph/generation.py",
+      "source_sha256": "78c86455c282abad6b01692d1f6c2f84a4055446a44967509be8532e91fd4c0f"
+    },
+    {
+      "source": "ablations/ablation12/implementation/src/tempograph/lodge_protocol.py",
+      "destination": "ablations/src/tempograph/lodge_protocol.py",
+      "source_sha256": "64a536ee2b97a50ef48ed38e505c1087ebfc156161e6edc48ba40369eb710f45"
+    },
+    {
+      "source": "ablations/ablation12/implementation/src/tempograph/losses.py",
+      "destination": "ablations/src/tempograph/losses.py",
+      "source_sha256": "8131d30f340161c185ac8c97ded18049528d0abbd01199b9d720789d06030176"
+    },
+    {
+      "source": "ablations/ablation12/implementation/src/tempograph/motion_prior.py",
+      "destination": "ablations/src/tempograph/motion_prior.py",
+      "source_sha256": "17b8d77cc49c1cf74a7a32b4804a35e1addfcf7a40abfc6a3550825f223007c8"
+    },
+    {
+      "source": "ablations/ablation12/implementation/src/tempograph/pipeline.py",
+      "destination": "ablations/src/tempograph/pipeline.py",
+      "source_sha256": "c6ea288fd2302352df82b56d784fef784660fa457d5d9d890f96da4f1d1ef475"
+    },
+    {
+      "source": "ablations/ablation12/implementation/src/tempograph/postprocess.py",
+      "destination": "ablations/src/tempograph/postprocess.py",
+      "source_sha256": "731ae524809a1e7fc0f70c849da3d68e37f32da840ec39121238619426e2e32d"
+    },
+    {
+      "source": "ablations/ablation12/implementation/src/tempograph/rendering.py",
+      "destination": "ablations/src/tempograph/rendering.py",
+      "source_sha256": "f0591443ae2d57a37b111498fc42cbb40acaf196b0cc43166317c0ff6ac6bbbb"
+    },
+    {
+      "source": "ablations/ablation12/implementation/src/tempograph/synthetic.py",
+      "destination": "ablations/src/tempograph/synthetic.py",
+      "source_sha256": "59d2641a334090cb0faa8d473575925b277baa5ebdfcc8410ab455f7ac907bf2"
+    },
+    {
+      "source": "ablations/ablation12/implementation/src/tempograph/trainers.py",
+      "destination": "ablations/src/tempograph/trainers.py",
+      "source_sha256": "d3bfdec68b57cd59bb00f1147f4a902b690910835eaa236fe3cec825b7844f66"
+    },
+    {
+      "source": "ablations/ablation12/implementation/src/tempograph/training.py",
+      "destination": "ablations/src/tempograph/training.py",
+      "source_sha256": "1e87b5d30fb165c87bd7194603399c499392faa423ca353ff0588005cab5ca70"
+    },
+    {
+      "source": "ablations/ablation12/implementation/src/tempograph/types.py",
+      "destination": "ablations/src/tempograph/types.py",
+      "source_sha256": "8cf8518110069d7c23828e0a33c2e3e4454b7a966a9986e01648c5e193917d78"
+    },
+    {
+      "source": "ablations/ablation12/implementation/src/tempograph/__init__.py",
+      "destination": "ablations/src/tempograph/__init__.py",
+      "source_sha256": "7af773fee359655340eed7bf7b254b180629d7a14c5b26d893c97265fd53710f"
+    },
+    {
+      "source": "ablations/ablation12/implementation/src/tempograph/boundary/bridge.py",
+      "destination": "ablations/src/tempograph/boundary/bridge.py",
+      "source_sha256": "ac563d9d40a6e48a2b4ead1e89d19fe23bd80105c828ec9991180c98e4833352"
+    },
+    {
+      "source": "ablations/ablation12/implementation/src/tempograph/boundary/correction.py",
+      "destination": "ablations/src/tempograph/boundary/correction.py",
+      "source_sha256": "3a0bf5329578b44a1de8830a5cd407bfe689764fc395da0c7712823202d8d2fa"
+    },
+    {
+      "source": "ablations/ablation12/implementation/src/tempograph/boundary/features.py",
+      "destination": "ablations/src/tempograph/boundary/features.py",
+      "source_sha256": "0da0921cc0f296875079a8feac9ad040087ddcff7b112fca765497966712b3aa"
+    },
+    {
+      "source": "ablations/ablation12/implementation/src/tempograph/boundary/planner.py",
+      "destination": "ablations/src/tempograph/boundary/planner.py",
+      "source_sha256": "28cda73c192b15e76d1681a4d7e6166f1052235ee1b1130f2c0c40e89c5b8c4d"
+    },
+    {
+      "source": "ablations/ablation12/implementation/src/tempograph/boundary/__init__.py",
+      "destination": "ablations/src/tempograph/boundary/__init__.py",
+      "source_sha256": "a0186b088691089dc85ed151be947bb215048f2790e033373e6c1674b610ee84"
+    },
+    {
+      "source": "ablations/ablation12/implementation/src/tempograph/data/adapters.py",
+      "destination": "ablations/src/tempograph/data/adapters.py",
+      "source_sha256": "857327919f6bb19efdf6540bbe09cb2525a66e62854a062d91cdddd00d577074"
+    },
+    {
+      "source": "ablations/ablation12/implementation/src/tempograph/data/boundary_samples.py",
+      "destination": "ablations/src/tempograph/data/boundary_samples.py",
+      "source_sha256": "a8a8ea4fb34cc4df3ccd797c0e5427fe5a9f0c9e6ca7007b402fa3bbcd51d228"
+    },
+    {
+      "source": "ablations/ablation12/implementation/src/tempograph/data/dataset.py",
+      "destination": "ablations/src/tempograph/data/dataset.py",
+      "source_sha256": "8af28197effc4b1280151ae16fbf5ee4fa2190ffdc7104a7043cd514146c4395"
+    },
+    {
+      "source": "ablations/ablation12/implementation/src/tempograph/data/finedance.py",
+      "destination": "ablations/src/tempograph/data/finedance.py",
+      "source_sha256": "5c01d2b564d0483ba04c084003294bbdead6d7346d607015b28d6b2596ae55b0"
+    },
+    {
+      "source": "ablations/ablation12/implementation/src/tempograph/data/music.py",
+      "destination": "ablations/src/tempograph/data/music.py",
+      "source_sha256": "d8a8517641c0b8ac8cdfe0cc4813914fb44a34fa05fb596ab525c1f59f953307"
+    },
+    {
+      "source": "ablations/ablation12/implementation/src/tempograph/data/pseudo_graph.py",
+      "destination": "ablations/src/tempograph/data/pseudo_graph.py",
+      "source_sha256": "c25236d1ee8c58aa6d0bad5b743284dff776d68754845699f145435ad9b634f1"
+    },
+    {
+      "source": "ablations/ablation12/implementation/src/tempograph/data/torch_data.py",
+      "destination": "ablations/src/tempograph/data/torch_data.py",
+      "source_sha256": "14338b73417b7f7701c8c0d9d16287e1ca1bfd48a2dd5fae149ace206afce330"
+    },
+    {
+      "source": "ablations/ablation12/implementation/src/tempograph/data/__init__.py",
+      "destination": "ablations/src/tempograph/data/__init__.py",
+      "source_sha256": "16311789a541a53ec9f24973eedbfbd2717acb46fcb2f1a66514ecb3a912a427"
+    },
+    {
+      "source": "ablations/ablation12/implementation/src/tempograph/geometry/hermite.py",
+      "destination": "ablations/src/tempograph/geometry/hermite.py",
+      "source_sha256": "52c1ad74b138031d76d6826f6257a024264cc1fc454435ec55b7f58a5c89dec4"
+    },
+    {
+      "source": "ablations/ablation12/implementation/src/tempograph/geometry/rotations.py",
+      "destination": "ablations/src/tempograph/geometry/rotations.py",
+      "source_sha256": "a4de5e0f471edf0e52eed450db82da30afeed5c836c389aaf26ffcc5992798da"
+    },
+    {
+      "source": "ablations/ablation12/implementation/src/tempograph/geometry/__init__.py",
+      "destination": "ablations/src/tempograph/geometry/__init__.py",
+      "source_sha256": "578f2a7ab5556850cece22184c3370ca59e8015ee865072e3fe79f4f300e678e"
+    },
+    {
+      "source": "ablations/ablation12/implementation/src/tempograph/models/boundary_bridge.py",
+      "destination": "ablations/src/tempograph/models/boundary_bridge.py",
+      "source_sha256": "17a54078b912e8a1224ff34edddc6b6dfcb2a3bb8db779c9fa3a0655e94fd8ea"
+    },
+    {
+      "source": "ablations/ablation12/implementation/src/tempograph/models/common.py",
+      "destination": "ablations/src/tempograph/models/common.py",
+      "source_sha256": "56b3abca2d64ceab5cc8d1d505e9279801a25db96cf610910bc245168dfa3bde"
+    },
+    {
+      "source": "ablations/ablation12/implementation/src/tempograph/models/graph_planner.py",
+      "destination": "ablations/src/tempograph/models/graph_planner.py",
+      "source_sha256": "050eedc08ea9c6862eb67f3e35250c0f84af39279753f6276e531880223d89e7"
+    },
+    {
+      "source": "ablations/ablation12/implementation/src/tempograph/models/local_generator.py",
+      "destination": "ablations/src/tempograph/models/local_generator.py",
+      "source_sha256": "acca6c830c5c18e57298061904dc67b2ce56b92b1df37bf30adf5bd1d888c2a1"
+    },
+    {
+      "source": "ablations/ablation12/implementation/src/tempograph/models/motion_autoencoder.py",
+      "destination": "ablations/src/tempograph/models/motion_autoencoder.py",
+      "source_sha256": "9435c457e331352bbf6160789e01e0371b6e75cb69f6c130f0de734e8f674fda"
+    },
+    {
+      "source": "ablations/ablation12/implementation/src/tempograph/models/__init__.py",
+      "destination": "ablations/src/tempograph/models/__init__.py",
+      "source_sha256": "593c14542a228299cf7d67c319b8ccea4d8a5ab134414f28589e64d2674e4c46"
+    },
+    {
+      "source": "ablations/ablation34/implementation/src/tempograph/engine.py",
+      "destination": "ablations/src/tempograph/engine.py",
+      "source_sha256": "8908dba39137d3e52f105c164971d641e8809382307c3bcec1e6e1de9ef5e58a"
+    },
+    {
+      "source": "ablations/ablation34/implementation/src/tempograph/relation_supervision.py",
+      "destination": "ablations/src/tempograph/relation_supervision.py",
+      "source_sha256": "9763ab12a25d103a87c2d8332bde8e733b6982d61aab07c3559f564425c20183"
+    },
+    {
+      "source": "ablations/ablation34/implementation/scripts/diagnose_relations.py",
+      "destination": "ablations/scripts/diagnose_relations.py",
+      "source_sha256": "01ca09804970dbc869bbf1f28a627f341556b75289d5cc58843c173e8a7e2757"
+    },
+    {
+      "source": "ablations/ablation34/implementation/scripts/run_ablation34.py",
+      "destination": "ablations/scripts/run_training_ablations.py",
+      "source_sha256": "2063a59772b99ba9b01918c777886133d7066c416a351afccfecb2cc97cb3bd8"
+    },
+    {
+      "source": "ablations/ablation34/implementation/configs/ablation34_recipe.json",
+      "destination": "ablations/configs/training_ablations.json",
+      "source_sha256": "f96d4e8a76e72bb700ee031af079c851156a25c1684f309f965f26e8c4240eb7"
+    },
+    {
+      "source": "ablations/ablation34/implementation/tests/test_ablation34.py",
+      "destination": "ablations/tests/test_training_ablations.py",
+      "source_sha256": "dfa8ee8020c61467c0608d1f04a5a6d054bcb307bd21d950b4eb98d7b7f12de9"
+    },
+    {
+      "source": "ablations/tools/package_paired_full_autodl.sh",
+      "destination": "ablations/scripts/package_paired_full_autodl.sh",
+      "source_sha256": "9b3c7db83278b893ca853894b72dc6d84d6190fcd5224d34262572c437295072"
+    },
+    {
+      "source": "ablations/tools/run_no_relation_message_autodl.sh",
+      "destination": "ablations/scripts/run_no_relation_message_autodl.sh",
+      "source_sha256": "0b71d1d7037557d45505dd73f33c19eab49c8457693e80bf53691bef24a5942a"
+    }
+  ],
+  "renamed_files": {
+    "run_ablation34.py": "run_training_ablations.py",
+    "ablation34_recipe.json": "training_ablations.json",
+    "test_ablation34.py": "test_training_ablations.py"
+  },
+  "merge_strategy": {
+    "base": "inference ablation implementation",
+    "engine": "training ablation engine plus relation_supervision module",
+    "inference": "preserved relation-message and linear-boundary branches"
+  },
+  "validation": {
+    "unified_tests_passed": 96,
+    "inference_cli_choices": [
+      "full",
+      "linear_boundary",
+      "no_relation_message"
+    ],
+    "training_cli_groups": [
+      "all",
+      "full",
+      "no_relation_supervision",
+      "random_relation_labels"
+    ]
+  },
+  "old_code_directories": "recycled_after_unified_tests_passed"
+}

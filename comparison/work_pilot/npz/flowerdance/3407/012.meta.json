@@ -1,0 +1,20 @@
+{
+  "schema": "motion22-r6rows-yup-meters",
+  "contacts_available": false,
+  "raw_motion_sha256": "66c4afe86210e62081b7629f484ff7342e65e5e0c3998fa28ef7ff509905f0c4",
+  "method": "flowerdance",
+  "seed": 3407,
+  "clip_seed": 3419,
+  "clip": "012",
+  "checkpoint_sha256": "49a8e4e44a38f33ddec81bc4921cb1ee1d8b27f42db08f7f34f564454b50a6ab",
+  "input_audio_sha256": "9340b49ddea20e7272601d652d7790464c5fa33ff95c01c806665b46c2f06d23",
+  "start_frame": 0,
+  "output_frames": 1024,
+  "body_joints": 22,
+  "sampler": "official Euler",
+  "steps": 21,
+  "condition": "music+ground_truth_style2",
+  "genre": "Jazz",
+  "input_label_sha256": "01b5951f0636e4bdcac5b0dd264ae269a8b72707811ec89dd86d15d4f2ded53c",
+  "world_conversion": "z-up to y-up: -90 degrees around X"
+}

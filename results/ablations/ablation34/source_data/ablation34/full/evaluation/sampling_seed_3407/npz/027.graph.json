@@ -1,0 +1,496 @@
+{
+  "graph_scope": "full_song",
+  "node_spans": [
+    [
+      0,
+      240
+    ],
+    [
+      240,
+      341
+    ],
+    [
+      341,
+      442
+    ],
+    [
+      442,
+      545
+    ],
+    [
+      545,
+      651
+    ],
+    [
+      651,
+      758
+    ],
+    [
+      758,
+      862
+    ],
+    [
+      862,
+      963
+    ],
+    [
+      963,
+      1024
+    ]
+  ],
+  "roles": [
+    3,
+    1,
+    1,
+    1,
+    1,
+    0,
+    2,
+    3,
+    1
+  ],
+  "semantics": [
+    29,
+    29,
+    79,
+    29,
+    29,
+    29,
+    29,
+    29,
+    113
+  ],
+  "dense_edge_types": [
+    [
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0
+    ]
+  ],
+  "motif_sources": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "seam_frames": [
+    225,
+    435,
+    645,
+    855
+  ],
+  "boundary_plans": [
+    {
+      "seam_frame": 225,
+      "length_class": 1,
+      "edge_type": 0,
+      "contact_endpoints": [
+        [
+          0.6668514013290405,
+          0.6646460890769958,
+          0.6529800891876221,
+          0.6515236496925354
+        ],
+        [
+          0.7116155028343201,
+          0.5635412335395813,
+          0.6622954607009888,
+          0.6860558986663818
+        ]
+      ],
+      "root_residual": [
+        0.018914097920060158,
+        -0.033977191895246506,
+        -0.24259662628173828,
+        -0.1471940577030182,
+        0.032114725559949875,
+        -0.0858207494020462
+      ],
+      "energy_parameters": [
+        0.23346731066703796,
+        -0.04138218238949776,
+        0.08465423434972763,
+        0.25501710176467896
+      ]
+    },
+    {
+      "seam_frame": 435,
+      "length_class": 1,
+      "edge_type": 0,
+      "contact_endpoints": [
+        [
+          0.6871105432510376,
+          0.6872628331184387,
+          0.6919646859169006,
+          0.7567952871322632
+        ],
+        [
+          0.6503749489784241,
+          0.7006033062934875,
+          0.6551337838172913,
+          0.7313775420188904
+        ]
+      ],
+      "root_residual": [
+        -0.11428191512823105,
+        0.01011829636991024,
+        -0.03173903003334999,
+        -0.09881226718425751,
+        -0.10286267101764679,
+        0.03044663369655609
+      ],
+      "energy_parameters": [
+        0.13275094330310822,
+        -0.0571260042488575,
+        0.2202211618423462,
+        0.2451152205467224
+      ]
+    },
+    {
+      "seam_frame": 645,
+      "length_class": 2,
+      "edge_type": 0,
+      "contact_endpoints": [
+        [
+          0.7421310544013977,
+          0.6960939168930054,
+          0.6710575819015503,
+          0.6915237903594971
+        ],
+        [
+          0.5905419588088989,
+          0.7019631266593933,
+          0.6312053799629211,
+          0.7853347659111023
+        ]
+      ],
+      "root_residual": [
+        -0.005426762625575066,
+        0.005468865390866995,
+        -0.024543462321162224,
+        0.055256664752960205,
+        -0.10651957988739014,
+        -0.28427642583847046
+      ],
+      "energy_parameters": [
+        0.208615243434906,
+        0.06485635787248611,
+        0.1422218382358551,
+        0.30880171060562134
+      ]
+    },
+    {
+      "seam_frame": 855,
+      "length_class": 1,
+      "edge_type": 0,
+      "contact_endpoints": [
+        [
+          0.790844738483429,
+          0.5701012015342712,
+          0.6787285804748535,
+          0.6969914436340332
+        ],
+        [
+          0.7067427635192871,
+          0.7732440233230591,
+          0.5699235796928406,
+          0.7167525887489319
+        ]
+      ],
+      "root_residual": [
+        -0.08991750329732895,
+        -0.12141598016023636,
+        -0.2474098801612854,
+        -0.432892382144928,
+        -0.0296471007168293,
+        -0.012854412198066711
+      ],
+      "energy_parameters": [
+        0.33167827129364014,
+        0.041587453335523605,
+        0.25618770718574524,
+        0.3653998374938965
+      ]
+    }
+  ],
+  "contact_foot_lock": {
+    "enabled": true,
+    "leg_optimization": {
+      "iterations": 150,
+      "contact_pairs": 1492,
+      "rounds": 3,
+      "foot_skating_ratio": 0.0163750754115315
+    },
+    "corrected_frames": 0,
+    "mean_correction": 0.0,
+    "maximum_accumulated_offset": 0.0
+  },
+  "beat_phase_alignment": {
+    "enabled": false
+  },
+  "key_motion_anchor_alignment": {
+    "enabled": false
+  },
+  "beat_velocity_valleys": {
+    "enabled": false
+  },
+  "official_bas_closed_loop": {
+    "enabled": true,
+    "used": true,
+    "baseline_bas": 0.28064469737624426,
+    "baseline_foot_skating_ratio": 0.0163750754115315,
+    "target_bas": 0.245,
+    "selected": {
+      "enabled": true,
+      "used": true,
+      "beat_count": 60,
+      "strength": 0.68,
+      "width": 3.5,
+      "minimum_rate": 0.32408833961987454,
+      "median_rate": 1.0134720065391463,
+      "endpoint_error": 0.0,
+      "strictly_monotonic": true,
+      "maximum_frame_displacement": 3.2137564581455536,
+      "maximum_beat_phase_error": 2.2737367544323206e-12,
+      "official_bas": 0.28213732060618035,
+      "foot_skating_ratio": 0.017098254396098064,
+      "feasible": true
+    },
+    "trials": [
+      {
+        "enabled": true,
+        "used": true,
+        "beat_count": 60,
+        "strength": 0.68,
+        "width": 3.5,
+        "minimum_rate": 0.32408833961987454,
+        "median_rate": 1.0134720065391463,
+        "endpoint_error": 0.0,
+        "strictly_monotonic": true,
+        "maximum_frame_displacement": 3.2137564581455536,
+        "maximum_beat_phase_error": 2.2737367544323206e-12,
+        "official_bas": 0.28213732060618035,
+        "foot_skating_ratio": 0.017098254396098064,
+        "feasible": true
+      },
+      {
+        "enabled": true,
+        "used": true,
+        "beat_count": 60,
+        "strength": 0.8,
+        "width": 4.5,
+        "minimum_rate": 0.2014982908204709,
+        "median_rate": 1.0200655997531312,
+        "endpoint_error": 0.0,
+        "strictly_monotonic": true,
+        "maximum_frame_displacement": 4.730796907874378,
+        "maximum_beat_phase_error": 7.958078640513122e-13,
+        "official_bas": 0.31831707931326636,
+        "foot_skating_ratio": 0.016347750263842054,
+        "feasible": true
+      },
+      {
+        "enabled": true,
+        "used": true,
+        "beat_count": 60,
+        "strength": 0.9,
+        "width": 5.5,
+        "minimum_rate": 0.09708234116250274,
+        "median_rate": 1.0274394783617293,
+        "endpoint_error": 0.0,
+        "strictly_monotonic": true,
+        "maximum_frame_displacement": 6.39542828108614,
+        "maximum_beat_phase_error": 2.3874235921539366e-12,
+        "official_bas": 0.3546981032257782,
+        "foot_skating_ratio": 0.01782433521353747,
+        "feasible": false
+      }
+    ]
+  },
+  "motion_prior": {
+    "enabled": true,
+    "blend_weight": 0.9,
+    "training_only": true,
+    "retrievals": [
+      {
+        "output_start": 0,
+        "output_end": 240,
+        "source_split": "train",
+        "source_id": "083",
+        "source_song": "taozuile_2",
+        "source_start": 720,
+        "source_end": 960,
+        "descriptor_distance": 2.0251147747039795,
+        "top_k": 4,
+        "beat_warped": false,
+        "source_beat_count": 15,
+        "target_beat_count": 1,
+        "excluded_song": "hantang3",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 210,
+        "output_end": 450,
+        "source_split": "train",
+        "source_id": "083",
+        "source_song": "taozuile_2",
+        "source_start": 960,
+        "source_end": 1200,
+        "descriptor_distance": 1.4113414287567139,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 16,
+        "target_beat_count": 17,
+        "excluded_song": "hantang3",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 420,
+        "output_end": 660,
+        "source_split": "train",
+        "source_id": "050",
+        "source_song": "wangxian",
+        "source_start": 240,
+        "source_end": 480,
+        "descriptor_distance": 1.4587458372116089,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 17,
+        "target_beat_count": 18,
+        "excluded_song": "hantang3",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 630,
+        "output_end": 870,
+        "source_split": "train",
+        "source_id": "048",
+        "source_song": "lirenxing",
+        "source_start": 3960,
+        "source_end": 4200,
+        "descriptor_distance": 2.6271026134490967,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 16,
+        "target_beat_count": 18,
+        "excluded_song": "hantang3",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 840,
+        "output_end": 1024,
+        "source_split": "train",
+        "source_id": "048",
+        "source_song": "lirenxing",
+        "source_start": 4080,
+        "source_end": 4320,
+        "descriptor_distance": 1.6362100839614868,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 16,
+        "target_beat_count": 14,
+        "excluded_song": "hantang3",
+        "near_duplicate_floor": 1e-06
+      }
+    ]
+  }
+}

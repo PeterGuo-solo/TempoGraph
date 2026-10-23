@@ -1,0 +1,9 @@
+{
+  "schema": "motion22-r6rows-yup-meters",
+  "contacts_available": true,
+  "method": "lodge",
+  "seed": 3407,
+  "clip": "012",
+  "sampler": "inpaint_soft_ddim",
+  "genre_conditioning": true
+}

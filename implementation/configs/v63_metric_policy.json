@@ -1,0 +1,19 @@
+{
+  "protocol": "LODGE released FineDance metric definitions",
+  "primary_sota_claims": {
+    "fid_k": {"direction": "lower", "target": 45.56, "reference": "LODGE (DDPM)"},
+    "div_g": {"direction": "higher", "target": 6.45, "reference": "EDGE"}
+  },
+  "secondary_health_checks": {
+    "fid_g": {"direction": "lower", "limit": 50.38, "reference": "EDGE; health bound, not a SOTA claim"},
+    "foot_skating_ratio": {"direction": "lower", "limit": 0.0622, "reference": "FineDance ground truth row; health bound"},
+    "div_k": {"direction": "range", "minimum": 5.67, "maximum": 9.73, "reference": "published LODGE DDIM to GT interval"},
+    "bas": {"direction": "higher", "limit": 0.15, "reference": "conservative diagnostic floor below published baselines"}
+  },
+  "unavailable_automatic_metrics": {
+    "fid_s": "requires the matching published style feature extractor",
+    "div_s": "requires the matching published style feature extractor",
+    "dq_ds_dc_wins": "requires a preregistered human user study"
+  },
+  "claim_rule": "Only primary metrics evaluated on the untouched test split may be described as beating the cited target. Secondary thresholds are diagnostics and never establish SOTA."
+}

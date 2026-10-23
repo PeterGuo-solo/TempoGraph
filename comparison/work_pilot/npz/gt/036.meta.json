@@ -1,0 +1,7 @@
+{
+  "schema": "motion22-r6rows-yup-meters",
+  "contacts_available": true,
+  "method": "gt",
+  "clip": "036",
+  "source": "FineDance body channels; no per-frame realignment"
+}

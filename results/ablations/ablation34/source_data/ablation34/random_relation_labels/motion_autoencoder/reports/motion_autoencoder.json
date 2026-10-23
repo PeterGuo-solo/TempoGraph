@@ -1,0 +1,25 @@
+{
+  "stage": "motion_autoencoder",
+  "steps": 3000,
+  "requested_steps": 3000,
+  "start_step": 0,
+  "optimizer_updates": 375,
+  "stopped_by_time_budget": false,
+  "validation_loss": 0.8216337170121233,
+  "best_validation_loss": 0.8216337170121233,
+  "best_step": 3000,
+  "checkpoint": "/root/autodl-tmp/TempoGraph_ablation34_25k_results/seed_1234/random_relation_labels/motion_autoencoder/checkpoints/motion_autoencoder.pt",
+  "checkpoint_policy": "final",
+  "elapsed_seconds": 15.503262693062425,
+  "micro_batches_per_second": 193.5076544463427,
+  "last_metrics": {
+    "pose": 0.1515919417142868,
+    "velocity": 0.02992941439151764,
+    "acceleration": 0.03308068960905075,
+    "contact": 0.13080444931983948,
+    "energy": 0.48596110939979553,
+    "root_velocity": 0.005157984793186188,
+    "total": 0.9327127933502197
+  },
+  "peak_cuda_memory_gb": 0.5223855972290039
+}

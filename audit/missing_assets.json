@@ -1,0 +1,140 @@
+[
+  {
+    "label": "TempoGraph 主实验最终权重（joint_finetune step 15000）",
+    "recorded_path": "/root/autodl-tmp/TempoGraph_MainCompare/assets/tempograph/tempograph.pt",
+    "expected_sha256": "332e3418acc4c081e7079356889434a152c53c8263db6ad8a5aa56ffd5457b56",
+    "status": "missing_locally"
+  },
+  {
+    "label": "消融3/4与配套Full：full/boundary_bridge/complete.json",
+    "recorded_path": "/root/autodl-tmp/TempoGraph_ablation34_25k_results/seed_1234/full/boundary_bridge/checkpoints/boundary_bridge.pt",
+    "expected_sha256": "7239b6815ccc79b853eb613bc00c538a2fd1b6b633067bf4b153768c28736b5a",
+    "status": "missing_locally"
+  },
+  {
+    "label": "消融3/4与配套Full：full/boundary_planner/complete.json",
+    "recorded_path": "/root/autodl-tmp/TempoGraph_ablation34_25k_results/seed_1234/full/boundary_planner/checkpoints/boundary_planner.pt",
+    "expected_sha256": "5c109a32f9164aa6a255f072226ed5baa270ad7e8fc4aeb3ed07a1d3dd718e64",
+    "status": "missing_locally"
+  },
+  {
+    "label": "消融3/4与配套Full：full/graph_and_local/complete.json",
+    "recorded_path": "/root/autodl-tmp/TempoGraph_ablation34_25k_results/seed_1234/full/graph_and_local/checkpoints/graph_local.pt",
+    "expected_sha256": "01763bc71b1b6d82c075e4f8a830ae53bf2674791ca24e67aea58409104462db",
+    "status": "missing_locally"
+  },
+  {
+    "label": "消融3/4与配套Full：full/motion_autoencoder/complete.json",
+    "recorded_path": "/root/autodl-tmp/TempoGraph_ablation34_25k_results/seed_1234/full/motion_autoencoder/checkpoints/motion_autoencoder.pt",
+    "expected_sha256": "efcc08a3472ded938ef86330475364ea43bed3ca48592ee0710f1883794ac1fd",
+    "status": "missing_locally"
+  },
+  {
+    "label": "消融3/4与配套Full：full/v73_joint/complete.json",
+    "recorded_path": "/root/autodl-tmp/TempoGraph_ablation34_25k_results/seed_1234/full/v73_joint/checkpoints/tempograph.pt",
+    "expected_sha256": "55f5c8dc992db6069267456fcfa9e9772138d6bc48cd2255eeb0011e4b70850e",
+    "status": "missing_locally"
+  },
+  {
+    "label": "消融3/4与配套Full：full/v77_local/complete.json",
+    "recorded_path": "/root/autodl-tmp/TempoGraph_ablation34_25k_results/seed_1234/full/v77_local/checkpoints/tempograph.pt",
+    "expected_sha256": "736f652d94f551f05819b39d22d54cd8a1778e5cc8be750d8b300da3fbe6644c",
+    "status": "missing_locally"
+  },
+  {
+    "label": "消融3/4与配套Full：no_relation_supervision/boundary_bridge/complete.json",
+    "recorded_path": "/root/autodl-tmp/TempoGraph_ablation34_25k_results/seed_1234/no_relation_supervision/boundary_bridge/checkpoints/boundary_bridge.pt",
+    "expected_sha256": "3a156614b38484d29df0498c5b6a871ef68cc73d30886f92d51bc884d8a153a6",
+    "status": "missing_locally"
+  },
+  {
+    "label": "消融3/4与配套Full：no_relation_supervision/boundary_planner/complete.json",
+    "recorded_path": "/root/autodl-tmp/TempoGraph_ablation34_25k_results/seed_1234/no_relation_supervision/boundary_planner/checkpoints/boundary_planner.pt",
+    "expected_sha256": "77220300f685367ace7d3ac0bc9f104d62845042f7eff167fc038790ec477aac",
+    "status": "missing_locally"
+  },
+  {
+    "label": "消融3/4与配套Full：no_relation_supervision/graph_and_local/complete.json",
+    "recorded_path": "/root/autodl-tmp/TempoGraph_ablation34_25k_results/seed_1234/no_relation_supervision/graph_and_local/checkpoints/graph_local.pt",
+    "expected_sha256": "b583015b9e6729e2641725e36e8a1ae9ccd4c95fcfc368cacd100b026da45018",
+    "status": "missing_locally"
+  },
+  {
+    "label": "消融3/4与配套Full：no_relation_supervision/motion_autoencoder/complete.json",
+    "recorded_path": "/root/autodl-tmp/TempoGraph_ablation34_25k_results/seed_1234/no_relation_supervision/motion_autoencoder/checkpoints/motion_autoencoder.pt",
+    "expected_sha256": "780fefe202bf0360da6fc062c954d295c3c16ffa43a02ff71c6dec64abe3ba05",
+    "status": "missing_locally"
+  },
+  {
+    "label": "消融3/4与配套Full：no_relation_supervision/v73_joint/complete.json",
+    "recorded_path": "/root/autodl-tmp/TempoGraph_ablation34_25k_results/seed_1234/no_relation_supervision/v73_joint/checkpoints/tempograph.pt",
+    "expected_sha256": "8aa8666752b69fb3f3642745263dbb2d9bdfc89f068b7c5b202f392e5657ccd1",
+    "status": "missing_locally"
+  },
+  {
+    "label": "消融3/4与配套Full：no_relation_supervision/v77_local/complete.json",
+    "recorded_path": "/root/autodl-tmp/TempoGraph_ablation34_25k_results/seed_1234/no_relation_supervision/v77_local/checkpoints/tempograph.pt",
+    "expected_sha256": "f9403264c2d15e217bd7eabb2daec88019d1a214196df028f0fbb371ea8d88e5",
+    "status": "missing_locally"
+  },
+  {
+    "label": "消融3/4与配套Full：random_relation_labels/boundary_bridge/complete.json",
+    "recorded_path": "/root/autodl-tmp/TempoGraph_ablation34_25k_results/seed_1234/random_relation_labels/boundary_bridge/checkpoints/boundary_bridge.pt",
+    "expected_sha256": "202f4371b10d71447f6a1ca99ba6d4d5d6d6ea55883b789fb02bf12b6aa133f2",
+    "status": "missing_locally"
+  },
+  {
+    "label": "消融3/4与配套Full：random_relation_labels/boundary_planner/complete.json",
+    "recorded_path": "/root/autodl-tmp/TempoGraph_ablation34_25k_results/seed_1234/random_relation_labels/boundary_planner/checkpoints/boundary_planner.pt",
+    "expected_sha256": "07e3665624f3ef100dc4c68be85e53a857db9df17a98591bf224001ee59921e0",
+    "status": "missing_locally"
+  },
+  {
+    "label": "消融3/4与配套Full：random_relation_labels/graph_and_local/complete.json",
+    "recorded_path": "/root/autodl-tmp/TempoGraph_ablation34_25k_results/seed_1234/random_relation_labels/graph_and_local/checkpoints/graph_local.pt",
+    "expected_sha256": "a907dd63ae68dd7069899794e63ac3d4d4713ac33c4b5828c300fea353e5daac",
+    "status": "missing_locally"
+  },
+  {
+    "label": "消融3/4与配套Full：random_relation_labels/motion_autoencoder/complete.json",
+    "recorded_path": "/root/autodl-tmp/TempoGraph_ablation34_25k_results/seed_1234/random_relation_labels/motion_autoencoder/checkpoints/motion_autoencoder.pt",
+    "expected_sha256": "fab6d19cb5d944b4fd3ca02581e64e9996cbf6dd0d357ee82208c0509fd271b7",
+    "status": "missing_locally"
+  },
+  {
+    "label": "消融3/4与配套Full：random_relation_labels/v73_joint/complete.json",
+    "recorded_path": "/root/autodl-tmp/TempoGraph_ablation34_25k_results/seed_1234/random_relation_labels/v73_joint/checkpoints/tempograph.pt",
+    "expected_sha256": "1a1c6d4d142f05f290f0e0321b04e958618d5cf38df2ce59d477ca688c2e8830",
+    "status": "missing_locally"
+  },
+  {
+    "label": "消融3/4与配套Full：random_relation_labels/v77_local/complete.json",
+    "recorded_path": "/root/autodl-tmp/TempoGraph_ablation34_25k_results/seed_1234/random_relation_labels/v77_local/checkpoints/tempograph.pt",
+    "expected_sha256": "4c4cec2841ee4c4f520b44144543cdf20ac6d3526d36077f5417fa1d037c565f",
+    "status": "missing_locally"
+  },
+  {
+    "label": "消融1/2：ablation12_original/full/npz/generation_index.json",
+    "recorded_path": "/root/autodl-tmp/TempoGraph_v77/implementation/artifacts/v77_official_bas/seed_1234/checkpoints/tempograph.pt",
+    "expected_sha256": null,
+    "status": "missing_locally"
+  },
+  {
+    "label": "消融1/2：ablation12_original/linear_boundary/npz/generation_index.json",
+    "recorded_path": "/root/autodl-tmp/TempoGraph_v77/implementation/artifacts/v77_official_bas/seed_1234/checkpoints/tempograph.pt",
+    "expected_sha256": null,
+    "status": "missing_locally"
+  },
+  {
+    "label": "消融1/2：no_relation_message/no_relation_message/npz/generation_index.json",
+    "recorded_path": "/root/autodl-tmp/TempoGraph_v77/implementation/artifacts/v77_official_bas/seed_1234/checkpoints/tempograph.pt",
+    "expected_sha256": null,
+    "status": "missing_locally"
+  },
+  {
+    "label": "消融1/2：relation_full/full/npz/generation_index.json",
+    "recorded_path": "/root/autodl-tmp/TempoGraph_v77/implementation/artifacts/v77_official_bas/seed_1234/checkpoints/tempograph.pt",
+    "expected_sha256": null,
+    "status": "missing_locally"
+  }
+]

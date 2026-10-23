@@ -1,0 +1,4434 @@
+[
+  {
+    "file": "comparison/work_pilot/npz/finenet/3407/012.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    }
+  },
+  {
+    "file": "comparison/work_pilot/npz/finenet/3407/036.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    }
+  },
+  {
+    "file": "comparison/work_pilot/npz/flowerdance/3407/012.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    }
+  },
+  {
+    "file": "comparison/work_pilot/npz/flowerdance/3407/036.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    }
+  },
+  {
+    "file": "comparison/work_pilot/npz/gt/012.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      }
+    }
+  },
+  {
+    "file": "comparison/work_pilot/npz/gt/036.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      }
+    }
+  },
+  {
+    "file": "comparison/work_pilot/npz/lodge/3407/012.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      }
+    }
+  },
+  {
+    "file": "comparison/work_pilot/npz/lodge/3407/036.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      }
+    }
+  },
+  {
+    "file": "comparison/work_pilot/npz/megadance/3407/012.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    }
+  },
+  {
+    "file": "comparison/work_pilot/npz/megadance/3407/036.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    }
+  },
+  {
+    "file": "comparison/work_pilot/npz/tempograph/3407/012.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      }
+    }
+  },
+  {
+    "file": "comparison/work_pilot/npz/tempograph/3407/036.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      }
+    }
+  },
+  {
+    "file": "comparison/work_pilot/raw/tempograph/3407/012.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    }
+  },
+  {
+    "file": "comparison/work_pilot/raw/tempograph/3407/036.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    }
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/005.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/full/npz/005.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/018.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/full/npz/018.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/023.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/full/npz/023.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/027.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/full/npz/027.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/033.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/full/npz/033.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/071.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/full/npz/071.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/075.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/full/npz/075.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/088.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/full/npz/088.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/099.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/full/npz/099.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/101.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/full/npz/101.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/104.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/full/npz/104.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/105.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/full/npz/105.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/138.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/full/npz/138.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/139.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/full/npz/139.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/140.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/full/npz/140.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/141.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/full/npz/141.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/159.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/full/npz/159.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/187.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/full/npz/187.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/191.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/full/npz/191.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/192.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          520,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          520,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          520,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/full/npz/192.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/203.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/full/npz/203.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/207.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/full/npz/207.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/full/npz/208.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/full/npz/208.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/005.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/005.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/018.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/018.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/023.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/023.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/027.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/027.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/033.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/033.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/071.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/071.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/075.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/075.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/088.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/088.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/099.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/099.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/101.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/101.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/104.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/104.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/105.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/105.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/138.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/138.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/139.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/139.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/140.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/140.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/141.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/141.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/159.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/159.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/187.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/187.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/191.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/191.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/192.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          520,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          520,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          520,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/192.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/203.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/203.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/207.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/207.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/boundary_bridge/linear_boundary/npz/208.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/ablation12_original/linear_boundary/npz/208.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/005.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/005.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/018.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/018.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/023.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/023.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/027.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/027.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/033.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/033.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/071.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/071.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/075.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/075.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/088.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/088.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/099.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/099.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/101.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/101.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/104.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/104.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/105.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/105.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/138.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/138.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/139.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/139.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/140.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/140.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/141.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/141.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/159.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/159.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/187.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/187.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/191.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/191.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/192.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          520,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          520,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          520,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/192.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/203.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/203.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/207.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/207.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/no_relation_message/npz/208.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/no_relation_message/no_relation_message/npz/208.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/full/npz/005.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/relation_full/full/npz/005.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/full/npz/018.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/relation_full/full/npz/018.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/full/npz/023.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/relation_full/full/npz/023.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/full/npz/027.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/relation_full/full/npz/027.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/full/npz/033.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/relation_full/full/npz/033.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/full/npz/071.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/relation_full/full/npz/071.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/full/npz/075.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/relation_full/full/npz/075.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/full/npz/088.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/relation_full/full/npz/088.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/full/npz/099.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/relation_full/full/npz/099.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/full/npz/101.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/relation_full/full/npz/101.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/full/npz/104.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/relation_full/full/npz/104.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/full/npz/105.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/relation_full/full/npz/105.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/full/npz/138.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/relation_full/full/npz/138.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/full/npz/139.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/relation_full/full/npz/139.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/full/npz/140.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/relation_full/full/npz/140.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/full/npz/141.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/relation_full/full/npz/141.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/full/npz/159.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/relation_full/full/npz/159.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/full/npz/187.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/relation_full/full/npz/187.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/full/npz/191.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/relation_full/full/npz/191.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/full/npz/192.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          520,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          520,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          520,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/relation_full/full/npz/192.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/full/npz/203.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/relation_full/full/npz/203.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/full/npz/207.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/relation_full/full/npz/207.npz"
+  },
+  {
+    "file": "results/ablations/ablation12/relation_message/full/npz/208.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation12/relation_full/full/npz/208.npz"
+  },
+  {
+    "file": "results/ablations/ablation34/source_data/selected_motion/full/075.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation34/source_data/selected_motion/full/075.npz"
+  },
+  {
+    "file": "results/ablations/ablation34/source_data/selected_motion/full/140.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation34/source_data/selected_motion/full/140.npz"
+  },
+  {
+    "file": "results/ablations/ablation34/source_data/selected_motion/no_relation_supervision/075.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation34/source_data/selected_motion/no_relation_supervision/075.npz"
+  },
+  {
+    "file": "results/ablations/ablation34/source_data/selected_motion/no_relation_supervision/140.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation34/source_data/selected_motion/no_relation_supervision/140.npz"
+  },
+  {
+    "file": "results/ablations/ablation34/source_data/selected_motion/random_relation_labels/075.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation34/source_data/selected_motion/random_relation_labels/075.npz"
+  },
+  {
+    "file": "results/ablations/ablation34/source_data/selected_motion/random_relation_labels/140.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/ablation34/source_data/selected_motion/random_relation_labels/140.npz"
+  },
+  {
+    "file": "results/qualitative/selected_six_way/full12/027.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/selected_six_way/full12/027.npz"
+  },
+  {
+    "file": "results/qualitative/selected_six_way/full12/071.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/selected_six_way/full12/071.npz"
+  },
+  {
+    "file": "results/qualitative/selected_six_way/full12/139.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/selected_six_way/full12/139.npz"
+  },
+  {
+    "file": "results/qualitative/selected_six_way/full12/159.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/selected_six_way/full12/159.npz"
+  },
+  {
+    "file": "results/qualitative/selected_six_way/full34/027.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/selected_six_way/full34/027.npz"
+  },
+  {
+    "file": "results/qualitative/selected_six_way/full34/071.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/selected_six_way/full34/071.npz"
+  },
+  {
+    "file": "results/qualitative/selected_six_way/full34/139.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/selected_six_way/full34/139.npz"
+  },
+  {
+    "file": "results/qualitative/selected_six_way/full34/159.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/selected_six_way/full34/159.npz"
+  },
+  {
+    "file": "results/qualitative/selected_six_way/linear_boundary/027.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/selected_six_way/linear_boundary/027.npz"
+  },
+  {
+    "file": "results/qualitative/selected_six_way/linear_boundary/071.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/selected_six_way/linear_boundary/071.npz"
+  },
+  {
+    "file": "results/qualitative/selected_six_way/linear_boundary/139.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/selected_six_way/linear_boundary/139.npz"
+  },
+  {
+    "file": "results/qualitative/selected_six_way/linear_boundary/159.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/selected_six_way/linear_boundary/159.npz"
+  },
+  {
+    "file": "results/qualitative/selected_six_way/no_relation_message/027.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/selected_six_way/no_relation_message/027.npz"
+  },
+  {
+    "file": "results/qualitative/selected_six_way/no_relation_message/071.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/selected_six_way/no_relation_message/071.npz"
+  },
+  {
+    "file": "results/qualitative/selected_six_way/no_relation_message/139.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/selected_six_way/no_relation_message/139.npz"
+  },
+  {
+    "file": "results/qualitative/selected_six_way/no_relation_message/159.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/selected_six_way/no_relation_message/159.npz"
+  },
+  {
+    "file": "results/qualitative/selected_six_way/no_relation_supervision/027.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/selected_six_way/no_relation_supervision/027.npz"
+  },
+  {
+    "file": "results/qualitative/selected_six_way/no_relation_supervision/071.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/selected_six_way/no_relation_supervision/071.npz"
+  },
+  {
+    "file": "results/qualitative/selected_six_way/no_relation_supervision/139.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/selected_six_way/no_relation_supervision/139.npz"
+  },
+  {
+    "file": "results/qualitative/selected_six_way/no_relation_supervision/159.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/selected_six_way/no_relation_supervision/159.npz"
+  },
+  {
+    "file": "results/qualitative/selected_six_way/random_relation_labels/027.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/selected_six_way/random_relation_labels/027.npz"
+  },
+  {
+    "file": "results/qualitative/selected_six_way/random_relation_labels/071.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/selected_six_way/random_relation_labels/071.npz"
+  },
+  {
+    "file": "results/qualitative/selected_six_way/random_relation_labels/139.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/selected_six_way/random_relation_labels/139.npz"
+  },
+  {
+    "file": "results/qualitative/selected_six_way/random_relation_labels/159.npz",
+    "status": "passed",
+    "arrays": {
+      "rotations_6d": {
+        "shape": [
+          1024,
+          22,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "root_positions": {
+        "shape": [
+          1024,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "contacts": {
+        "shape": [
+          1024,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "fps": {
+        "shape": [],
+        "dtype": "float32"
+      }
+    },
+    "previous_file": "results/selected_six_way/random_relation_labels/159.npz"
+  }
+]

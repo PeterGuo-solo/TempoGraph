@@ -1,0 +1,10 @@
+{
+  "schema": "motion22-r6rows-yup-meters",
+  "contacts_available": true,
+  "method": "tempograph",
+  "seed": 3407,
+  "clip": "012",
+  "checkpoint_sha256": "332e3418acc4c081e7079356889434a152c53c8263db6ad8a5aa56ffd5457b56",
+  "profile": "v78_rhythmic",
+  "prior_weight": 0.9
+}

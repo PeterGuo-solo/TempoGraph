@@ -1,0 +1,4 @@
+{
+  "checkpoint": "/root/autodl-tmp/TempoGraph_ablation34_25k_results/seed_1234/no_relation_supervision/boundary_bridge/checkpoints/boundary_bridge.pt",
+  "sha256": "3a156614b38484d29df0498c5b6a871ef68cc73d30886f92d51bc884d8a153a6"
+}

@@ -1,0 +1,28 @@
+{
+  "method": "finenet",
+  "seed": 3407,
+  "ids": [
+    "012",
+    "036"
+  ],
+  "identity": {
+    "checkpoint_sha256": "87016f3ed95d69cdcf24e69ac7c17d8e1f591b51ca9a019c10ed1e8ce5f53ba2",
+    "code_sha256": "c50804da719a0e46ee64b711639ea2115e5bf0be4c265454d8025778ee88d1af",
+    "protocol_sha256": "42544f520e80245768d1943b490c9d5224a149966fbd9ab616de5d6bc376947e",
+    "inputs": {
+      "012": {
+        "music.wav": "9340b49ddea20e7272601d652d7790464c5fa33ff95c01c806665b46c2f06d23"
+      },
+      "036": {
+        "music.wav": "cd6f2a488963610104426904edb087df654f67c528950b47b757bcbaa488bc30"
+      }
+    }
+  },
+  "protocol_sha256": "42544f520e80245768d1943b490c9d5224a149966fbd9ab616de5d6bc376947e",
+  "files": {
+    "012": "1e49f9679ec38347717021f180daa86b7f88bf2e2483d7984d0bde4544d808c5",
+    "036": "fddd95cc091c73b4d645e10c20463de19dbe0acf84c31510b54c6eeb60be3429"
+  },
+  "elapsed_seconds": 14.930374145507812,
+  "status": "pilot_outputs_not_yet_visually_audited"
+}

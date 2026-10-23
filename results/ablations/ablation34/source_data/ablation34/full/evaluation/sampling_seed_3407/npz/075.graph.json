@@ -1,0 +1,508 @@
+{
+  "graph_scope": "full_song",
+  "node_spans": [
+    [
+      0,
+      113
+    ],
+    [
+      113,
+      218
+    ],
+    [
+      218,
+      331
+    ],
+    [
+      331,
+      443
+    ],
+    [
+      443,
+      553
+    ],
+    [
+      553,
+      663
+    ],
+    [
+      663,
+      772
+    ],
+    [
+      772,
+      881
+    ],
+    [
+      881,
+      994
+    ],
+    [
+      994,
+      1024
+    ]
+  ],
+  "roles": [
+    0,
+    3,
+    0,
+    0,
+    3,
+    0,
+    1,
+    0,
+    1,
+    0
+  ],
+  "semantics": [
+    79,
+    79,
+    79,
+    79,
+    79,
+    79,
+    79,
+    79,
+    79,
+    79
+  ],
+  "dense_edge_types": [
+    [
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0
+    ]
+  ],
+  "motif_sources": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "seam_frames": [
+    225,
+    435,
+    645,
+    855
+  ],
+  "boundary_plans": [
+    {
+      "seam_frame": 225,
+      "length_class": 1,
+      "edge_type": 0,
+      "contact_endpoints": [
+        [
+          0.6122409105300903,
+          0.5608214735984802,
+          0.6032179594039917,
+          0.6431096196174622
+        ],
+        [
+          0.6174548864364624,
+          0.565674364566803,
+          0.6045942306518555,
+          0.57486891746521
+        ]
+      ],
+      "root_residual": [
+        0.04198994114995003,
+        0.047587890177965164,
+        0.04683661088347435,
+        -0.01171144749969244,
+        0.0902307853102684,
+        0.0701771229505539
+      ],
+      "energy_parameters": [
+        0.3098160922527313,
+        0.10944605618715286,
+        0.20243215560913086,
+        0.37880998849868774
+      ]
+    },
+    {
+      "seam_frame": 435,
+      "length_class": 1,
+      "edge_type": 0,
+      "contact_endpoints": [
+        [
+          0.639926016330719,
+          0.5412175059318542,
+          0.6039531826972961,
+          0.6091486215591431
+        ],
+        [
+          0.6114568710327148,
+          0.5774595141410828,
+          0.6480013728141785,
+          0.5703302025794983
+        ]
+      ],
+      "root_residual": [
+        0.10361061990261078,
+        0.03345780447125435,
+        0.024445530027151108,
+        -0.04562106728553772,
+        0.0018318230286240578,
+        0.09556390345096588
+      ],
+      "energy_parameters": [
+        0.30369219183921814,
+        0.07526997476816177,
+        0.08329520374536514,
+        0.3595964014530182
+      ]
+    },
+    {
+      "seam_frame": 645,
+      "length_class": 1,
+      "edge_type": 0,
+      "contact_endpoints": [
+        [
+          0.6268346905708313,
+          0.5078517198562622,
+          0.590339720249176,
+          0.626477062702179
+        ],
+        [
+          0.6117783188819885,
+          0.5630773901939392,
+          0.6002687215805054,
+          0.6042001843452454
+        ]
+      ],
+      "root_residual": [
+        0.05321290343999863,
+        -0.029579559341073036,
+        0.14131474494934082,
+        -0.03376511484384537,
+        -0.023647446185350418,
+        0.1245182603597641
+      ],
+      "energy_parameters": [
+        0.2906826436519623,
+        -0.0018861338030546904,
+        0.13276846706867218,
+        0.2473125457763672
+      ]
+    },
+    {
+      "seam_frame": 855,
+      "length_class": 1,
+      "edge_type": 0,
+      "contact_endpoints": [
+        [
+          0.6303821206092834,
+          0.5280317664146423,
+          0.5875962972640991,
+          0.6380418539047241
+        ],
+        [
+          0.6029536128044128,
+          0.58027583360672,
+          0.575518012046814,
+          0.6159047484397888
+        ]
+      ],
+      "root_residual": [
+        0.002144964411854744,
+        -0.0003093876875936985,
+        0.12402865290641785,
+        0.03340570628643036,
+        -0.07252515852451324,
+        0.14983294904232025
+      ],
+      "energy_parameters": [
+        0.27170413732528687,
+        0.030838187783956528,
+        0.17822888493537903,
+        0.2407248467206955
+      ]
+    }
+  ],
+  "contact_foot_lock": {
+    "enabled": true,
+    "leg_optimization": {
+      "iterations": 150,
+      "contact_pairs": 1772,
+      "rounds": 5,
+      "foot_skating_ratio": 0.04088692614060666
+    },
+    "corrected_frames": 0,
+    "mean_correction": 0.0,
+    "maximum_accumulated_offset": 0.0
+  },
+  "beat_phase_alignment": {
+    "enabled": false
+  },
+  "key_motion_anchor_alignment": {
+    "enabled": false
+  },
+  "beat_velocity_valleys": {
+    "enabled": false
+  },
+  "official_bas_closed_loop": {
+    "enabled": true,
+    "used": false,
+    "baseline_bas": 0.19792223410476298,
+    "baseline_foot_skating_ratio": 0.04088692614060666,
+    "trials": [
+      {
+        "enabled": true,
+        "used": true,
+        "beat_count": 74,
+        "strength": 0.68,
+        "width": 3.5,
+        "minimum_rate": 0.38774075152374193,
+        "median_rate": 1.0004714767652196,
+        "endpoint_error": 0.0,
+        "strictly_monotonic": true,
+        "maximum_frame_displacement": 2.3403943268102037,
+        "maximum_beat_phase_error": 1.4779288903810084e-12,
+        "official_bas": 0.2739534114040879,
+        "foot_skating_ratio": 0.053761877220523835,
+        "feasible": false
+      },
+      {
+        "enabled": true,
+        "used": true,
+        "beat_count": 74,
+        "strength": 0.8,
+        "width": 4.5,
+        "minimum_rate": 0.26807472863156495,
+        "median_rate": 0.9449951546457972,
+        "endpoint_error": 0.0,
+        "strictly_monotonic": true,
+        "maximum_frame_displacement": 3.2877325385496388,
+        "maximum_beat_phase_error": 1.9326762412674725e-12,
+        "official_bas": 0.2718279503253878,
+        "foot_skating_ratio": 0.052199179266848444,
+        "feasible": false
+      },
+      {
+        "enabled": true,
+        "used": true,
+        "beat_count": 74,
+        "strength": 0.9,
+        "width": 5.5,
+        "minimum_rate": 0.14857305593293801,
+        "median_rate": 0.9384774967552725,
+        "endpoint_error": 0.0,
+        "strictly_monotonic": true,
+        "maximum_frame_displacement": 4.302820301501871,
+        "maximum_beat_phase_error": 1.1368683772161603e-12,
+        "official_bas": 0.304262294083744,
+        "foot_skating_ratio": 0.053703642566303514,
+        "feasible": false
+      }
+    ],
+    "reason": "no candidate passed displacement and foot constraints"
+  },
+  "motion_prior": {
+    "enabled": true,
+    "blend_weight": 0.9,
+    "training_only": true,
+    "retrievals": [
+      {
+        "output_start": 0,
+        "output_end": 240,
+        "source_split": "train",
+        "source_id": "077",
+        "source_song": "shanguhuiyang",
+        "source_start": 3240,
+        "source_end": 3480,
+        "descriptor_distance": 0.6431443095207214,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 21,
+        "target_beat_count": 18,
+        "excluded_song": "miaozufengcai",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 210,
+        "output_end": 450,
+        "source_split": "train",
+        "source_id": "176",
+        "source_song": "LOCO",
+        "source_start": 4560,
+        "source_end": 4800,
+        "descriptor_distance": 0.6849325299263,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 13,
+        "target_beat_count": 17,
+        "excluded_song": "miaozufengcai",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 420,
+        "output_end": 660,
+        "source_split": "train",
+        "source_id": "110",
+        "source_song": "shuangren4_chenmeiying",
+        "source_start": 4320,
+        "source_end": 4560,
+        "descriptor_distance": 0.7823847532272339,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 19,
+        "target_beat_count": 17,
+        "excluded_song": "miaozufengcai",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 630,
+        "output_end": 870,
+        "source_split": "train",
+        "source_id": "111",
+        "source_song": "shuangren4_tanglanting",
+        "source_start": 4320,
+        "source_end": 4560,
+        "descriptor_distance": 0.7411307692527771,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 19,
+        "target_beat_count": 18,
+        "excluded_song": "miaozufengcai",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 840,
+        "output_end": 1024,
+        "source_split": "train",
+        "source_id": "021",
+        "source_song": "dunhuang1",
+        "source_start": 2040,
+        "source_end": 2280,
+        "descriptor_distance": 0.7411189079284668,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 16,
+        "target_beat_count": 14,
+        "excluded_song": "miaozufengcai",
+        "near_duplicate_floor": 1e-06
+      }
+    ]
+  }
+}

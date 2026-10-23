@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "protocol": "LODGE released FineDance metric definitions; TempoGraph predictions only",
+  "sample_count": 22,
+  "ids": [
+    "005",
+    "018",
+    "023",
+    "027",
+    "033",
+    "071",
+    "075",
+    "088",
+    "099",
+    "101",
+    "104",
+    "105",
+    "138",
+    "139",
+    "140",
+    "141",
+    "159",
+    "187",
+    "191",
+    "203",
+    "207",
+    "208"
+  ],
+  "aggregate": {
+    "fid_k": 36.90448990545325,
+    "fid_g": 32.54861895494797,
+    "div_k": 8.515663146972656,
+    "div_g": 7.931347370147705,
+    "div_k_gt": 9.728692054748535,
+    "div_g_gt": 7.441713333129883,
+    "bas": 0.27994843831184735,
+    "foot_skating_ratio": 0.030649739102029217
+  },
+  "provenance": {
+    "predictions": "/root/autodl-tmp/TempoGraph_ablation34_25k_results/seed_1234/random_relation_labels/evaluation/sampling_seed_3407/npy139",
+    "data_root": "/root/autodl-tmp/TempoGraph_v78_FINAL/implementation/data/finedance",
+    "feature_source": "/root/autodl-tmp/TempoGraph/reference_code/baselines/LODGE-main/metric/features",
+    "note": "No baseline model was run; compare only with cited paper rows using this protocol."
+  }
+}

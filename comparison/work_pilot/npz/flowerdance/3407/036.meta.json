@@ -1,0 +1,20 @@
+{
+  "schema": "motion22-r6rows-yup-meters",
+  "contacts_available": false,
+  "raw_motion_sha256": "7092cf6c523fa9be85ee2901a8138ae712d5509d3ccff78f40cdf7c35a5f20fb",
+  "method": "flowerdance",
+  "seed": 3407,
+  "clip_seed": 3443,
+  "clip": "036",
+  "checkpoint_sha256": "49a8e4e44a38f33ddec81bc4921cb1ee1d8b27f42db08f7f34f564454b50a6ab",
+  "input_audio_sha256": "cd6f2a488963610104426904edb087df654f67c528950b47b757bcbaa488bc30",
+  "start_frame": 0,
+  "output_frames": 1024,
+  "body_joints": 22,
+  "sampler": "official Euler",
+  "steps": 21,
+  "condition": "music+ground_truth_style2",
+  "genre": "HanTang",
+  "input_label_sha256": "2a59b30edd458ba5e9601a88a0adf394e7e2cf2cfb5600fd28cc79fea6b75c76",
+  "world_conversion": "z-up to y-up: -90 degrees around X"
+}

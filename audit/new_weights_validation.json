@@ -1,0 +1,47 @@
+[
+  {
+    "file": "comparison/assets/flowerdance/train-3700.pt",
+    "sha256_matches_recovery_index": true,
+    "torch_zip_crc_valid": true
+  },
+  {
+    "file": "comparison/vendor/MEGADance/Pretrained/cls/mean.pt",
+    "sha256_matches_recovery_index": true,
+    "torch_zip_crc_valid": true
+  },
+  {
+    "file": "comparison/vendor/MEGADance/Pretrained/cls/std.pt",
+    "sha256_matches_recovery_index": true,
+    "torch_zip_crc_valid": true
+  },
+  {
+    "file": "comparison/vendor/MEGADance/Pretrained/Init1.pkl",
+    "sha256_matches_recovery_index": true,
+    "format": "legacy_pickle_or_torch_serialization; not deserialized"
+  },
+  {
+    "file": "comparison/vendor/MEGADance/Pretrained/mean.pt",
+    "sha256_matches_recovery_index": true,
+    "torch_zip_crc_valid": true
+  },
+  {
+    "file": "comparison/vendor/MEGADance/Pretrained/std.pt",
+    "sha256_matches_recovery_index": true,
+    "torch_zip_crc_valid": true
+  },
+  {
+    "file": "comparison/vendor/MEGADance/output/cls/30/Model/model.pth",
+    "sha256_matches_recovery_index": true,
+    "torch_zip_crc_valid": true
+  },
+  {
+    "file": "comparison/vendor/MEGADance/output/fsq/120/Model/model.pth",
+    "sha256_matches_recovery_index": true,
+    "torch_zip_crc_valid": true
+  },
+  {
+    "file": "comparison/vendor/MEGADance/output/gpt/90/Model/model.pth",
+    "sha256_matches_recovery_index": true,
+    "torch_zip_crc_valid": true
+  }
+]

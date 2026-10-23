@@ -1,0 +1,14 @@
+{
+  "method": "lodge",
+  "seed": 3407,
+  "ids": [
+    "012",
+    "036"
+  ],
+  "elapsed_seconds": 13.724619626998901,
+  "protocol_sha256": "42544f520e80245768d1943b490c9d5224a149966fbd9ab616de5d6bc376947e",
+  "files": {
+    "012": "19da9e26f88e97ef0d255f2ee744e7574bc20a6247417630d46ab2eed87890a2",
+    "036": "1cbae206885ebb02e273094c6d1c458e7b12f2d5d21cda553e9841223bba4b6b"
+  }
+}

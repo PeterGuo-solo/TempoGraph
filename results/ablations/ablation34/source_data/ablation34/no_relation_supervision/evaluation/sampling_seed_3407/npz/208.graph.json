@@ -1,0 +1,454 @@
+{
+  "graph_scope": "full_song",
+  "node_spans": [
+    [
+      0,
+      199
+    ],
+    [
+      199,
+      316
+    ],
+    [
+      316,
+      432
+    ],
+    [
+      432,
+      548
+    ],
+    [
+      548,
+      664
+    ],
+    [
+      664,
+      780
+    ],
+    [
+      780,
+      896
+    ],
+    [
+      896,
+      1024
+    ]
+  ],
+  "roles": [
+    0,
+    0,
+    2,
+    2,
+    2,
+    2,
+    3,
+    3
+  ],
+  "semantics": [
+    37,
+    123,
+    123,
+    123,
+    111,
+    111,
+    111,
+    111
+  ],
+  "dense_edge_types": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "motif_sources": [
+    null,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "seam_frames": [
+    225,
+    435,
+    645,
+    855
+  ],
+  "boundary_plans": [
+    {
+      "seam_frame": 225,
+      "length_class": 1,
+      "edge_type": 0,
+      "contact_endpoints": [
+        [
+          0.6276975870132446,
+          0.6402443647384644,
+          0.627022385597229,
+          0.6367170214653015
+        ],
+        [
+          0.6383290886878967,
+          0.632232129573822,
+          0.6256601810455322,
+          0.6412630081176758
+        ]
+      ],
+      "root_residual": [
+        -0.044288523495197296,
+        -0.041540637612342834,
+        0.013868596404790878,
+        -0.06491082906723022,
+        -0.011595240794122219,
+        0.03338981792330742
+      ],
+      "energy_parameters": [
+        0.2765340209007263,
+        0.12499857693910599,
+        0.2959398925304413,
+        0.4140024781227112
+      ]
+    },
+    {
+      "seam_frame": 435,
+      "length_class": 1,
+      "edge_type": 0,
+      "contact_endpoints": [
+        [
+          0.5999348163604736,
+          0.6173703670501709,
+          0.5898764133453369,
+          0.6259211897850037
+        ],
+        [
+          0.590553343296051,
+          0.6138336658477783,
+          0.5294110774993896,
+          0.6192938685417175
+        ]
+      ],
+      "root_residual": [
+        -0.02544056624174118,
+        0.024262044578790665,
+        -0.01801707223057747,
+        -0.04106209799647331,
+        0.05115920677781105,
+        0.04964737221598625
+      ],
+      "energy_parameters": [
+        0.32199063897132874,
+        0.12288474291563034,
+        0.26624464988708496,
+        0.5046217441558838
+      ]
+    },
+    {
+      "seam_frame": 645,
+      "length_class": 1,
+      "edge_type": 0,
+      "contact_endpoints": [
+        [
+          0.5660954713821411,
+          0.5706856846809387,
+          0.6143708229064941,
+          0.5699694752693176
+        ],
+        [
+          0.6008252501487732,
+          0.5715615749359131,
+          0.5707361698150635,
+          0.6402854919433594
+        ]
+      ],
+      "root_residual": [
+        0.07600679993629456,
+        0.025686264038085938,
+        -0.07987353205680847,
+        -0.005006888881325722,
+        0.012985948473215103,
+        -0.025694336742162704
+      ],
+      "energy_parameters": [
+        0.3862714171409607,
+        0.12289076298475266,
+        0.2721231281757355,
+        0.6019138693809509
+      ]
+    },
+    {
+      "seam_frame": 855,
+      "length_class": 1,
+      "edge_type": 0,
+      "contact_endpoints": [
+        [
+          0.5342294573783875,
+          0.5654124021530151,
+          0.5366517901420593,
+          0.5842739939689636
+        ],
+        [
+          0.5931797623634338,
+          0.5388561487197876,
+          0.5984607338905334,
+          0.5737065076828003
+        ]
+      ],
+      "root_residual": [
+        0.10656611621379852,
+        -0.10715879499912262,
+        0.06122491881251335,
+        -0.03361985832452774,
+        -0.16905391216278076,
+        -0.0016194023191928864
+      ],
+      "energy_parameters": [
+        0.5780712366104126,
+        0.11727532744407654,
+        0.26713916659355164,
+        0.753849983215332
+      ]
+    }
+  ],
+  "contact_foot_lock": {
+    "enabled": true,
+    "leg_optimization": {
+      "iterations": 150,
+      "contact_pairs": 588,
+      "rounds": 5,
+      "foot_skating_ratio": 0.029959311525171957
+    },
+    "corrected_frames": 0,
+    "mean_correction": 0.0,
+    "maximum_accumulated_offset": 0.0
+  },
+  "beat_phase_alignment": {
+    "enabled": false
+  },
+  "key_motion_anchor_alignment": {
+    "enabled": false
+  },
+  "beat_velocity_valleys": {
+    "enabled": false
+  },
+  "official_bas_closed_loop": {
+    "enabled": true,
+    "used": false,
+    "baseline_bas": 0.22561762476498792,
+    "baseline_foot_skating_ratio": 0.029959311525171957,
+    "trials": [
+      {
+        "enabled": true,
+        "used": true,
+        "beat_count": 69,
+        "strength": 0.68,
+        "width": 3.5,
+        "minimum_rate": 0.3551638310063721,
+        "median_rate": 1.064102082423608,
+        "endpoint_error": 0.0,
+        "strictly_monotonic": true,
+        "maximum_frame_displacement": 2.705183852044172,
+        "maximum_beat_phase_error": 1.4779288903810084e-12,
+        "official_bas": 0.3876975849632821,
+        "foot_skating_ratio": 0.03383411284861656,
+        "feasible": false
+      },
+      {
+        "enabled": true,
+        "used": true,
+        "beat_count": 69,
+        "strength": 0.8,
+        "width": 4.5,
+        "minimum_rate": 0.22969924467550368,
+        "median_rate": 1.0546679889939417,
+        "endpoint_error": 0.0,
+        "strictly_monotonic": true,
+        "maximum_frame_displacement": 3.8988930031078546,
+        "maximum_beat_phase_error": 1.3642420526593924e-12,
+        "official_bas": 0.4445594540129978,
+        "foot_skating_ratio": 0.03925058548009368,
+        "feasible": false
+      },
+      {
+        "enabled": true,
+        "used": true,
+        "beat_count": 69,
+        "strength": 0.9,
+        "width": 5.5,
+        "minimum_rate": 0.11498466599170411,
+        "median_rate": 1.0630888777023888,
+        "endpoint_error": 0.0,
+        "strictly_monotonic": true,
+        "maximum_frame_displacement": 5.198039334384973,
+        "maximum_beat_phase_error": 2.9558577807620168e-12,
+        "official_bas": 0.4945071495842829,
+        "foot_skating_ratio": 0.03339997375550941,
+        "feasible": false
+      }
+    ],
+    "reason": "no candidate passed displacement and foot constraints"
+  },
+  "motion_prior": {
+    "enabled": true,
+    "blend_weight": 0.9,
+    "training_only": true,
+    "retrievals": [
+      {
+        "output_start": 0,
+        "output_end": 240,
+        "source_split": "train",
+        "source_id": "011",
+        "source_song": "wildfire",
+        "source_start": 0,
+        "source_end": 240,
+        "descriptor_distance": 0.7745974659919739,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 10,
+        "target_beat_count": 11,
+        "excluded_song": "Tomboy",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 210,
+        "output_end": 450,
+        "source_split": "train",
+        "source_id": "016",
+        "source_song": "qianye",
+        "source_start": 0,
+        "source_end": 240,
+        "descriptor_distance": 0.686781108379364,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 18,
+        "target_beat_count": 17,
+        "excluded_song": "Tomboy",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 420,
+        "output_end": 660,
+        "source_split": "train",
+        "source_id": "129",
+        "source_song": "qinghuaci",
+        "source_start": 720,
+        "source_end": 960,
+        "descriptor_distance": 0.6172243356704712,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 15,
+        "target_beat_count": 16,
+        "excluded_song": "Tomboy",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 630,
+        "output_end": 870,
+        "source_split": "train",
+        "source_id": "056",
+        "source_song": "BigTrouble",
+        "source_start": 4440,
+        "source_end": 4680,
+        "descriptor_distance": 0.34899047017097473,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 16,
+        "target_beat_count": 17,
+        "excluded_song": "Tomboy",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 840,
+        "output_end": 1024,
+        "source_split": "train",
+        "source_id": "183",
+        "source_song": "panorama",
+        "source_start": 1560,
+        "source_end": 1800,
+        "descriptor_distance": 0.3926059603691101,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 17,
+        "target_beat_count": 12,
+        "excluded_song": "Tomboy",
+        "near_duplicate_floor": 1e-06
+      }
+    ]
+  }
+}

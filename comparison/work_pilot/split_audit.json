@@ -1,0 +1,10 @@
+{
+  "status": "pilot_split_unverified",
+  "ids": [
+    "012",
+    "036"
+  ],
+  "mega_test_sha256": null,
+  "mega_train_sha256": null,
+  "warning": "Released clip-id split; shared-song recordings are not claimed song-disjoint."
+}

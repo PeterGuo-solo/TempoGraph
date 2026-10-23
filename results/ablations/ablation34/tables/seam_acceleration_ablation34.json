@@ -1,0 +1,42 @@
+{
+  "definition": "At each recorded seam s, mean over all FK joints of ||p[s+1]-2p[s]+p[s-1]||_2; take median over seams. Units mm/frame^2. No fps^2 multiplier. This is a seam acceleration magnitude diagnostic, not an acceleration-jump metric.",
+  "primary_population": "All 23 generated sequences and 90 matched seams, following historical diagnostic. FID/Div/BAS use 22 exported evaluation sequences; the corresponding 88-seam subset is also recorded.",
+  "results": {
+    "full": {
+      "generated_sequences": 23,
+      "seam_count": 90,
+      "median_mm_per_frame2": 11.315361596643925,
+      "mean_mm_per_frame2": 12.631934103329614,
+      "p95_mm_per_frame2": 28.186519164592028,
+      "evaluated_subset_seam_count": 88,
+      "evaluated_subset_median_mm_per_frame2": 11.075940914452076
+    },
+    "no_relation_supervision": {
+      "generated_sequences": 23,
+      "seam_count": 90,
+      "median_mm_per_frame2": 12.823996599763632,
+      "mean_mm_per_frame2": 14.28636377079076,
+      "p95_mm_per_frame2": 28.029708005487915,
+      "evaluated_subset_seam_count": 88,
+      "evaluated_subset_median_mm_per_frame2": 12.823996599763632
+    },
+    "random_relation_labels": {
+      "generated_sequences": 23,
+      "seam_count": 90,
+      "median_mm_per_frame2": 10.606431402266026,
+      "mean_mm_per_frame2": 12.660020217299461,
+      "p95_mm_per_frame2": 28.421400021761656,
+      "evaluated_subset_seam_count": 88,
+      "evaluated_subset_median_mm_per_frame2": 10.029683355242014
+    },
+    "historical_full": {
+      "generated_sequences": 23,
+      "seam_count": 90,
+      "median_mm_per_frame2": 3.452112548984587,
+      "mean_mm_per_frame2": 4.334905191596286,
+      "p95_mm_per_frame2": 8.775764610618353,
+      "evaluated_subset_seam_count": 88,
+      "evaluated_subset_median_mm_per_frame2": 3.3486962784081697
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "tempograph",
+  "seed": 3407,
+  "ids": [
+    "012",
+    "036"
+  ],
+  "elapsed_seconds": 14.889436960220337,
+  "protocol_sha256": "42544f520e80245768d1943b490c9d5224a149966fbd9ab616de5d6bc376947e",
+  "files": {
+    "012": "e9f1fa033dcd591ebd9e74a9ed6e2f238741ad0adb8238f33d72297cf1d29a45",
+    "036": "fa07b7de07c1dd66fdfa1b183b72d99ccd159df566c75b0069a2e0de38835b12"
+  }
+}

@@ -1,0 +1,26 @@
+[   INFO   ] MusicExtractorSVM: no classifier models were configured by default
+/root/autodl-tmp/envs/tempograph-compare/lib/python3.10/site-packages/torch/nn/modules/transformer.py:382: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(
+namespace(name='SepFSQ', solo={'levels': 1, 'downs_t': [3], 'strides_t': [2], 'emb_width': 512, 'l_bins': 768, 'l_mu': 0.99, 'commit': 0.02, 'hvqvae_multipliers': [1], 'width': 512, 'depth': 2, 'm_conv': 1.0, 'dilation_growth_rate': 2, 'sample_length': 360, 'use_bottleneck': True, 'joint_channel': 6, 'vel': 1, 'acc': 1, 'vqvae_reverse_decoder_dilation': True})
+WARNING: You are using a SMPL model, with only 10 shape coefficients.
+num_betas=10, shapedirs.shape=(6890, 3, 10), self.SHAPE_SPACE_DIM=300
+---------- Extract features from raw audio ----------
+  0%|          | 0/1 [00:00<?, ?it/s](20, 1024) -> mfcc
+(20, 1024) -> mfcc_delta
+(524242,) -> audio_percussive
+(12, 1024) -> chroma_cqt_harmonic
+(1, 1024) -> rms
+(1, 1024) -> onset_env
+(1, 1024) -> beats_feature
+acoustic feature -> (1024, 35)
+100%|██████████| 1/1 [00:03<00:00,  3.41s/it]100%|██████████| 1/1 [00:03<00:00,  3.41s/it]
+---------- Extract features from raw audio ----------
+  0%|          | 0/1 [00:00<?, ?it/s](20, 1025) -> mfcc
+(20, 1025) -> mfcc_delta
+(524288,) -> audio_percussive
+(12, 1025) -> chroma_cqt_harmonic
+(1, 1025) -> rms
+(1, 1025) -> onset_env
+(1, 1025) -> beats_feature
+acoustic feature -> (1025, 35)
+100%|██████████| 1/1 [00:01<00:00,  1.16s/it]100%|██████████| 1/1 [00:01<00:00,  1.16s/it]

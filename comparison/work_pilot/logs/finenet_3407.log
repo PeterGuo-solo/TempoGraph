@@ -1,0 +1,43 @@
+/root/autodl-tmp/TempoGraph_MainCompare/vendor/FineNet/./vis.py:477: FutureWarning: Decorating classes is deprecated and will be disabled in future versions. You should only decorate functions or methods. To preserve the current behavior of class decoration, you can directly decorate the `__init__` method and nothing else.
+  class SMPLX_Skeleton:
+Model has 94107455 parameters
+PASS: finenet official model construction and strict checkpoint loading on GPU
+Generating finenet 012 frames 1024 clip seed 3419
+/root/autodl-tmp/TempoGraph_MainCompare/vendor/FineNet/test.py:55: FutureWarning: librosa.beat.tempo
+	This function was moved to 'librosa.feature.rhythm.tempo' in librosa version 0.10.0.
+	This alias will be removed in librosa version 1.0.
+  start_bpm = lr.beat.tempo(y=lr.load(fpath)[0])[0]
+
+sampling loop time step:   0%|          | 0/50 [00:00<?, ?it/s]
+sampling loop time step:   2%|▏         | 1/50 [00:00<00:07,  6.31it/s]
+sampling loop time step:  10%|█         | 5/50 [00:00<00:02, 20.11it/s]
+sampling loop time step:  18%|█▊        | 9/50 [00:00<00:01, 24.64it/s]
+sampling loop time step:  26%|██▌       | 13/50 [00:00<00:01, 26.82it/s]
+sampling loop time step:  34%|███▍      | 17/50 [00:00<00:01, 28.05it/s]
+sampling loop time step:  42%|████▏     | 21/50 [00:00<00:01, 28.79it/s]
+sampling loop time step:  50%|█████     | 25/50 [00:00<00:00, 29.26it/s]
+sampling loop time step:  58%|█████▊    | 29/50 [00:01<00:00, 29.58it/s]
+sampling loop time step:  66%|██████▌   | 33/50 [00:01<00:00, 29.79it/s]
+sampling loop time step:  74%|███████▍  | 37/50 [00:01<00:00, 29.93it/s]
+sampling loop time step:  82%|████████▏ | 41/50 [00:01<00:00, 30.03it/s]
+sampling loop time step:  90%|█████████ | 45/50 [00:01<00:00, 30.09it/s]
+sampling loop time step:  98%|█████████▊| 49/50 [00:01<00:00, 30.13it/s]
+sampling loop time step: 100%|██████████| 50/50 [00:01<00:00, 28.26it/s]
+Saved /root/autodl-tmp/TempoGraph_MainCompare/work_pilot/npz/finenet/3407/012.npz
+Generating finenet 036 frames 1024 clip seed 3443
+
+sampling loop time step:   0%|          | 0/50 [00:00<?, ?it/s]
+sampling loop time step:   8%|▊         | 4/50 [00:00<00:01, 32.57it/s]
+sampling loop time step:  16%|█▌        | 8/50 [00:00<00:01, 31.18it/s]
+sampling loop time step:  24%|██▍       | 12/50 [00:00<00:01, 30.74it/s]
+sampling loop time step:  32%|███▏      | 16/50 [00:00<00:01, 30.55it/s]
+sampling loop time step:  40%|████      | 20/50 [00:00<00:00, 30.44it/s]
+sampling loop time step:  48%|████▊     | 24/50 [00:00<00:00, 30.37it/s]
+sampling loop time step:  56%|█████▌    | 28/50 [00:00<00:00, 30.32it/s]
+sampling loop time step:  64%|██████▍   | 32/50 [00:01<00:00, 30.30it/s]
+sampling loop time step:  72%|███████▏  | 36/50 [00:01<00:00, 30.27it/s]
+sampling loop time step:  80%|████████  | 40/50 [00:01<00:00, 30.27it/s]
+sampling loop time step:  88%|████████▊ | 44/50 [00:01<00:00, 30.26it/s]
+sampling loop time step:  96%|█████████▌| 48/50 [00:01<00:00, 30.48it/s]
+sampling loop time step: 100%|██████████| 50/50 [00:01<00:00, 30.51it/s]
+Saved /root/autodl-tmp/TempoGraph_MainCompare/work_pilot/npz/finenet/3407/036.npz

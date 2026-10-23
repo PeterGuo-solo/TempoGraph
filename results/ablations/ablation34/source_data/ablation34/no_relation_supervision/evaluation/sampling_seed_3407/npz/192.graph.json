@@ -1,0 +1,308 @@
+{
+  "graph_scope": "full_song",
+  "node_spans": [
+    [
+      0,
+      96
+    ],
+    [
+      96,
+      186
+    ],
+    [
+      186,
+      275
+    ],
+    [
+      275,
+      365
+    ],
+    [
+      365,
+      455
+    ],
+    [
+      455,
+      520
+    ]
+  ],
+  "roles": [
+    3,
+    3,
+    0,
+    0,
+    0,
+    3
+  ],
+  "semantics": [
+    113,
+    113,
+    113,
+    113,
+    50,
+    113
+  ],
+  "dense_edge_types": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "motif_sources": [
+    null,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "seam_frames": [
+    225,
+    435
+  ],
+  "boundary_plans": [
+    {
+      "seam_frame": 225,
+      "length_class": 1,
+      "edge_type": 0,
+      "contact_endpoints": [
+        [
+          0.6709355115890503,
+          0.6002787947654724,
+          0.6193927526473999,
+          0.6277778744697571
+        ],
+        [
+          0.632155179977417,
+          0.615098774433136,
+          0.5413317084312439,
+          0.5998257994651794
+        ]
+      ],
+      "root_residual": [
+        -0.04481613636016846,
+        0.04140431806445122,
+        -0.10672073066234589,
+        0.04104600101709366,
+        -0.011298175901174545,
+        -0.1277376264333725
+      ],
+      "energy_parameters": [
+        0.44462794065475464,
+        0.10049813240766525,
+        0.39942193031311035,
+        0.6875004172325134
+      ]
+    },
+    {
+      "seam_frame": 435,
+      "length_class": 1,
+      "edge_type": 0,
+      "contact_endpoints": [
+        [
+          0.6625143885612488,
+          0.5638293623924255,
+          0.6075025200843811,
+          0.6036472320556641
+        ],
+        [
+          0.6308481097221375,
+          0.6359071135520935,
+          0.5620271563529968,
+          0.5792484879493713
+        ]
+      ],
+      "root_residual": [
+        0.04669772833585739,
+        0.07462328672409058,
+        -0.09805414825677872,
+        -0.005723670125007629,
+        0.039219316095113754,
+        -0.050930846482515335
+      ],
+      "energy_parameters": [
+        0.46474990248680115,
+        0.17371508479118347,
+        0.3949902653694153,
+        0.7640519738197327
+      ]
+    }
+  ],
+  "contact_foot_lock": {
+    "enabled": true,
+    "leg_optimization": {
+      "iterations": 150,
+      "contact_pairs": 812,
+      "rounds": 1,
+      "foot_skating_ratio": 0.007902858844927784
+    },
+    "corrected_frames": 0,
+    "mean_correction": 0.0,
+    "maximum_accumulated_offset": 0.0
+  },
+  "beat_phase_alignment": {
+    "enabled": false
+  },
+  "key_motion_anchor_alignment": {
+    "enabled": false
+  },
+  "beat_velocity_valleys": {
+    "enabled": false
+  },
+  "official_bas_closed_loop": {
+    "enabled": true,
+    "used": false,
+    "baseline_bas": 0.23492023826357336,
+    "baseline_foot_skating_ratio": 0.007902858844927784,
+    "trials": [
+      {
+        "enabled": true,
+        "used": true,
+        "beat_count": 43,
+        "strength": 0.68,
+        "width": 3.5,
+        "minimum_rate": 0.3800283403564288,
+        "median_rate": 1.0473787095023135,
+        "endpoint_error": 0.0,
+        "strictly_monotonic": true,
+        "maximum_frame_displacement": 2.249301103423498,
+        "maximum_beat_phase_error": 2.2737367544323206e-13,
+        "official_bas": 0.19014510989033337,
+        "foot_skating_ratio": 0.013895317441950165,
+        "feasible": false
+      },
+      {
+        "enabled": true,
+        "used": true,
+        "beat_count": 43,
+        "strength": 0.8,
+        "width": 4.5,
+        "minimum_rate": 0.24869569164284908,
+        "median_rate": 1.0474944699671003,
+        "endpoint_error": 0.0,
+        "strictly_monotonic": true,
+        "maximum_frame_displacement": 3.2023692232237977,
+        "maximum_beat_phase_error": 1.7053025658242404e-13,
+        "official_bas": 0.20078339826272898,
+        "foot_skating_ratio": 0.014993301410870304,
+        "feasible": false
+      },
+      {
+        "enabled": true,
+        "used": true,
+        "beat_count": 43,
+        "strength": 0.9,
+        "width": 5.5,
+        "minimum_rate": 0.13041155330043783,
+        "median_rate": 1.0572059206299615,
+        "endpoint_error": 0.0,
+        "strictly_monotonic": true,
+        "maximum_frame_displacement": 4.390248355243102,
+        "maximum_beat_phase_error": 2.8421709430404007e-13,
+        "official_bas": 0.21546537242084085,
+        "foot_skating_ratio": 0.02162780773557823,
+        "feasible": false
+      }
+    ],
+    "reason": "no candidate passed displacement and foot constraints"
+  },
+  "motion_prior": {
+    "enabled": true,
+    "blend_weight": 0.9,
+    "training_only": true,
+    "retrievals": [
+      {
+        "output_start": 0,
+        "output_end": 240,
+        "source_split": "train",
+        "source_id": "056",
+        "source_song": "BigTrouble",
+        "source_start": 5040,
+        "source_end": 5280,
+        "descriptor_distance": 0.43860405683517456,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 16,
+        "target_beat_count": 21,
+        "excluded_song": "cheers_part2",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 210,
+        "output_end": 450,
+        "source_split": "train",
+        "source_id": "173",
+        "source_song": "bloodline",
+        "source_start": 0,
+        "source_end": 240,
+        "descriptor_distance": 1.1925042867660522,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 20,
+        "target_beat_count": 21,
+        "excluded_song": "cheers_part2",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 420,
+        "output_end": 520,
+        "source_split": "train",
+        "source_id": "062",
+        "source_song": "Its_Jay-Roc",
+        "source_start": 2400,
+        "source_end": 2640,
+        "descriptor_distance": 0.7194459438323975,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 16,
+        "target_beat_count": 7,
+        "excluded_song": "cheers_part2",
+        "near_duplicate_floor": 1e-06
+      }
+    ]
+  }
+}

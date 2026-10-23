@@ -1,0 +1,496 @@
+{
+  "graph_scope": "full_song",
+  "node_spans": [
+    [
+      0,
+      240
+    ],
+    [
+      240,
+      264
+    ],
+    [
+      264,
+      377
+    ],
+    [
+      377,
+      489
+    ],
+    [
+      489,
+      602
+    ],
+    [
+      602,
+      715
+    ],
+    [
+      715,
+      827
+    ],
+    [
+      827,
+      940
+    ],
+    [
+      940,
+      1024
+    ]
+  ],
+  "roles": [
+    0,
+    3,
+    1,
+    2,
+    2,
+    2,
+    0,
+    2,
+    3
+  ],
+  "semantics": [
+    88,
+    88,
+    88,
+    88,
+    88,
+    88,
+    88,
+    88,
+    88
+  ],
+  "dense_edge_types": [
+    [
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0
+    ]
+  ],
+  "motif_sources": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "seam_frames": [
+    225,
+    435,
+    645,
+    855
+  ],
+  "boundary_plans": [
+    {
+      "seam_frame": 225,
+      "length_class": 0,
+      "edge_type": 0,
+      "contact_endpoints": [
+        [
+          0.8634932637214661,
+          0.7284355759620667,
+          0.9022385478019714,
+          0.7743517160415649
+        ],
+        [
+          0.7490041255950928,
+          0.8085176348686218,
+          0.8155354857444763,
+          0.8519815802574158
+        ]
+      ],
+      "root_residual": [
+        0.10465411841869354,
+        0.005948889069259167,
+        -0.018609456717967987,
+        0.039136022329330444,
+        -0.019522417336702347,
+        0.0053117722272872925
+      ],
+      "energy_parameters": [
+        0.2138012796640396,
+        0.19555507600307465,
+        0.20117618143558502,
+        0.4028705656528473
+      ]
+    },
+    {
+      "seam_frame": 435,
+      "length_class": 0,
+      "edge_type": 0,
+      "contact_endpoints": [
+        [
+          0.7555091977119446,
+          0.3486570715904236,
+          0.7610533237457275,
+          0.4155685305595398
+        ],
+        [
+          0.40133827924728394,
+          0.6249391436576843,
+          0.45105066895484924,
+          0.48667553067207336
+        ]
+      ],
+      "root_residual": [
+        0.2056194543838501,
+        0.1000884622335434,
+        0.1487351357936859,
+        0.19635285437107086,
+        0.011426393873989582,
+        0.11631205677986145
+      ],
+      "energy_parameters": [
+        0.265308141708374,
+        0.16635021567344666,
+        0.25517070293426514,
+        0.44855278730392456
+      ]
+    },
+    {
+      "seam_frame": 645,
+      "length_class": 0,
+      "edge_type": 0,
+      "contact_endpoints": [
+        [
+          0.8526275753974915,
+          0.6462941765785217,
+          0.8660939335823059,
+          0.750359058380127
+        ],
+        [
+          0.8849663138389587,
+          0.6907020211219788,
+          0.8075067400932312,
+          0.7287788987159729
+        ]
+      ],
+      "root_residual": [
+        0.3411456048488617,
+        -0.10218288004398346,
+        -0.04226981848478317,
+        0.37069639563560486,
+        -0.08248638361692429,
+        -0.03222808986902237
+      ],
+      "energy_parameters": [
+        0.36872634291648865,
+        0.16224752366542816,
+        0.22860504686832428,
+        0.5381631851196289
+      ]
+    },
+    {
+      "seam_frame": 855,
+      "length_class": 0,
+      "edge_type": 0,
+      "contact_endpoints": [
+        [
+          0.887891948223114,
+          0.8752526640892029,
+          0.90410315990448,
+          0.8887400031089783
+        ],
+        [
+          0.9085601568222046,
+          0.9252139925956726,
+          0.8861382007598877,
+          0.9370598793029785
+        ]
+      ],
+      "root_residual": [
+        0.4376334846019745,
+        -0.009309609420597553,
+        0.013175465166568756,
+        0.4258320927619934,
+        0.004001685418188572,
+        0.010574586689472198
+      ],
+      "energy_parameters": [
+        0.32844090461730957,
+        0.1678125560283661,
+        0.23524528741836548,
+        0.4929162263870239
+      ]
+    }
+  ],
+  "contact_foot_lock": {
+    "enabled": true,
+    "leg_optimization": {
+      "iterations": 150,
+      "contact_pairs": 1085,
+      "rounds": 5,
+      "foot_skating_ratio": 0.03540819964349376
+    },
+    "corrected_frames": 0,
+    "mean_correction": 0.0,
+    "maximum_accumulated_offset": 0.0
+  },
+  "beat_phase_alignment": {
+    "enabled": false
+  },
+  "key_motion_anchor_alignment": {
+    "enabled": false
+  },
+  "beat_velocity_valleys": {
+    "enabled": false
+  },
+  "official_bas_closed_loop": {
+    "enabled": true,
+    "used": true,
+    "baseline_bas": 0.3680022611337463,
+    "baseline_foot_skating_ratio": 0.03540819964349376,
+    "target_bas": 0.245,
+    "selected": {
+      "enabled": true,
+      "used": true,
+      "beat_count": 42,
+      "strength": 0.8,
+      "width": 4.5,
+      "minimum_rate": 0.20101585975818168,
+      "median_rate": 1.0114807285925915,
+      "endpoint_error": 0.0,
+      "strictly_monotonic": true,
+      "maximum_frame_displacement": 4.798351678530196,
+      "maximum_beat_phase_error": 2.0463630789890885e-12,
+      "official_bas": 0.4693424800894223,
+      "foot_skating_ratio": 0.03519893899204244,
+      "feasible": true
+    },
+    "trials": [
+      {
+        "enabled": true,
+        "used": true,
+        "beat_count": 42,
+        "strength": 0.68,
+        "width": 3.5,
+        "minimum_rate": 0.3224012257341356,
+        "median_rate": 1.0077337091780312,
+        "endpoint_error": 0.0,
+        "strictly_monotonic": true,
+        "maximum_frame_displacement": 3.255777804967977,
+        "maximum_beat_phase_error": 1.6484591469634324e-12,
+        "official_bas": 0.46106838410584394,
+        "foot_skating_ratio": 0.037023746701846966,
+        "feasible": false
+      },
+      {
+        "enabled": true,
+        "used": true,
+        "beat_count": 42,
+        "strength": 0.8,
+        "width": 4.5,
+        "minimum_rate": 0.20101585975818168,
+        "median_rate": 1.0114807285925915,
+        "endpoint_error": 0.0,
+        "strictly_monotonic": true,
+        "maximum_frame_displacement": 4.798351678530196,
+        "maximum_beat_phase_error": 2.0463630789890885e-12,
+        "official_bas": 0.4693424800894223,
+        "foot_skating_ratio": 0.03519893899204244,
+        "feasible": true
+      },
+      {
+        "enabled": true,
+        "used": true,
+        "beat_count": 42,
+        "strength": 0.9,
+        "width": 5.5,
+        "minimum_rate": 0.09798261745246971,
+        "median_rate": 1.0156388232246654,
+        "endpoint_error": 0.0,
+        "strictly_monotonic": true,
+        "maximum_frame_displacement": 6.49132372848959,
+        "maximum_beat_phase_error": 5.4569682106375694e-12,
+        "official_bas": 0.5095209124960108,
+        "foot_skating_ratio": 0.039450135658498524,
+        "feasible": false
+      }
+    ]
+  },
+  "motion_prior": {
+    "enabled": true,
+    "blend_weight": 0.9,
+    "training_only": true,
+    "retrievals": [
+      {
+        "output_start": 0,
+        "output_end": 240,
+        "source_split": "train",
+        "source_id": "070",
+        "source_song": "Swoop",
+        "source_start": 0,
+        "source_end": 240,
+        "descriptor_distance": 0.00019828203949145973,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 7,
+        "target_beat_count": 7,
+        "excluded_song": "Swoop_Locking",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 210,
+        "output_end": 450,
+        "source_split": "train",
+        "source_id": "070",
+        "source_song": "Swoop",
+        "source_start": 240,
+        "source_end": 480,
+        "descriptor_distance": 0.03464021533727646,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 17,
+        "target_beat_count": 17,
+        "excluded_song": "Swoop_Locking",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 420,
+        "output_end": 660,
+        "source_split": "train",
+        "source_id": "070",
+        "source_song": "Swoop",
+        "source_start": 2040,
+        "source_end": 2280,
+        "descriptor_distance": 0.21188414096832275,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 17,
+        "target_beat_count": 17,
+        "excluded_song": "Swoop_Locking",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 630,
+        "output_end": 870,
+        "source_split": "train",
+        "source_id": "070",
+        "source_song": "Swoop",
+        "source_start": 480,
+        "source_end": 720,
+        "descriptor_distance": 0.09281370788812637,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 17,
+        "target_beat_count": 17,
+        "excluded_song": "Swoop_Locking",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 840,
+        "output_end": 1024,
+        "source_split": "train",
+        "source_id": "070",
+        "source_song": "Swoop",
+        "source_start": 2640,
+        "source_end": 2880,
+        "descriptor_distance": 0.10563058406114578,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 17,
+        "target_beat_count": 13,
+        "excluded_song": "Swoop_Locking",
+        "near_duplicate_floor": 1e-06
+      }
+    ]
+  }
+}

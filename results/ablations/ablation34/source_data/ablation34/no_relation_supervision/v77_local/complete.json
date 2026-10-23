@@ -1,0 +1,4 @@
+{
+  "checkpoint": "/root/autodl-tmp/TempoGraph_ablation34_25k_results/seed_1234/no_relation_supervision/v77_local/checkpoints/tempograph.pt",
+  "sha256": "f9403264c2d15e217bd7eabb2daec88019d1a214196df028f0fbb371ea8d88e5"
+}

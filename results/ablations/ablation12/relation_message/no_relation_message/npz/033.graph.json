@@ -1,0 +1,508 @@
+{
+  "graph_scope": "full_song",
+  "node_spans": [
+    [
+      0,
+      110
+    ],
+    [
+      110,
+      223
+    ],
+    [
+      223,
+      335
+    ],
+    [
+      335,
+      442
+    ],
+    [
+      442,
+      550
+    ],
+    [
+      550,
+      655
+    ],
+    [
+      655,
+      760
+    ],
+    [
+      760,
+      867
+    ],
+    [
+      867,
+      972
+    ],
+    [
+      972,
+      1024
+    ]
+  ],
+  "roles": [
+    0,
+    0,
+    1,
+    1,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "semantics": [
+    79,
+    79,
+    79,
+    79,
+    79,
+    79,
+    79,
+    79,
+    79,
+    79
+  ],
+  "dense_edge_types": [
+    [
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0
+    ]
+  ],
+  "motif_sources": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "seam_frames": [
+    225,
+    435,
+    645,
+    855
+  ],
+  "boundary_plans": [
+    {
+      "seam_frame": 225,
+      "length_class": 1,
+      "edge_type": 0,
+      "contact_endpoints": [
+        [
+          0.9283840656280518,
+          0.9423639178276062,
+          0.946807861328125,
+          0.9736139178276062
+        ],
+        [
+          0.9640586376190186,
+          0.8937370777130127,
+          0.959378719329834,
+          0.8384982347488403
+        ]
+      ],
+      "root_residual": [
+        -0.6829509139060974,
+        -0.10059700906276703,
+        -0.05412530153989792,
+        -0.7313917875289917,
+        -0.09206986427307129,
+        -0.017093993723392487
+      ],
+      "energy_parameters": [
+        0.13814133405685425,
+        0.00279535842128098,
+        0.1474384218454361,
+        0.09731947630643845
+      ]
+    },
+    {
+      "seam_frame": 435,
+      "length_class": 1,
+      "edge_type": 0,
+      "contact_endpoints": [
+        [
+          0.9781854152679443,
+          0.8803840279579163,
+          0.9741458892822266,
+          0.8901275396347046
+        ],
+        [
+          0.9630057215690613,
+          0.9379205107688904,
+          0.9413000345230103,
+          0.9049644470214844
+        ]
+      ],
+      "root_residual": [
+        -0.09955426305532455,
+        -0.08309293538331985,
+        -3.1472394466400146,
+        -0.08267462253570557,
+        -0.1116928830742836,
+        -3.34639048576355
+      ],
+      "energy_parameters": [
+        0.2846202254295349,
+        0.03367218002676964,
+        0.1712900549173355,
+        0.33734792470932007
+      ]
+    },
+    {
+      "seam_frame": 645,
+      "length_class": 0,
+      "edge_type": 0,
+      "contact_endpoints": [
+        [
+          0.5970755219459534,
+          0.9073658585548401,
+          0.6888643503189087,
+          0.7610509991645813
+        ],
+        [
+          0.18914291262626648,
+          0.9693321585655212,
+          0.14565786719322205,
+          0.9083864092826843
+        ]
+      ],
+      "root_residual": [
+        -0.5019596219062805,
+        0.0660092905163765,
+        -2.275114059448242,
+        -0.6127709746360779,
+        0.10913455486297607,
+        -2.634018659591675
+      ],
+      "energy_parameters": [
+        0.07051818817853928,
+        -0.007859245873987675,
+        0.06353617459535599,
+        -0.012839545495808125
+      ]
+    },
+    {
+      "seam_frame": 855,
+      "length_class": 0,
+      "edge_type": 0,
+      "contact_endpoints": [
+        [
+          0.667156457901001,
+          0.9529076218605042,
+          0.749134361743927,
+          0.9547810554504395
+        ],
+        [
+          0.8264097571372986,
+          0.8340998291969299,
+          0.784313440322876,
+          0.7940674424171448
+        ]
+      ],
+      "root_residual": [
+        -1.2464302778244019,
+        0.06407756358385086,
+        -2.123481273651123,
+        -1.3332921266555786,
+        0.08138669282197952,
+        -2.2106845378875732
+      ],
+      "energy_parameters": [
+        0.2867332100868225,
+        0.07945003360509872,
+        0.16532926261425018,
+        0.38145631551742554
+      ]
+    }
+  ],
+  "contact_foot_lock": {
+    "enabled": true,
+    "leg_optimization": {
+      "iterations": 150,
+      "contact_pairs": 888,
+      "rounds": 5,
+      "foot_skating_ratio": 0.025490586315328582
+    },
+    "corrected_frames": 0,
+    "mean_correction": 0.0,
+    "maximum_accumulated_offset": 0.0
+  },
+  "beat_phase_alignment": {
+    "enabled": false
+  },
+  "key_motion_anchor_alignment": {
+    "enabled": false
+  },
+  "beat_velocity_valleys": {
+    "enabled": false
+  },
+  "official_bas_closed_loop": {
+    "enabled": true,
+    "used": false,
+    "baseline_bas": 0.1792941417806279,
+    "baseline_foot_skating_ratio": 0.025490586315328582,
+    "trials": [
+      {
+        "enabled": true,
+        "used": true,
+        "beat_count": 76,
+        "strength": 0.68,
+        "width": 3.5,
+        "minimum_rate": 0.4451170451400138,
+        "median_rate": 0.9541394895824726,
+        "endpoint_error": 0.0,
+        "strictly_monotonic": true,
+        "maximum_frame_displacement": 1.538303223738012,
+        "maximum_beat_phase_error": 1.3642420526593924e-12,
+        "official_bas": 0.2493825373350107,
+        "foot_skating_ratio": 0.040870852157656956,
+        "feasible": false
+      },
+      {
+        "enabled": true,
+        "used": true,
+        "beat_count": 76,
+        "strength": 0.8,
+        "width": 4.5,
+        "minimum_rate": 0.33094724940195,
+        "median_rate": 0.9434759728622263,
+        "endpoint_error": 0.0,
+        "strictly_monotonic": true,
+        "maximum_frame_displacement": 2.146771624053031,
+        "maximum_beat_phase_error": 1.1368683772161603e-12,
+        "official_bas": 0.2718391061982959,
+        "foot_skating_ratio": 0.03794204704782676,
+        "feasible": false
+      },
+      {
+        "enabled": true,
+        "used": true,
+        "beat_count": 76,
+        "strength": 0.9,
+        "width": 5.5,
+        "minimum_rate": 0.20853202170062982,
+        "median_rate": 0.9329772171841048,
+        "endpoint_error": 0.0,
+        "strictly_monotonic": true,
+        "maximum_frame_displacement": 2.8006730919264555,
+        "maximum_beat_phase_error": 1.7053025658242404e-12,
+        "official_bas": 0.29755345251116333,
+        "foot_skating_ratio": 0.02852633078042914,
+        "feasible": false
+      }
+    ],
+    "reason": "no candidate passed displacement and foot constraints"
+  },
+  "motion_prior": {
+    "enabled": true,
+    "blend_weight": 0.9,
+    "training_only": true,
+    "retrievals": [
+      {
+        "output_start": 0,
+        "output_end": 240,
+        "source_split": "train",
+        "source_id": "110",
+        "source_song": "shuangren4_chenmeiying",
+        "source_start": 1920,
+        "source_end": 2160,
+        "descriptor_distance": 0.8619794249534607,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 18,
+        "target_beat_count": 18,
+        "excluded_song": "gudian2",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 210,
+        "output_end": 450,
+        "source_split": "train",
+        "source_id": "142",
+        "source_song": "xuanyue02",
+        "source_start": 5280,
+        "source_end": 5520,
+        "descriptor_distance": 0.8427456021308899,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 11,
+        "target_beat_count": 17,
+        "excluded_song": "gudian2",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 420,
+        "output_end": 660,
+        "source_split": "train",
+        "source_id": "111",
+        "source_song": "shuangren4_tanglanting",
+        "source_start": 2040,
+        "source_end": 2280,
+        "descriptor_distance": 0.7658724784851074,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 19,
+        "target_beat_count": 18,
+        "excluded_song": "gudian2",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 630,
+        "output_end": 870,
+        "source_split": "train",
+        "source_id": "111",
+        "source_song": "shuangren4_tanglanting",
+        "source_start": 1320,
+        "source_end": 1560,
+        "descriptor_distance": 0.8620328307151794,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 19,
+        "target_beat_count": 18,
+        "excluded_song": "gudian2",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 840,
+        "output_end": 1024,
+        "source_split": "train",
+        "source_id": "110",
+        "source_song": "shuangren4_chenmeiying",
+        "source_start": 1680,
+        "source_end": 1920,
+        "descriptor_distance": 0.9471163153648376,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 19,
+        "target_beat_count": 14,
+        "excluded_song": "gudian2",
+        "near_duplicate_floor": 1e-06
+      }
+    ]
+  }
+}

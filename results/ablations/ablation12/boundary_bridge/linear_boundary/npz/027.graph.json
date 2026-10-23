@@ -1,0 +1,364 @@
+{
+  "graph_scope": "full_song",
+  "node_spans": [
+    [
+      0,
+      240
+    ],
+    [
+      240,
+      341
+    ],
+    [
+      341,
+      442
+    ],
+    [
+      442,
+      545
+    ],
+    [
+      545,
+      651
+    ],
+    [
+      651,
+      758
+    ],
+    [
+      758,
+      862
+    ],
+    [
+      862,
+      963
+    ],
+    [
+      963,
+      1024
+    ]
+  ],
+  "roles": [
+    0,
+    1,
+    0,
+    2,
+    2,
+    2,
+    2,
+    3,
+    3
+  ],
+  "semantics": [
+    29,
+    29,
+    79,
+    79,
+    79,
+    29,
+    29,
+    29,
+    29
+  ],
+  "dense_edge_types": [
+    [
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0
+    ]
+  ],
+  "motif_sources": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "seam_frames": [
+    225,
+    435,
+    645,
+    855
+  ],
+  "boundary_plans": [
+    {
+      "seam_frame": 225,
+      "method": "linear_overlap"
+    },
+    {
+      "seam_frame": 435,
+      "method": "linear_overlap"
+    },
+    {
+      "seam_frame": 645,
+      "method": "linear_overlap"
+    },
+    {
+      "seam_frame": 855,
+      "method": "linear_overlap"
+    }
+  ],
+  "contact_foot_lock": {
+    "enabled": true,
+    "leg_optimization": {
+      "iterations": 150,
+      "contact_pairs": 1186,
+      "rounds": 1,
+      "foot_skating_ratio": 0.0013623978201634877
+    },
+    "corrected_frames": 0,
+    "mean_correction": 0.0,
+    "maximum_accumulated_offset": 0.0
+  },
+  "beat_phase_alignment": {
+    "enabled": false
+  },
+  "key_motion_anchor_alignment": {
+    "enabled": false
+  },
+  "beat_velocity_valleys": {
+    "enabled": false
+  },
+  "official_bas_closed_loop": {
+    "enabled": true,
+    "used": false,
+    "baseline_bas": 0.1814853211805232,
+    "baseline_foot_skating_ratio": 0.0013623978201634877,
+    "trials": [
+      {
+        "enabled": true,
+        "used": true,
+        "beat_count": 60,
+        "strength": 0.68,
+        "width": 3.5,
+        "minimum_rate": 0.32408833961987454,
+        "median_rate": 1.0134720065391463,
+        "endpoint_error": 0.0,
+        "strictly_monotonic": true,
+        "maximum_frame_displacement": 3.2137564581455536,
+        "maximum_beat_phase_error": 2.2737367544323206e-12,
+        "official_bas": 0.2558448421088068,
+        "foot_skating_ratio": 0.004120879120879121,
+        "feasible": false
+      },
+      {
+        "enabled": true,
+        "used": true,
+        "beat_count": 60,
+        "strength": 0.8,
+        "width": 4.5,
+        "minimum_rate": 0.2014982908204709,
+        "median_rate": 1.0200655997531312,
+        "endpoint_error": 0.0,
+        "strictly_monotonic": true,
+        "maximum_frame_displacement": 4.730796907874378,
+        "maximum_beat_phase_error": 7.958078640513122e-13,
+        "official_bas": 0.2875601698720816,
+        "foot_skating_ratio": 0.004132231404958678,
+        "feasible": false
+      },
+      {
+        "enabled": true,
+        "used": true,
+        "beat_count": 60,
+        "strength": 0.9,
+        "width": 5.5,
+        "minimum_rate": 0.09708234116250274,
+        "median_rate": 1.0274394783617293,
+        "endpoint_error": 0.0,
+        "strictly_monotonic": true,
+        "maximum_frame_displacement": 6.39542828108614,
+        "maximum_beat_phase_error": 2.3874235921539366e-12,
+        "official_bas": 0.31489940861981114,
+        "foot_skating_ratio": 0.004132231404958678,
+        "feasible": false
+      }
+    ],
+    "reason": "no candidate passed displacement and foot constraints"
+  },
+  "motion_prior": {
+    "enabled": true,
+    "blend_weight": 0.9,
+    "training_only": true,
+    "retrievals": [
+      {
+        "output_start": 0,
+        "output_end": 240,
+        "source_split": "train",
+        "source_id": "083",
+        "source_song": "taozuile_2",
+        "source_start": 720,
+        "source_end": 960,
+        "descriptor_distance": 2.0251147747039795,
+        "top_k": 4,
+        "beat_warped": false,
+        "source_beat_count": 15,
+        "target_beat_count": 1,
+        "excluded_song": "hantang3",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 210,
+        "output_end": 450,
+        "source_split": "train",
+        "source_id": "083",
+        "source_song": "taozuile_2",
+        "source_start": 960,
+        "source_end": 1200,
+        "descriptor_distance": 1.4113414287567139,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 16,
+        "target_beat_count": 17,
+        "excluded_song": "hantang3",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 420,
+        "output_end": 660,
+        "source_split": "train",
+        "source_id": "050",
+        "source_song": "wangxian",
+        "source_start": 240,
+        "source_end": 480,
+        "descriptor_distance": 1.4587458372116089,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 17,
+        "target_beat_count": 18,
+        "excluded_song": "hantang3",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 630,
+        "output_end": 870,
+        "source_split": "train",
+        "source_id": "048",
+        "source_song": "lirenxing",
+        "source_start": 3960,
+        "source_end": 4200,
+        "descriptor_distance": 2.6271026134490967,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 16,
+        "target_beat_count": 18,
+        "excluded_song": "hantang3",
+        "near_duplicate_floor": 1e-06
+      },
+      {
+        "output_start": 840,
+        "output_end": 1024,
+        "source_split": "train",
+        "source_id": "048",
+        "source_song": "lirenxing",
+        "source_start": 4080,
+        "source_end": 4320,
+        "descriptor_distance": 1.6362100839614868,
+        "top_k": 4,
+        "beat_warped": true,
+        "source_beat_count": 16,
+        "target_beat_count": 14,
+        "excluded_song": "hantang3",
+        "near_duplicate_floor": 1e-06
+      }
+    ]
+  }
+}

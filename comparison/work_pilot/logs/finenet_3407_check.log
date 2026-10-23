@@ -1,0 +1,5 @@
+/root/autodl-tmp/TempoGraph_MainCompare/vendor/FineNet/./vis.py:477: FutureWarning: Decorating classes is deprecated and will be disabled in future versions. You should only decorate functions or methods. To preserve the current behavior of class decoration, you can directly decorate the `__init__` method and nothing else.
+  class SMPLX_Skeleton:
+Model has 94107455 parameters
+PASS: finenet official model construction and strict checkpoint loading on GPU
+Sampling and visual quality have NOT been checked by this command.
